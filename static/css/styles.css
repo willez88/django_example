@@ -1,0 +1,65 @@
+.item-requerido {
+    font-size: 10px !important;
+    color: #F56954;
+    cursor: pointer;
+}
+
+/* Mensajes de Error */
+ul.errorlist {
+    background: transparent !important;
+    color: inherit !important;
+    margin: 0 !important;
+}
+
+ul.errorlist li {
+    font-size: inherit !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+}
+
+.errorlist {margin-bottom: 0}
+
+.msg-error {
+    color:#F56954 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*color: #3175AF !important;*/
+    /*font-weight: 700;*/
+}
+
+.error-notice {
+  margin: 5px 5px; /* Making sure to keep some distance from all side */
+}
+
+.oaerror {
+  margin: 0 auto; /* Centering Stuff */
+  background-color: #FFFFFF; /* Default background */
+  padding: 5px;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+.oaerror ul {
+    display: inline-block;
+    padding-left: 0;
+}
+
+.oaerror ul li {
+    list-style: none;
+    text-align: justify;
+}
+.danger {
+  border-left-color: #d9534f; /* Left side border color */
+  background-color: rgba(217, 83, 79, 0.1); /* Same color as the left border with reduced alpha to 0.1 */
+}
+
+.danger strong {
+  color:  #d9534f;
+}
+
+tbody{
+   text-align: center;
+}
