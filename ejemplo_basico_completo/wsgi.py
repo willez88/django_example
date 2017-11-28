@@ -1,5 +1,5 @@
 """
-WSGI config for ejemplo_basico_completo project.
+WSGI config for django_ejemplo_basico project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ejemplo_basico_completo.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_ejemplo_basico.settings")
 
 application = get_wsgi_application()
