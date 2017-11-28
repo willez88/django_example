@@ -6,7 +6,7 @@ En este proyecto cada usuario puede registrar los datos de una persona, quedando
 
 -    Crear las siguientes carpetas
 
-~$ mkdir Programación
+        ~$ mkdir Programación
 
 -    Desde el terminal, moverse a la carpeta Programación y ejecutar
 
