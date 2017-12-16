@@ -40,4 +40,4 @@ class Persona(models.Model):
         max_length=100, help_text=("correo@correo.com")
     )
 
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(User,on_delete=models.CASCADE)
