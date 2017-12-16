@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 from django.views.generic import ListView, CreateView, UpdateView, DeleteView
 from django.contrib.auth.models import User
@@ -33,7 +33,19 @@ class PersonaUpdate(UpdateView):
     template_name = "persona.registro.html"
     success_url = reverse_lazy('persona_lista')
 
+    def dispatch(self, request, *args, **kwargs):
+        user = User.objects.get(username=self.request.user.username)
+        if not Persona.objects.filter(pk=self.kwargs['pk'],user=user):
+            return redirect('error_403')
+        return super(PersonaUpdate, self).dispatch(request, *args, **kwargs)
+
 class PersonaDelete(DeleteView):
     model = Persona
     template_name = "persona.eliminar.html"
     success_url = reverse_lazy('persona_lista')
+
+    def dispatch(self, request, *args, **kwargs):
+        user = User.objects.get(username=self.request.user.username)
+        if not Persona.objects.filter(pk=self.kwargs['pk'],user=user):
+            return redirect('error_403')
+        return super(PersonaDelete, self).dispatch(request, *args, **kwargs)

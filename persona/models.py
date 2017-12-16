@@ -16,7 +16,6 @@ class Persona(models.Model):
     ## Cédula de la Persona
     cedula = models.CharField(
         max_length=9,
-        help_text=_("Cédula de Identidad del usuario"),
         validators=[
             validators.RegexValidator(
                 r'^[VE][\d]{8}$',
@@ -26,11 +25,11 @@ class Persona(models.Model):
     )
 
     telefono = models.CharField(
-        max_length=18, help_text=_("Número telefónico de contacto con el usuario"),
+        max_length=15, help_text=_("Número telefónico de contacto con el usuario"),
         validators=[
             validators.RegexValidator(
-                r'^\(\+\d{3}\)-\d{3}-\d{7}$',
-                _("Número telefónico inválido. Solo se permiten números y los símbolos: ( ) - +")
+                r'^\+\d{2}-\d{3}-\d{7}$',
+                _("Número telefónico inválido. Solo se permiten números y los símbolos: - +")
             ),
         ]
     )
