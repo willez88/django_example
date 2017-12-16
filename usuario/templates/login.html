@@ -1,6 +1,6 @@
 {% extends "base.template.html" %}
 {% load i18n static %}
-
+{% block content_header_title %}{% trans 'Usuario' %}{% endblock %}
 {% block contenido %}
     {% if form.non_field_errors %}
         {% for error in form.non_field_errors %}
@@ -21,7 +21,7 @@
 
     <div class="panel panel-default">
         <div class="panel-heading text-center">
-            <h3 class="panel-title">Inicie Sesión</h3>
+            <h4 class="panel-title">Inicie Sesión</h4>
         </div>
         <div class="panel-body">
             <form action="{{ app_path }}" method="post" id="login-form" autocomplete="off" class="form form-horizontal validate-form">

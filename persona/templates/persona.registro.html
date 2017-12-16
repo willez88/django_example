@@ -1,9 +1,10 @@
 {% extends 'base.template.html' %}
 {% load i18n %}
+{% block content_header_title %}{% trans 'Persona' %}{% endblock %}
 {% block contenido %}
     <div class="panel panel-default">
         <div class="panel-heading">
-            <h3 class="text-left">{% if not form.instance.pk %}{% trans 'Registrar' %}{% else %}{% trans 'Actualizar' %}{% endif %}</h3>
+            <h4 class="text-left">{% if not form.instance.pk %}{% trans 'Registrar' %}{% else %}{% trans 'Actualizar' %}{% endif %}</h4>
         </div>
         <div class="panel-body">
 	        <form action="" role="form" class="form form-horizontal validate-form" method="post" autocomplete="off">
