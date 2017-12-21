@@ -1,6 +1,6 @@
 *.pyc
 *.py~
 *.sqlite3
-settings.py
+sigetp/settings.py
 __pycache__
 migrations
