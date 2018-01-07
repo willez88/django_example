@@ -16,9 +16,9 @@ Desde el terminal, moverse a la carpeta Programación y ejecutar
 
     ~$ mkdir EntornosVirtuales ProyectosDjango
 
-Instalar git phppgadmin postgresql python y virtualenv
+Instalar git npm phppgadmin postgresql python y virtualenv
 
-    ~# apt install git postgresql phppgadmin python3.6-dev virtualenv
+    ~# apt install git npm postgresql phppgadmin python3.6-dev virtualenv
 
 Desde el terminal, moverse a la carpeta EntornosVirtuales y ejecutar
 
@@ -41,6 +41,13 @@ Tendremos las carpetas estructuradas de la siguiente manera
 
     // Servidor de desarrollo
     Programación/ProyectosDjango/nombre_proyecto
+
+Instalar las dependencias de css y js: moverse a la carpeta static y ejecutar
+
+    // Usa el archivo package.json para instalar lo que ya se configuro allí
+    ~$ npm install
+
+    // Terminado el proceso volver a la carpeta raíz del proyecto
 
 Crear la base de datos para __nombre_proyecto__
 
