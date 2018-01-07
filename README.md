@@ -1,67 +1,102 @@
 # Ejemplo Básico Completo de Django
 
-En este proyecto cada usuario puede registrar los datos de una persona, quedando relacionado para poder saber que datos han registrado ciertos usuarios. Tiene un gestor de usuarios completo que permite iniciar sesión, salir de la sesión y agregar nuevos usuarios por el panel administrativo de django. Todava no tiene habilitado la creación de nuevos usuarios mediante un formulario de registro.
+En este proyecto cada usuario puede registrar los datos de una persona, quedando relacionado para poder saber que datos han registrado ciertos usuarios. Tiene un gestor de usuarios completo que permite iniciar sesión, salir de la sesión y agregar nuevos usuarios por el panel administrativo de django. Todavía no tiene habilitado la creación de nuevos usuarios mediante un formulario de registro.
 
 # Pasos para crear el entorno de desarrollo
 
--   Crear las siguientes carpetas
+Cuando somos un usuario normal del sistema, en el terminal se mostrará el siguiente símbolo: ~$
 
-        ~$ mkdir Programación
+Cuando accedemos al usuario root del sistema, en el terminal se mostrará el siguiente símbolo: ~#
 
--   Desde el terminal, moverse a la carpeta Programación y ejecutar
+Crear las siguientes carpetas
 
-        ~$ mkdir EntornosVirtuales ProyectosDjango Repositorios
+    ~$ mkdir Programación
 
--   Instalar virtualenv y python
+Desde el terminal, moverse a la carpeta Programación y ejecutar
 
-        ~$ sudo apt install git python3.6-dev virtualenv
+    ~$ mkdir EntornosVirtuales ProyectosDjango
 
--   Desde el terminal, moverse a la carpeta EntornosVirtuales y ejecutar
+Instalar git phppgadmin postgresql python y virtualenv
 
-        ~$ virtualenv -p python3.6 nombre_entorno
+    ~# apt install git postgresql phppgadmin python3.6-dev virtualenv
 
--   Para activar el entorno
+Desde el terminal, moverse a la carpeta EntornosVirtuales y ejecutar
 
-        ~$ source nombre_entorno/bin/activate
+    ~$ virtualenv -p python3.6 nombre_entorno
 
--   Para salir del entorno usar: deactivate
+Para activar el entorno
 
--   Instalar django y otras aplicaciones en el entorno:
+    ~$ source nombre_entorno/bin/activate
 
-        $ pip install nombre_aplicación
+Para salir del entorno usar: deactivate
 
--   Si las aplicaciones requeridas están descritas en un archivo de texto
+Nos movemos a la Carpeta ProyectosDjango para descargar el sistema con el siguiente comando
 
-        $ pip install -r requirements.txt
+    ~$ git clone direccion_del_repositorio
 
--   Crear proyectos en django. Desde el terminal, moverse a la carpeta ProyectosDjango y ejecutar
+Tendremos las carpetas estructuradas de la siguiente manera
 
-        ~$ django-admin startproject nombre_proyecto
+    // Entorno virtual
+    Programación/EntornosVirtuales/nombre_proyecto
 
--   Crear aplicaciones en un proyecto de django. Desde el terminal, moverse a la carpeta nombre_proyecto
+    // Servidor de desarrollo
+    Programación/ProyectosDjango/nombre_proyecto
 
-        ~$ django-admin startapp nombre_app
+Crear la base de datos para __nombre_proyecto__
 
--   Hacer las migraciones
+    // Acceso al usuario postgres
+    ~# su postgres
 
-        ~$ python manage.py makemigrations app-1 app-2 ... app-n
+    // Acceso a la interfaz de comandos de postgresql
+    postgres@xxx:$ psql
 
-        ~$ python manage.py migrate
+    // Creación del usuario de a base de datos
+    postgres=# CREATE USER admin WITH ENCRYPTED PASSWORD '123' CREATEDB;
+    postgres=# \q
 
--   Crear usuario administrador
+    // Desautenticar el usuario postgres y regresar al usuario root
+    postgres@xxx:$ exit
 
-        ~$ python manage.py createsuperuser
+    // Salir del usuario root
+    ~# exit
 
--   Cargar datos predefinidos para poblar algunas tablas de la base de datos que lo requieran
+Puedes crear la base de datos usando la interfaz gráfica phppgadmin
 
-        ~$ python manage.py loaddata nombre_archivo.json
+    // Desde algún navegador ir al siguiente sitio y entrar con el usuario que se acaba de crear
+    localhost/phppgadmin
 
--   Correr el servidor de django
+    // Nombre de la base de datos: nombre_proyecto
 
-        ~$ python manage.py runserver
+Instalar django y otras aplicaciones en el entorno:
 
--   En Repositorios se clonan todos los proyectos que estemos trabajando, por ejemplo
+    (nombre_entorno) ~$ pip install nombre_aplicación
 
-        ~$ git clone direccion_del_repositorio
+Si las aplicaciones requeridas están en un archivo de texto
 
--   Para los que no saben usar bien la herramienta git, se recomienda tener el repositorio y los proyectos que se desarrollan por separado y cuando se tienen versiones estables mezclar con el que esta en la carpeta Repositorios
+    (nombre_entorno) ~$ pip install -r requirements.txt
+
+Crear proyectos en django. Desde el terminal, moverse a la carpeta ProyectosDjango y ejecutar
+
+    (nombre_entorno) ~$ django-admin startproject nombre_proyecto
+
+Crear aplicaciones en un proyecto de django. Desde el terminal, moverse a la carpeta nombre_proyecto
+
+    (nombre_entorno) ~$ django-admin startapp nombre_app
+
+Hacer las migraciones
+
+    (nombre_entorno) ~$ python manage.py makemigrations app-1 app-2 ... app-n
+
+    (nombre_entorno) ~$ python manage.py migrate
+
+Crear usuario administrador
+
+    (nombre_entorno) ~$ python manage.py createsuperuser
+
+Cargar datos predefinidos para poblar algunas tablas de la base de datos que lo requieran
+
+    (nombre_entorno) ~$ python manage.py loaddata nombre_archivo.json
+
+Correr el servidor de django
+
+    (nombre_entorno) ~$ python manage.py runserver
