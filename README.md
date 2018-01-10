@@ -16,9 +16,9 @@ Desde el terminal, moverse a la carpeta Programación y ejecutar
 
     ~$ mkdir EntornosVirtuales ProyectosDjango
 
-Instalar git npm phppgadmin postgresql python y virtualenv
+Instalar graphviz git npm phppgadmin postgresql python y virtualenv
 
-    ~# apt install git npm postgresql phppgadmin python3.6-dev virtualenv
+    ~# apt install git graphviz-dev npm postgresql phppgadmin python3.6-dev virtualenv
 
 Desde el terminal, moverse a la carpeta EntornosVirtuales y ejecutar
 
@@ -37,7 +37,7 @@ Nos movemos a la Carpeta ProyectosDjango para descargar el sistema con el siguie
 Tendremos las carpetas estructuradas de la siguiente manera
 
     // Entorno virtual
-    Programación/EntornosVirtuales/nombre_proyecto
+    Programación/EntornosVirtuales/nombre_entorno
 
     // Servidor de desarrollo
     Programación/ProyectosDjango/nombre_proyecto
