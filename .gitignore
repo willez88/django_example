@@ -1,7 +1,7 @@
 *.pyc
 *.py~
 *.sqlite3
-django_ejemplo_basico/settings.py
+#django_ejemplo_basico/settings.py
 __pycache__
 migrations
 static/node_modules

@@ -1,0 +1,9090 @@
+[
+{
+    "model": "base.parroquia",
+    "pk": 1,
+    "fields": {
+        "nombre": "Alto Orinoco",
+        "municipio": 1
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 2,
+    "fields": {
+        "nombre": "Huachamacare Acana\u00f1a",
+        "municipio": 1
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 3,
+    "fields": {
+        "nombre": "Marawaka Toky Shamana\u00f1a",
+        "municipio": 1
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 4,
+    "fields": {
+        "nombre": "Mavaka Mavaka",
+        "municipio": 1
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 5,
+    "fields": {
+        "nombre": "Sierra Parima Parimab\u00e9",
+        "municipio": 1
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 6,
+    "fields": {
+        "nombre": "San Fernando de Atabapo",
+        "municipio": 2
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 7,
+    "fields": {
+        "nombre": "Ucata Laja Lisa",
+        "municipio": 2
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 8,
+    "fields": {
+        "nombre": "Yapacana Macuruco",
+        "municipio": 2
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 9,
+    "fields": {
+        "nombre": "Caname Guarinuma",
+        "municipio": 2
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 10,
+    "fields": {
+        "nombre": "Fernando Gir\u00f3n Tovar",
+        "municipio": 3
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 11,
+    "fields": {
+        "nombre": "Luis Alberto G\u00f3mez",
+        "municipio": 3
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 12,
+    "fields": {
+        "nombre": "Pahue\u00f1a Lim\u00f3n de Parhue\u00f1a",
+        "municipio": 3
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 13,
+    "fields": {
+        "nombre": "Platanillal Platanillal",
+        "municipio": 3
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 14,
+    "fields": {
+        "nombre": "Samariapo Samariapo",
+        "municipio": 4
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 15,
+    "fields": {
+        "nombre": "Sipapo Pendare",
+        "municipio": 4
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 16,
+    "fields": {
+        "nombre": "Munduapo Munduapo",
+        "municipio": 4
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 17,
+    "fields": {
+        "nombre": "Guayapo San Pedro del Orinoco",
+        "municipio": 4
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 18,
+    "fields": {
+        "nombre": "Isla Rat\u00f3n",
+        "municipio": 4
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 19,
+    "fields": {
+        "nombre": "Alto Ventuari Cacur\u00ed",
+        "municipio": 5
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 20,
+    "fields": {
+        "nombre": "Medio Ventuari Manami",
+        "municipio": 5
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 21,
+    "fields": {
+        "nombre": "Bajo Ventuari Marueta",
+        "municipio": 5
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 22,
+    "fields": {
+        "nombre": "Manapiare",
+        "municipio": 5
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 23,
+    "fields": {
+        "nombre": "Maroa",
+        "municipio": 6
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 24,
+    "fields": {
+        "nombre": "Victorino",
+        "municipio": 6
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 25,
+    "fields": {
+        "nombre": "Comunidad",
+        "municipio": 6
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 26,
+    "fields": {
+        "nombre": "Casiquiare Curimacare",
+        "municipio": 7
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 27,
+    "fields": {
+        "nombre": "Cocuy",
+        "municipio": 7
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 28,
+    "fields": {
+        "nombre": "San Carlos de R\u00edo Negro",
+        "municipio": 7
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 29,
+    "fields": {
+        "nombre": "Solano Solano",
+        "municipio": 7
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 30,
+    "fields": {
+        "nombre": "Anaco",
+        "municipio": 8
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 31,
+    "fields": {
+        "nombre": "San Joaqu\u00edn",
+        "municipio": 8
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 32,
+    "fields": {
+        "nombre": "Cachipo",
+        "municipio": 9
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 33,
+    "fields": {
+        "nombre": "Aragua de Barcelona",
+        "municipio": 9
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 34,
+    "fields": {
+        "nombre": "Lecher\u00eda",
+        "municipio": 14
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 35,
+    "fields": {
+        "nombre": "El Morro",
+        "municipio": 14
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 36,
+    "fields": {
+        "nombre": "Puerto P\u00edritu",
+        "municipio": 23
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 37,
+    "fields": {
+        "nombre": "San Miguel",
+        "municipio": 23
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 38,
+    "fields": {
+        "nombre": "Sucre",
+        "municipio": 23
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 39,
+    "fields": {
+        "nombre": "Valle de Guanape",
+        "municipio": 12
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 40,
+    "fields": {
+        "nombre": "Santa B\u00e1rbara",
+        "municipio": 12
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 41,
+    "fields": {
+        "nombre": "Atapirire",
+        "municipio": 21
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 42,
+    "fields": {
+        "nombre": "Boca del Pao",
+        "municipio": 21
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 43,
+    "fields": {
+        "nombre": "El Pao",
+        "municipio": 21
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 44,
+    "fields": {
+        "nombre": "Pariagu\u00e1n",
+        "municipio": 21
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 45,
+    "fields": {
+        "nombre": "Guanta",
+        "municipio": 16
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 46,
+    "fields": {
+        "nombre": "Chorrer\u00f3n",
+        "municipio": 16
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 47,
+    "fields": {
+        "nombre": "Mamo",
+        "municipio": 18
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 48,
+    "fields": {
+        "nombre": "Soledad",
+        "municipio": 18
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 49,
+    "fields": {
+        "nombre": "Mapire",
+        "municipio": 22
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 50,
+    "fields": {
+        "nombre": "Piar",
+        "municipio": 22
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 51,
+    "fields": {
+        "nombre": "Santa Clara",
+        "municipio": 22
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 52,
+    "fields": {
+        "nombre": "San Diego de Cabrutica",
+        "municipio": 22
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 53,
+    "fields": {
+        "nombre": "Uverito",
+        "municipio": 22
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 54,
+    "fields": {
+        "nombre": "Zuata",
+        "municipio": 22
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 55,
+    "fields": {
+        "nombre": "Puerto La Cruz",
+        "municipio": 28
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 56,
+    "fields": {
+        "nombre": "Pozuelos",
+        "municipio": 28
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 57,
+    "fields": {
+        "nombre": "Onoto",
+        "municipio": 13
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 58,
+    "fields": {
+        "nombre": "San Pablo",
+        "municipio": 13
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 59,
+    "fields": {
+        "nombre": "San Mateo",
+        "municipio": 19
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 60,
+    "fields": {
+        "nombre": "El Carito",
+        "municipio": 19
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 61,
+    "fields": {
+        "nombre": "Santa In\u00e9s",
+        "municipio": 19
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 62,
+    "fields": {
+        "nombre": "La Romere\u00f1a",
+        "municipio": 19
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 63,
+    "fields": {
+        "nombre": "Clarines",
+        "municipio": 11
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 64,
+    "fields": {
+        "nombre": "Guanape",
+        "municipio": 11
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 65,
+    "fields": {
+        "nombre": "Sabana de Uchire",
+        "municipio": 11
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 66,
+    "fields": {
+        "nombre": "Cantaura",
+        "municipio": 15
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 67,
+    "fields": {
+        "nombre": "Libertador",
+        "municipio": 15
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 68,
+    "fields": {
+        "nombre": "Santa Rosa",
+        "municipio": 15
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 69,
+    "fields": {
+        "nombre": "Urica",
+        "municipio": 15
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 70,
+    "fields": {
+        "nombre": "P\u00edritu",
+        "municipio": 24
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 71,
+    "fields": {
+        "nombre": "San Francisco",
+        "municipio": 24
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 72,
+    "fields": {
+        "nombre": "San Jos\u00e9 de Guanipa",
+        "municipio": 17
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 73,
+    "fields": {
+        "nombre": "Boca de Uchire",
+        "municipio": 25
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 74,
+    "fields": {
+        "nombre": "Boca de Ch\u00e1vez",
+        "municipio": 25
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 75,
+    "fields": {
+        "nombre": "Pueblo Nuevo",
+        "municipio": 26
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 76,
+    "fields": {
+        "nombre": "Santa Ana",
+        "municipio": 26
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 77,
+    "fields": {
+        "nombre": "Bergat\u00edn",
+        "municipio": 10
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 78,
+    "fields": {
+        "nombre": "Caigua",
+        "municipio": 10
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 79,
+    "fields": {
+        "nombre": "El Carmen",
+        "municipio": 10
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 80,
+    "fields": {
+        "nombre": "El Pilar",
+        "municipio": 10
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 81,
+    "fields": {
+        "nombre": "Naricual",
+        "municipio": 10
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 82,
+    "fields": {
+        "nombre": "San Crist\u00f3bal",
+        "municipio": 10
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 83,
+    "fields": {
+        "nombre": "Edmundo Barrios",
+        "municipio": 27
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 84,
+    "fields": {
+        "nombre": "Miguel Otero Silva",
+        "municipio": 27
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 85,
+    "fields": {
+        "nombre": "El Chaparro",
+        "municipio": 20
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 86,
+    "fields": {
+        "nombre": "Tom\u00e1s Alfaro",
+        "municipio": 20
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 87,
+    "fields": {
+        "nombre": "Calatrava",
+        "municipio": 20
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 88,
+    "fields": {
+        "nombre": "Achaguas",
+        "municipio": 29
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 89,
+    "fields": {
+        "nombre": "Apurito",
+        "municipio": 29
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 90,
+    "fields": {
+        "nombre": "El Yagual",
+        "municipio": 29
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 91,
+    "fields": {
+        "nombre": "Guachara",
+        "municipio": 29
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 92,
+    "fields": {
+        "nombre": "Mucuritas",
+        "municipio": 29
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 93,
+    "fields": {
+        "nombre": "Queseras del medio",
+        "municipio": 29
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 94,
+    "fields": {
+        "nombre": "Biruaca",
+        "municipio": 30
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 95,
+    "fields": {
+        "nombre": "Bruzual",
+        "municipio": 32
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 96,
+    "fields": {
+        "nombre": "Mantecal",
+        "municipio": 32
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 97,
+    "fields": {
+        "nombre": "Quintero",
+        "municipio": 32
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 98,
+    "fields": {
+        "nombre": "Rinc\u00f3n Hondo",
+        "municipio": 32
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 99,
+    "fields": {
+        "nombre": "San Vicente",
+        "municipio": 32
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 100,
+    "fields": {
+        "nombre": "San Juan de Payara",
+        "municipio": 31
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 101,
+    "fields": {
+        "nombre": "Codazzi",
+        "municipio": 31
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 102,
+    "fields": {
+        "nombre": "Cunaviche",
+        "municipio": 31
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 103,
+    "fields": {
+        "nombre": "San Fernando",
+        "municipio": 35
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 104,
+    "fields": {
+        "nombre": "El Recreo",
+        "municipio": 35
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 105,
+    "fields": {
+        "nombre": "Pe\u00f1alver",
+        "municipio": 35
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 106,
+    "fields": {
+        "nombre": "San Rafael de Atamaica",
+        "municipio": 35
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 107,
+    "fields": {
+        "nombre": "Gusdualito",
+        "municipio": 33
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 108,
+    "fields": {
+        "nombre": "Aramendi",
+        "municipio": 33
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 109,
+    "fields": {
+        "nombre": "El Amparo",
+        "municipio": 33
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 110,
+    "fields": {
+        "nombre": "San Camilo",
+        "municipio": 33
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 111,
+    "fields": {
+        "nombre": "Urdaneta",
+        "municipio": 33
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 112,
+    "fields": {
+        "nombre": "Elorza",
+        "municipio": 34
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 113,
+    "fields": {
+        "nombre": "La Trinidad",
+        "municipio": 34
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 114,
+    "fields": {
+        "nombre": "Bol\u00edvar",
+        "municipio": 36
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 115,
+    "fields": {
+        "nombre": "Camatagua",
+        "municipio": 37
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 116,
+    "fields": {
+        "nombre": "Carmen de Cura",
+        "municipio": 37
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 117,
+    "fields": {
+        "nombre": "Santa Rita",
+        "municipio": 38
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 118,
+    "fields": {
+        "nombre": "Francisco de Miranda",
+        "municipio": 38
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 119,
+    "fields": {
+        "nombre": "Monse\u00f1or Feliciano Gonz\u00e1lez",
+        "municipio": 38
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 120,
+    "fields": {
+        "nombre": "Pedro Jos\u00e9 Ovalles",
+        "municipio": 39
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 121,
+    "fields": {
+        "nombre": "Joaqu\u00edn Crespo",
+        "municipio": 39
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 122,
+    "fields": {
+        "nombre": "Jos\u00e9 Casanova Godoy",
+        "municipio": 39
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 123,
+    "fields": {
+        "nombre": "Madre Mar\u00eda de San Jos\u00e9",
+        "municipio": 39
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 124,
+    "fields": {
+        "nombre": "Andr\u00e9s Eloy Blanco",
+        "municipio": 39
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 125,
+    "fields": {
+        "nombre": "Los Tacarigua",
+        "municipio": 39
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 126,
+    "fields": {
+        "nombre": "Las Delicias",
+        "municipio": 39
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 127,
+    "fields": {
+        "nombre": "Choron\u00ed",
+        "municipio": 39
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 128,
+    "fields": {
+        "nombre": "Santa Cruz",
+        "municipio": 40
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 129,
+    "fields": {
+        "nombre": "Jos\u00e9 F\u00e9lix Ribas",
+        "municipio": 41
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 130,
+    "fields": {
+        "nombre": "Castor Nieves R\u00edos",
+        "municipio": 41
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 131,
+    "fields": {
+        "nombre": "Las Guacamayas",
+        "municipio": 41
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 132,
+    "fields": {
+        "nombre": "Pao de Z\u00e1rate",
+        "municipio": 41
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 133,
+    "fields": {
+        "nombre": "Zuata",
+        "municipio": 41
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 134,
+    "fields": {
+        "nombre": "Jos\u00e9 Rafael Revenga",
+        "municipio": 42
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 135,
+    "fields": {
+        "nombre": "Palo Negro",
+        "municipio": 43
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 136,
+    "fields": {
+        "nombre": "San Mart\u00edn de Porres",
+        "municipio": 43
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 137,
+    "fields": {
+        "nombre": "El Lim\u00f3n",
+        "municipio": 44
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 138,
+    "fields": {
+        "nombre": "Ca\u00f1a de Az\u00facar",
+        "municipio": 44
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 139,
+    "fields": {
+        "nombre": "Ocumare de la Costa",
+        "municipio": 45
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 140,
+    "fields": {
+        "nombre": "San Casimiro",
+        "municipio": 46
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 141,
+    "fields": {
+        "nombre": "G\u00fciripa",
+        "municipio": 46
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 142,
+    "fields": {
+        "nombre": "Ollas de Caramacate",
+        "municipio": 46
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 143,
+    "fields": {
+        "nombre": "Valle Mor\u00edn",
+        "municipio": 46
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 144,
+    "fields": {
+        "nombre": "San Sebast\u00edan",
+        "municipio": 47
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 145,
+    "fields": {
+        "nombre": "Turmero",
+        "municipio": 48
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 146,
+    "fields": {
+        "nombre": "Arevalo Aponte",
+        "municipio": 48
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 147,
+    "fields": {
+        "nombre": "Chuao",
+        "municipio": 48
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 148,
+    "fields": {
+        "nombre": "Sam\u00e1n de G\u00fcere",
+        "municipio": 48
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 149,
+    "fields": {
+        "nombre": "Alfredo Pacheco Miranda",
+        "municipio": 48
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 150,
+    "fields": {
+        "nombre": "Santos Michelena",
+        "municipio": 49
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 151,
+    "fields": {
+        "nombre": "Tiara",
+        "municipio": 49
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 152,
+    "fields": {
+        "nombre": "Cagua",
+        "municipio": 50
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 153,
+    "fields": {
+        "nombre": "Bella Vista",
+        "municipio": 50
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 154,
+    "fields": {
+        "nombre": "Tovar",
+        "municipio": 51
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 155,
+    "fields": {
+        "nombre": "Urdaneta",
+        "municipio": 52
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 156,
+    "fields": {
+        "nombre": "Las Pe\u00f1itas",
+        "municipio": 52
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 157,
+    "fields": {
+        "nombre": "San Francisco de Cara",
+        "municipio": 52
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 158,
+    "fields": {
+        "nombre": "Taguay",
+        "municipio": 52
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 159,
+    "fields": {
+        "nombre": "Villa de Cura",
+        "municipio": 53
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 160,
+    "fields": {
+        "nombre": "Magdaleno",
+        "municipio": 53
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 161,
+    "fields": {
+        "nombre": "San Francisco de As\u00eds",
+        "municipio": 53
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 162,
+    "fields": {
+        "nombre": "Valles de Tucutunemo",
+        "municipio": 53
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 163,
+    "fields": {
+        "nombre": "Augusto Mijares",
+        "municipio": 53
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 164,
+    "fields": {
+        "nombre": "Sabaneta",
+        "municipio": 64
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 165,
+    "fields": {
+        "nombre": "Juan Antonio Rodr\u00edguez Dom\u00ednguez (Veguitas)",
+        "municipio": 64
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 166,
+    "fields": {
+        "nombre": "El Cant\u00f3n",
+        "municipio": 56
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 167,
+    "fields": {
+        "nombre": "Santa Cruz de Guacas",
+        "municipio": 56
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 168,
+    "fields": {
+        "nombre": "Puerto Vivas",
+        "municipio": 56
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 169,
+    "fields": {
+        "nombre": "Ticoporo",
+        "municipio": 63
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 170,
+    "fields": {
+        "nombre": "Nicol\u00e1s Pulido",
+        "municipio": 63
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 171,
+    "fields": {
+        "nombre": "Andr\u00e9s Bello",
+        "municipio": 63
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 172,
+    "fields": {
+        "nombre": "Arismendi",
+        "municipio": 54
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 173,
+    "fields": {
+        "nombre": "Guadarrama",
+        "municipio": 54
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 174,
+    "fields": {
+        "nombre": "La Uni\u00f3n",
+        "municipio": 54
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 175,
+    "fields": {
+        "nombre": "San Antonio",
+        "municipio": 54
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 176,
+    "fields": {
+        "nombre": "Barinas",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 177,
+    "fields": {
+        "nombre": "Alberto Arvelo Larriva",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 178,
+    "fields": {
+        "nombre": "San Silvestre",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 179,
+    "fields": {
+        "nombre": "Santa In\u00e9s",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 180,
+    "fields": {
+        "nombre": "Santa Luc\u00eda",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 181,
+    "fields": {
+        "nombre": "Torunos",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 182,
+    "fields": {
+        "nombre": "El Carmen",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 183,
+    "fields": {
+        "nombre": "R\u00f3mulo Betancourt",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 184,
+    "fields": {
+        "nombre": "Coraz\u00f3n de Jes\u00fas",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 185,
+    "fields": {
+        "nombre": "Ram\u00f3n Ignacio M\u00e9ndez",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 186,
+    "fields": {
+        "nombre": "Alto Barinas",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 187,
+    "fields": {
+        "nombre": "Manuel Palacio Fajardo",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 188,
+    "fields": {
+        "nombre": "Juan Antonio Rodr\u00edguez Dom\u00ednguez",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 189,
+    "fields": {
+        "nombre": "Dominga Ortiz de P\u00e1ez",
+        "municipio": 55
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 190,
+    "fields": {
+        "nombre": "Barinitas",
+        "municipio": 57
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 191,
+    "fields": {
+        "nombre": "Altamira de C\u00e1ceres",
+        "municipio": 57
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 192,
+    "fields": {
+        "nombre": "Calderas",
+        "municipio": 57
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 193,
+    "fields": {
+        "nombre": "Barrancas",
+        "municipio": 58
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 194,
+    "fields": {
+        "nombre": "El Socorro",
+        "municipio": 58
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 195,
+    "fields": {
+        "nombre": "Mazparrito",
+        "municipio": 58
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 196,
+    "fields": {
+        "nombre": "Santa B\u00e1rbara",
+        "municipio": 65
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 197,
+    "fields": {
+        "nombre": "Pedro Brice\u00f1o M\u00e9ndez",
+        "municipio": 65
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 198,
+    "fields": {
+        "nombre": "Ram\u00f3n Ignacio M\u00e9ndez",
+        "municipio": 65
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 199,
+    "fields": {
+        "nombre": "Jos\u00e9 Ignacio del Pumar",
+        "municipio": 65
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 200,
+    "fields": {
+        "nombre": "Obispos",
+        "municipio": 59
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 201,
+    "fields": {
+        "nombre": "Los Guasimitos",
+        "municipio": 59
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 202,
+    "fields": {
+        "nombre": "El Real",
+        "municipio": 59
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 203,
+    "fields": {
+        "nombre": "La Luz",
+        "municipio": 59
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 204,
+    "fields": {
+        "nombre": "Ciudad Bol\u00edvia",
+        "municipio": 60
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 205,
+    "fields": {
+        "nombre": "Jos\u00e9 Ignacio Brice\u00f1o",
+        "municipio": 60
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 206,
+    "fields": {
+        "nombre": "Jos\u00e9 F\u00e9lix Ribas",
+        "municipio": 60
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 207,
+    "fields": {
+        "nombre": "P\u00e1ez",
+        "municipio": 60
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 208,
+    "fields": {
+        "nombre": "Libertad",
+        "municipio": 61
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 209,
+    "fields": {
+        "nombre": "Dolores",
+        "municipio": 61
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 210,
+    "fields": {
+        "nombre": "Santa Rosa",
+        "municipio": 61
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 211,
+    "fields": {
+        "nombre": "Palacio Fajardo",
+        "municipio": 61
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 212,
+    "fields": {
+        "nombre": "Sim\u00f3n Rodr\u00edguez",
+        "municipio": 61
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 213,
+    "fields": {
+        "nombre": "Ciudad de Nutrias",
+        "municipio": 62
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 214,
+    "fields": {
+        "nombre": "El Regalo",
+        "municipio": 62
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 215,
+    "fields": {
+        "nombre": "Puerto Nutrias",
+        "municipio": 62
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 216,
+    "fields": {
+        "nombre": "Santa Catalina",
+        "municipio": 62
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 217,
+    "fields": {
+        "nombre": "Sim\u00f3n Bol\u00edvar",
+        "municipio": 62
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 218,
+    "fields": {
+        "nombre": "Cachamay",
+        "municipio": 67
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 219,
+    "fields": {
+        "nombre": "Chirica",
+        "municipio": 67
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 220,
+    "fields": {
+        "nombre": "Dalla Costa",
+        "municipio": 67
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 221,
+    "fields": {
+        "nombre": "Once de Abril",
+        "municipio": 67
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 222,
+    "fields": {
+        "nombre": "Sim\u00f3n Bol\u00edvar",
+        "municipio": 67
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 223,
+    "fields": {
+        "nombre": "Unare",
+        "municipio": 67
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 224,
+    "fields": {
+        "nombre": "Universidad",
+        "municipio": 67
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 225,
+    "fields": {
+        "nombre": "Vista al Sol",
+        "municipio": 67
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 226,
+    "fields": {
+        "nombre": "Pozo Verde",
+        "municipio": 67
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 227,
+    "fields": {
+        "nombre": "Yocoima",
+        "municipio": 67
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 228,
+    "fields": {
+        "nombre": "5 de Julio",
+        "municipio": 67
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 229,
+    "fields": {
+        "nombre": "Cede\u00f1o",
+        "municipio": 68
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 230,
+    "fields": {
+        "nombre": "Altagracia",
+        "municipio": 68
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 231,
+    "fields": {
+        "nombre": "Ascensi\u00f3n Farreras",
+        "municipio": 68
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 232,
+    "fields": {
+        "nombre": "Guaniamo",
+        "municipio": 68
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 233,
+    "fields": {
+        "nombre": "La Urbana",
+        "municipio": 68
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 234,
+    "fields": {
+        "nombre": "Pijiguaos",
+        "municipio": 68
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 235,
+    "fields": {
+        "nombre": "El Callao",
+        "municipio": 70
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 236,
+    "fields": {
+        "nombre": "Gran Sabana",
+        "municipio": 71
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 237,
+    "fields": {
+        "nombre": "Ikabar\u00fa",
+        "municipio": 71
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 238,
+    "fields": {
+        "nombre": "Catedral",
+        "municipio": 72
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 239,
+    "fields": {
+        "nombre": "Zea",
+        "municipio": 72
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 240,
+    "fields": {
+        "nombre": "Orinoco",
+        "municipio": 72
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 241,
+    "fields": {
+        "nombre": "Jos\u00e9 Antonio P\u00e1ez",
+        "municipio": 72
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 242,
+    "fields": {
+        "nombre": "Marhuanta",
+        "municipio": 72
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 243,
+    "fields": {
+        "nombre": "Agua Salada",
+        "municipio": 72
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 244,
+    "fields": {
+        "nombre": "Vista Hermosa",
+        "municipio": 72
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 245,
+    "fields": {
+        "nombre": "La Sabanita",
+        "municipio": 72
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 246,
+    "fields": {
+        "nombre": "Panapana",
+        "municipio": 72
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 247,
+    "fields": {
+        "nombre": "Padre Pedro Chien",
+        "municipio": 69
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 248,
+    "fields": {
+        "nombre": "Andr\u00e9s Eloy Blanco",
+        "municipio": 73
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 249,
+    "fields": {
+        "nombre": "Pedro Cova",
+        "municipio": 69
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 250,
+    "fields": {
+        "nombre": "Upata",
+        "municipio": 69
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 251,
+    "fields": {
+        "nombre": "Ra\u00fal Leoni",
+        "municipio": 66
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 252,
+    "fields": {
+        "nombre": "Barceloneta",
+        "municipio": 66
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 253,
+    "fields": {
+        "nombre": "Santa B\u00e1rbara",
+        "municipio": 66
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 254,
+    "fields": {
+        "nombre": "San Francisco",
+        "municipio": 66
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 255,
+    "fields": {
+        "nombre": "Roscio",
+        "municipio": 74
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 256,
+    "fields": {
+        "nombre": "Sal\u00f3m",
+        "municipio": 74
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 257,
+    "fields": {
+        "nombre": "Tumeremo",
+        "municipio": 75
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 258,
+    "fields": {
+        "nombre": "Dalla Costa",
+        "municipio": 75
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 259,
+    "fields": {
+        "nombre": "San Isidro",
+        "municipio": 75
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 260,
+    "fields": {
+        "nombre": "Sucre",
+        "municipio": 76
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 261,
+    "fields": {
+        "nombre": "Aripao",
+        "municipio": 76
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 262,
+    "fields": {
+        "nombre": "Guarataro",
+        "municipio": 76
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 263,
+    "fields": {
+        "nombre": "Las Majadas",
+        "municipio": 76
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 264,
+    "fields": {
+        "nombre": "Moitaco",
+        "municipio": 76
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 265,
+    "fields": {
+        "nombre": "Bejuma",
+        "municipio": 77
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 266,
+    "fields": {
+        "nombre": "Canoabo",
+        "municipio": 77
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 267,
+    "fields": {
+        "nombre": "Sim\u00f3n Bol\u00edvar",
+        "municipio": 77
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 268,
+    "fields": {
+        "nombre": "G\u00fcig\u00fce",
+        "municipio": 78
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 269,
+    "fields": {
+        "nombre": "Bel\u00e9n",
+        "municipio": 78
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 270,
+    "fields": {
+        "nombre": "Tacarigua",
+        "municipio": 78
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 271,
+    "fields": {
+        "nombre": "Mariara",
+        "municipio": 79
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 272,
+    "fields": {
+        "nombre": "Aguas Calientes",
+        "municipio": 79
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 273,
+    "fields": {
+        "nombre": "Ciudad Alianza",
+        "municipio": 80
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 274,
+    "fields": {
+        "nombre": "Guacara",
+        "municipio": 80
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 275,
+    "fields": {
+        "nombre": "Yagua",
+        "municipio": 80
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 276,
+    "fields": {
+        "nombre": "Mor\u00f3n",
+        "municipio": 81
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 277,
+    "fields": {
+        "nombre": "Urama",
+        "municipio": 81
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 278,
+    "fields": {
+        "nombre": "Tocuyito",
+        "municipio": 82
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 279,
+    "fields": {
+        "nombre": "Independencia",
+        "municipio": 82
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 280,
+    "fields": {
+        "nombre": "Los Guayos",
+        "municipio": 83
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 281,
+    "fields": {
+        "nombre": "Miranda",
+        "municipio": 84
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 282,
+    "fields": {
+        "nombre": "Montalb\u00e1n",
+        "municipio": 85
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 283,
+    "fields": {
+        "nombre": "Naguanagua",
+        "municipio": 86
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 284,
+    "fields": {
+        "nombre": "Bartolom\u00e9 Sal\u00f3m",
+        "municipio": 87
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 285,
+    "fields": {
+        "nombre": "Democracia",
+        "municipio": 87
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 286,
+    "fields": {
+        "nombre": "Fraternidad",
+        "municipio": 87
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 287,
+    "fields": {
+        "nombre": "Goaigoaza",
+        "municipio": 87
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 288,
+    "fields": {
+        "nombre": "Juan Jos\u00e9 Flores",
+        "municipio": 87
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 289,
+    "fields": {
+        "nombre": "Uni\u00f3n",
+        "municipio": 87
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 290,
+    "fields": {
+        "nombre": "Borburata",
+        "municipio": 87
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 291,
+    "fields": {
+        "nombre": "Patanemo",
+        "municipio": 87
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 292,
+    "fields": {
+        "nombre": "San Diego",
+        "municipio": 88
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 293,
+    "fields": {
+        "nombre": "San Joaqu\u00edn",
+        "municipio": 89
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 294,
+    "fields": {
+        "nombre": "Candelaria",
+        "municipio": 90
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 295,
+    "fields": {
+        "nombre": "Catedral",
+        "municipio": 90
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 296,
+    "fields": {
+        "nombre": "El Socorro",
+        "municipio": 90
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 297,
+    "fields": {
+        "nombre": "Miguel Pe\u00f1a",
+        "municipio": 90
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 298,
+    "fields": {
+        "nombre": "Rafael Urdaneta",
+        "municipio": 90
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 299,
+    "fields": {
+        "nombre": "San Blas",
+        "municipio": 90
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 300,
+    "fields": {
+        "nombre": "San Jos\u00e9",
+        "municipio": 90
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 301,
+    "fields": {
+        "nombre": "Santa Rosa",
+        "municipio": 90
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 302,
+    "fields": {
+        "nombre": "Negro Primero",
+        "municipio": 90
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 303,
+    "fields": {
+        "nombre": "Cojedes",
+        "municipio": 91
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 304,
+    "fields": {
+        "nombre": "Juan de Mata Su\u00e1rez",
+        "municipio": 91
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 305,
+    "fields": {
+        "nombre": "El Pao",
+        "municipio": 92
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 306,
+    "fields": {
+        "nombre": "Tinaquillo",
+        "municipio": 93
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 307,
+    "fields": {
+        "nombre": "El Ba\u00fal",
+        "municipio": 94
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 308,
+    "fields": {
+        "nombre": "Sucre",
+        "municipio": 94
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 309,
+    "fields": {
+        "nombre": "La Aguadita",
+        "municipio": 95
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 310,
+    "fields": {
+        "nombre": "Macapo",
+        "municipio": 95
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 311,
+    "fields": {
+        "nombre": "El Amparo",
+        "municipio": 96
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 312,
+    "fields": {
+        "nombre": "Libertad de Cojedes",
+        "municipio": 96
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 313,
+    "fields": {
+        "nombre": "R\u00f3mulo Gallegos",
+        "municipio": 97
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 314,
+    "fields": {
+        "nombre": "San Carlos de Austria",
+        "municipio": 98
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 315,
+    "fields": {
+        "nombre": "Juan \u00c1ngel Bravo",
+        "municipio": 98
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 316,
+    "fields": {
+        "nombre": "Manuel Manrique",
+        "municipio": 98
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 317,
+    "fields": {
+        "nombre": "General en Jefe Jos\u00e9 Laurencio Silva",
+        "municipio": 99
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 318,
+    "fields": {
+        "nombre": "Curiapo",
+        "municipio": 100
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 319,
+    "fields": {
+        "nombre": "Almirante Luis Bri\u00f3n",
+        "municipio": 100
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 320,
+    "fields": {
+        "nombre": "Francisco Aniceto Lugo",
+        "municipio": 100
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 321,
+    "fields": {
+        "nombre": "Manuel Renaud",
+        "municipio": 100
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 322,
+    "fields": {
+        "nombre": "Padre Barral",
+        "municipio": 100
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 323,
+    "fields": {
+        "nombre": "Santos de Abelgas",
+        "municipio": 100
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 324,
+    "fields": {
+        "nombre": "Imataca",
+        "municipio": 101
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 325,
+    "fields": {
+        "nombre": "Juan Bautista Arismendi",
+        "municipio": 101
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 326,
+    "fields": {
+        "nombre": "Manuel Piar",
+        "municipio": 101
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 327,
+    "fields": {
+        "nombre": "R\u00f3mulo Gallegos",
+        "municipio": 101
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 328,
+    "fields": {
+        "nombre": "Pedernales",
+        "municipio": 102
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 329,
+    "fields": {
+        "nombre": "Luis Beltr\u00e1n Prieto Figueroa",
+        "municipio": 102
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 330,
+    "fields": {
+        "nombre": "San Jos\u00e9",
+        "municipio": 103
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 331,
+    "fields": {
+        "nombre": "Jos\u00e9 Vidal Marcano",
+        "municipio": 103
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 332,
+    "fields": {
+        "nombre": "Juan Mill\u00e1n",
+        "municipio": 103
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 333,
+    "fields": {
+        "nombre": "Leonardo Ru\u00edz Pineda",
+        "municipio": 103
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 334,
+    "fields": {
+        "nombre": "Mariscal Antonio Jos\u00e9 de Sucre",
+        "municipio": 103
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 335,
+    "fields": {
+        "nombre": "Monse\u00f1or Argimiro Garc\u00eda",
+        "municipio": 103
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 336,
+    "fields": {
+        "nombre": "San Rafael",
+        "municipio": 103
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 337,
+    "fields": {
+        "nombre": "Virgen del Valle",
+        "municipio": 103
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 338,
+    "fields": {
+        "nombre": "23 de enero",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 339,
+    "fields": {
+        "nombre": "Altagracia",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 340,
+    "fields": {
+        "nombre": "Ant\u00edmano",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 341,
+    "fields": {
+        "nombre": "Caricuao",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 342,
+    "fields": {
+        "nombre": "Catedral",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 343,
+    "fields": {
+        "nombre": "Coche",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 344,
+    "fields": {
+        "nombre": "El Junquito",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 345,
+    "fields": {
+        "nombre": "El Para\u00edso",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 346,
+    "fields": {
+        "nombre": "El Recreo",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 347,
+    "fields": {
+        "nombre": "El Valle",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 348,
+    "fields": {
+        "nombre": "Candelaria",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 349,
+    "fields": {
+        "nombre": "La Pastora",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 350,
+    "fields": {
+        "nombre": "La Vega",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 351,
+    "fields": {
+        "nombre": "Macarao",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 352,
+    "fields": {
+        "nombre": "San Agust\u00edn",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 353,
+    "fields": {
+        "nombre": "San Benardino",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 354,
+    "fields": {
+        "nombre": "San Jos\u00e9",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 355,
+    "fields": {
+        "nombre": "San Juan",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 356,
+    "fields": {
+        "nombre": "San Pedro",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 357,
+    "fields": {
+        "nombre": "Santa Rosal\u00eda",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 358,
+    "fields": {
+        "nombre": "Santa Teresa",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 359,
+    "fields": {
+        "nombre": "Sucre",
+        "municipio": 104
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 360,
+    "fields": {
+        "nombre": "Capadare",
+        "municipio": 105
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 361,
+    "fields": {
+        "nombre": "La Pastora",
+        "municipio": 105
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 362,
+    "fields": {
+        "nombre": "Libertador",
+        "municipio": 105
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 363,
+    "fields": {
+        "nombre": "San Juan de los Cayos",
+        "municipio": 105
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 364,
+    "fields": {
+        "nombre": "Aracua",
+        "municipio": 106
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 365,
+    "fields": {
+        "nombre": "La Pe\u00f1a",
+        "municipio": 106
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 366,
+    "fields": {
+        "nombre": "San Luis",
+        "municipio": 106
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 367,
+    "fields": {
+        "nombre": "Bariro",
+        "municipio": 107
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 368,
+    "fields": {
+        "nombre": "Boroj\u00f3",
+        "municipio": 107
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 369,
+    "fields": {
+        "nombre": "Capat\u00e1rida",
+        "municipio": 107
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 370,
+    "fields": {
+        "nombre": "Guajiro",
+        "municipio": 107
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 371,
+    "fields": {
+        "nombre": "Seque",
+        "municipio": 107
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 372,
+    "fields": {
+        "nombre": "Zaz\u00e1rida",
+        "municipio": 107
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 373,
+    "fields": {
+        "nombre": "Valle de Eroa",
+        "municipio": 107
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 374,
+    "fields": {
+        "nombre": "Cacique Manaure",
+        "municipio": 118
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 375,
+    "fields": {
+        "nombre": "Norte",
+        "municipio": 108
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 376,
+    "fields": {
+        "nombre": "Carirubana",
+        "municipio": 108
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 377,
+    "fields": {
+        "nombre": "Santa Ana",
+        "municipio": 108
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 378,
+    "fields": {
+        "nombre": "Punta Card\u00f3n",
+        "municipio": 108
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 379,
+    "fields": {
+        "nombre": "La Vela de Coro",
+        "municipio": 109
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 380,
+    "fields": {
+        "nombre": "Acurigua",
+        "municipio": 109
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 381,
+    "fields": {
+        "nombre": "Guaibacoa",
+        "municipio": 109
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 382,
+    "fields": {
+        "nombre": "Las Calderas",
+        "municipio": 109
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 383,
+    "fields": {
+        "nombre": "Macoruca",
+        "municipio": 109
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 384,
+    "fields": {
+        "nombre": "Dabajuro",
+        "municipio": 110
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 385,
+    "fields": {
+        "nombre": "Agua Clara",
+        "municipio": 111
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 386,
+    "fields": {
+        "nombre": "Avaria",
+        "municipio": 111
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 387,
+    "fields": {
+        "nombre": "Pedregal",
+        "municipio": 111
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 388,
+    "fields": {
+        "nombre": "Piedra Grande",
+        "municipio": 111
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 389,
+    "fields": {
+        "nombre": "Purureche",
+        "municipio": 111
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 390,
+    "fields": {
+        "nombre": "Adaure",
+        "municipio": 112
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 391,
+    "fields": {
+        "nombre": "Ad\u00edcora",
+        "municipio": 112
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 392,
+    "fields": {
+        "nombre": "Baraived",
+        "municipio": 112
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 393,
+    "fields": {
+        "nombre": "Buena Vista",
+        "municipio": 112
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 394,
+    "fields": {
+        "nombre": "Jadacaquiva",
+        "municipio": 112
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 395,
+    "fields": {
+        "nombre": "El V\u00ednculo",
+        "municipio": 112
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 396,
+    "fields": {
+        "nombre": "El Hato",
+        "municipio": 112
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 397,
+    "fields": {
+        "nombre": "Moruy",
+        "municipio": 112
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 398,
+    "fields": {
+        "nombre": "Pueblo Nuevo",
+        "municipio": 112
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 399,
+    "fields": {
+        "nombre": "Agua Larga",
+        "municipio": 113
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 400,
+    "fields": {
+        "nombre": "Churuguara",
+        "municipio": 113
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 401,
+    "fields": {
+        "nombre": "El Pauj\u00ed",
+        "municipio": 113
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 402,
+    "fields": {
+        "nombre": "Independencia",
+        "municipio": 113
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 403,
+    "fields": {
+        "nombre": "Maparar\u00ed",
+        "municipio": 113
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 404,
+    "fields": {
+        "nombre": "Agua Linda",
+        "municipio": 115
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 405,
+    "fields": {
+        "nombre": "Araurima",
+        "municipio": 115
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 406,
+    "fields": {
+        "nombre": "Jacura",
+        "municipio": 115
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 407,
+    "fields": {
+        "nombre": "Los Taques",
+        "municipio": 116
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 408,
+    "fields": {
+        "nombre": "Judibana",
+        "municipio": 116
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 409,
+    "fields": {
+        "nombre": "Mene de Mauroa",
+        "municipio": 117
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 410,
+    "fields": {
+        "nombre": "San F\u00e9lix",
+        "municipio": 117
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 411,
+    "fields": {
+        "nombre": "Casigua",
+        "municipio": 117
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 412,
+    "fields": {
+        "nombre": "Guzm\u00e1n Guillermo",
+        "municipio": 119
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 413,
+    "fields": {
+        "nombre": "Mitare",
+        "municipio": 119
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 414,
+    "fields": {
+        "nombre": "R\u00edo Seco",
+        "municipio": 119
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 415,
+    "fields": {
+        "nombre": "Sabaneta",
+        "municipio": 119
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 416,
+    "fields": {
+        "nombre": "San Antonio",
+        "municipio": 119
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 417,
+    "fields": {
+        "nombre": "San Gabriel",
+        "municipio": 119
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 418,
+    "fields": {
+        "nombre": "Santa Ana",
+        "municipio": 119
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 419,
+    "fields": {
+        "nombre": "Boca del Tocuyo",
+        "municipio": 114
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 420,
+    "fields": {
+        "nombre": "Chichiriviche",
+        "municipio": 114
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 421,
+    "fields": {
+        "nombre": "Tocuyo de la Costa",
+        "municipio": 114
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 422,
+    "fields": {
+        "nombre": "Palmasola",
+        "municipio": 120
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 423,
+    "fields": {
+        "nombre": "Cabure",
+        "municipio": 121
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 424,
+    "fields": {
+        "nombre": "Colina",
+        "municipio": 121
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 425,
+    "fields": {
+        "nombre": "Curimagua",
+        "municipio": 121
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 426,
+    "fields": {
+        "nombre": "San Jos\u00e9 de la Costa",
+        "municipio": 122
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 427,
+    "fields": {
+        "nombre": "P\u00edritu",
+        "municipio": 122
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 428,
+    "fields": {
+        "nombre": "San Francisco Mirimire",
+        "municipio": 123
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 429,
+    "fields": {
+        "nombre": "Tucacas",
+        "municipio": 124
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 430,
+    "fields": {
+        "nombre": "Boca de Aroa",
+        "municipio": 124
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 431,
+    "fields": {
+        "nombre": "Sucre",
+        "municipio": 125
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 432,
+    "fields": {
+        "nombre": "Pecaya",
+        "municipio": 125
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 433,
+    "fields": {
+        "nombre": "Toc\u00f3pero",
+        "municipio": 126
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 434,
+    "fields": {
+        "nombre": "El Charal",
+        "municipio": 127
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 435,
+    "fields": {
+        "nombre": "Las Vegas del Tuy",
+        "municipio": 127
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 436,
+    "fields": {
+        "nombre": "Santa Cruz de Bucaral",
+        "municipio": 127
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 437,
+    "fields": {
+        "nombre": "Bruzual",
+        "municipio": 128
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 438,
+    "fields": {
+        "nombre": "Urumaco",
+        "municipio": 128
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 439,
+    "fields": {
+        "nombre": "Puerto Cumarebo",
+        "municipio": 129
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 440,
+    "fields": {
+        "nombre": "La Ci\u00e9naga",
+        "municipio": 129
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 441,
+    "fields": {
+        "nombre": "La Soledad",
+        "municipio": 129
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 442,
+    "fields": {
+        "nombre": "Pueblo Cumarebo",
+        "municipio": 129
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 443,
+    "fields": {
+        "nombre": "Zaz\u00e1rida",
+        "municipio": 129
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 444,
+    "fields": {
+        "nombre": "Camagu\u00e1n",
+        "municipio": 130
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 445,
+    "fields": {
+        "nombre": "Puerto Miranda",
+        "municipio": 130
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 446,
+    "fields": {
+        "nombre": "Uverito",
+        "municipio": 130
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 447,
+    "fields": {
+        "nombre": "Chaguaramas",
+        "municipio": 131
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 448,
+    "fields": {
+        "nombre": "El Socorro",
+        "municipio": 132
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 449,
+    "fields": {
+        "nombre": "El Calvario",
+        "municipio": 136
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 450,
+    "fields": {
+        "nombre": "El Rastro",
+        "municipio": 136
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 451,
+    "fields": {
+        "nombre": "Guardatinajas",
+        "municipio": 136
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 452,
+    "fields": {
+        "nombre": "Calabozo",
+        "municipio": 136
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 453,
+    "fields": {
+        "nombre": "Tucupido",
+        "municipio": 139
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 454,
+    "fields": {
+        "nombre": "San Rafael de Laya",
+        "municipio": 139
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 455,
+    "fields": {
+        "nombre": "Altagracia de Orituco",
+        "municipio": 137
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 456,
+    "fields": {
+        "nombre": "San Rafael de Orituco",
+        "municipio": 137
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 457,
+    "fields": {
+        "nombre": "San Francisco Javier de Lezama",
+        "municipio": 137
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 458,
+    "fields": {
+        "nombre": "Paso Real de Macaira",
+        "municipio": 137
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 459,
+    "fields": {
+        "nombre": "Carlos Soublette",
+        "municipio": 137
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 460,
+    "fields": {
+        "nombre": "San Francisco de Macaira",
+        "municipio": 137
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 461,
+    "fields": {
+        "nombre": "Libertad de Orituco",
+        "municipio": 137
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 462,
+    "fields": {
+        "nombre": "Cantagallo",
+        "municipio": 140
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 463,
+    "fields": {
+        "nombre": "San Juan de los Morros",
+        "municipio": 140
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 464,
+    "fields": {
+        "nombre": "Parapara",
+        "municipio": 140
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 465,
+    "fields": {
+        "nombre": "El Sombrero",
+        "municipio": 135
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 466,
+    "fields": {
+        "nombre": "Sosa",
+        "municipio": 135
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 467,
+    "fields": {
+        "nombre": "Las Mercedes",
+        "municipio": 134
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 468,
+    "fields": {
+        "nombre": "Cabruta",
+        "municipio": 134
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 469,
+    "fields": {
+        "nombre": "Santa Rita de Manapire",
+        "municipio": 134
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 470,
+    "fields": {
+        "nombre": "Valle de la Pascua",
+        "municipio": 133
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 471,
+    "fields": {
+        "nombre": "Espino",
+        "municipio": 133
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 472,
+    "fields": {
+        "nombre": "San Jos\u00e9 de Tiznados",
+        "municipio": 138
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 473,
+    "fields": {
+        "nombre": "San Francisco de Tiznados",
+        "municipio": 138
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 474,
+    "fields": {
+        "nombre": "San Lorenzo de Tiznados",
+        "municipio": 138
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 475,
+    "fields": {
+        "nombre": "Ortiz",
+        "municipio": 138
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 476,
+    "fields": {
+        "nombre": "San Jos\u00e9 de Unare",
+        "municipio": 144
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 477,
+    "fields": {
+        "nombre": "Zaraza",
+        "municipio": 144
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 478,
+    "fields": {
+        "nombre": "Guayabal",
+        "municipio": 141
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 479,
+    "fields": {
+        "nombre": "Cazorla",
+        "municipio": 141
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 480,
+    "fields": {
+        "nombre": " San Jos\u00e9 de Guaribe",
+        "municipio": 142
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 481,
+    "fields": {
+        "nombre": "Uveral",
+        "municipio": 142
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 482,
+    "fields": {
+        "nombre": "Santa Mar\u00eda de Ipire",
+        "municipio": 143
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 483,
+    "fields": {
+        "nombre": "Altamira",
+        "municipio": 143
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 484,
+    "fields": {
+        "nombre": "Quebrada Honda de Guache",
+        "municipio": 145
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 485,
+    "fields": {
+        "nombre": "Pio Tamayo",
+        "municipio": 145
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 486,
+    "fields": {
+        "nombre": "Yacamb\u00fa",
+        "municipio": 145
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 487,
+    "fields": {
+        "nombre": "Freitez",
+        "municipio": 146
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 488,
+    "fields": {
+        "nombre": "Jos\u00e9 Mar\u00eda Blanco",
+        "municipio": 146
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 489,
+    "fields": {
+        "nombre": "Anzo\u00e1tegui",
+        "municipio": 149
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 490,
+    "fields": {
+        "nombre": "Bol\u00edvar",
+        "municipio": 149
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 491,
+    "fields": {
+        "nombre": "Gu\u00e1rico",
+        "municipio": 149
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 492,
+    "fields": {
+        "nombre": "Hilario Luna y Luna",
+        "municipio": 149
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 493,
+    "fields": {
+        "nombre": "Humocaro Bajo",
+        "municipio": 149
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 494,
+    "fields": {
+        "nombre": "Humocaro Alto",
+        "municipio": 149
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 495,
+    "fields": {
+        "nombre": "La Candelaria",
+        "municipio": 149
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 496,
+    "fields": {
+        "nombre": "Mor\u00e1n",
+        "municipio": 149
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 497,
+    "fields": {
+        "nombre": "Cabudare",
+        "municipio": 150
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 498,
+    "fields": {
+        "nombre": "Jos\u00e9 Gregorio Bastidas",
+        "municipio": 150
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 499,
+    "fields": {
+        "nombre": "Agua Viva",
+        "municipio": 150
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 500,
+    "fields": {
+        "nombre": "Bur\u00eda",
+        "municipio": 151
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 501,
+    "fields": {
+        "nombre": "Gustavo Vega",
+        "municipio": 151
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 502,
+    "fields": {
+        "nombre": "Sarare",
+        "municipio": 151
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 503,
+    "fields": {
+        "nombre": "Altagracia",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 504,
+    "fields": {
+        "nombre": "Antonio D\u00edaz",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 505,
+    "fields": {
+        "nombre": "Camacaro",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 506,
+    "fields": {
+        "nombre": "Casta\u00f1eda",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 507,
+    "fields": {
+        "nombre": "Cecilio Zubillaga",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 508,
+    "fields": {
+        "nombre": "Chiquinquira",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 509,
+    "fields": {
+        "nombre": "El Blanco",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 510,
+    "fields": {
+        "nombre": "Espinoza de los Monteros",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 511,
+    "fields": {
+        "nombre": "Heriberto Arrollo",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 512,
+    "fields": {
+        "nombre": "Lara",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 513,
+    "fields": {
+        "nombre": "Las Mercedes",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 514,
+    "fields": {
+        "nombre": "Manuel Morillo",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 515,
+    "fields": {
+        "nombre": "Monta\u00f1a Verde",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 516,
+    "fields": {
+        "nombre": "Montes de Oca",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 517,
+    "fields": {
+        "nombre": "Reyes de Vargas",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 518,
+    "fields": {
+        "nombre": "Torres",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 519,
+    "fields": {
+        "nombre": "Trinidad Samuel",
+        "municipio": 152
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 520,
+    "fields": {
+        "nombre": "Xaguas",
+        "municipio": 153
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 521,
+    "fields": {
+        "nombre": "Siquisique",
+        "municipio": 153
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 522,
+    "fields": {
+        "nombre": "San Miguel",
+        "municipio": 153
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 523,
+    "fields": {
+        "nombre": "Moroturo",
+        "municipio": 153
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 524,
+    "fields": {
+        "nombre": "Aguedo Felipe Alvarado",
+        "municipio": 147
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 525,
+    "fields": {
+        "nombre": "Buena Vista",
+        "municipio": 147
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 526,
+    "fields": {
+        "nombre": "Catedral",
+        "municipio": 147
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 527,
+    "fields": {
+        "nombre": "Concepci\u00f3n",
+        "municipio": 147
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 528,
+    "fields": {
+        "nombre": "El Cuj\u00ed",
+        "municipio": 147
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 529,
+    "fields": {
+        "nombre": "Ju\u00e1rez",
+        "municipio": 147
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 530,
+    "fields": {
+        "nombre": "Juan de Villegas",
+        "municipio": 147
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 531,
+    "fields": {
+        "nombre": "Santa Rosa",
+        "municipio": 147
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 532,
+    "fields": {
+        "nombre": "Tamaca",
+        "municipio": 147
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 533,
+    "fields": {
+        "nombre": "Uni\u00f3n",
+        "municipio": 147
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 534,
+    "fields": {
+        "nombre": "Presidente Betancourt",
+        "municipio": 154
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 535,
+    "fields": {
+        "nombre": "Presidente P\u00e1ez",
+        "municipio": 154
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 536,
+    "fields": {
+        "nombre": "Presidente R\u00f3mulo Gallegos",
+        "municipio": 154
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 537,
+    "fields": {
+        "nombre": "Gabriel Pic\u00f3n Gonz\u00e1lez",
+        "municipio": 154
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 538,
+    "fields": {
+        "nombre": "H\u00e9ctor Amable Mora",
+        "municipio": 154
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 539,
+    "fields": {
+        "nombre": "Jos\u00e9 Nucete Sardi",
+        "municipio": 154
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 540,
+    "fields": {
+        "nombre": "Pulido M\u00e9ndez",
+        "municipio": 154
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 541,
+    "fields": {
+        "nombre": "Santa Cruz de Mora",
+        "municipio": 156
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 542,
+    "fields": {
+        "nombre": "Mesa Bol\u00edvar",
+        "municipio": 156
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 543,
+    "fields": {
+        "nombre": "Mesa de Las Palmas",
+        "municipio": 156
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 544,
+    "fields": {
+        "nombre": "La Azulita",
+        "municipio": 155
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 545,
+    "fields": {
+        "nombre": "Aricagua",
+        "municipio": 157
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 546,
+    "fields": {
+        "nombre": "San Antonio",
+        "municipio": 157
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 547,
+    "fields": {
+        "nombre": "Canagua",
+        "municipio": 158
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 548,
+    "fields": {
+        "nombre": "Capur\u00ed",
+        "municipio": 158
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 549,
+    "fields": {
+        "nombre": "Chacant\u00e1",
+        "municipio": 158
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 550,
+    "fields": {
+        "nombre": "El Molino",
+        "municipio": 158
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 551,
+    "fields": {
+        "nombre": "Guaimaral",
+        "municipio": 158
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 552,
+    "fields": {
+        "nombre": "Mucutuy",
+        "municipio": 158
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 553,
+    "fields": {
+        "nombre": "Mucuchach\u00ed",
+        "municipio": 158
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 554,
+    "fields": {
+        "nombre": "Fern\u00e1ndez Pe\u00f1a",
+        "municipio": 159
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 555,
+    "fields": {
+        "nombre": "Matriz",
+        "municipio": 159
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 556,
+    "fields": {
+        "nombre": "Montalb\u00e1n",
+        "municipio": 159
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 557,
+    "fields": {
+        "nombre": "Acequias",
+        "municipio": 159
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 558,
+    "fields": {
+        "nombre": "Jaj\u00ed",
+        "municipio": 159
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 559,
+    "fields": {
+        "nombre": "La Mesa",
+        "municipio": 159
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 560,
+    "fields": {
+        "nombre": "San Jos\u00e9 del Sur",
+        "municipio": 159
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 561,
+    "fields": {
+        "nombre": "Tucan\u00ed",
+        "municipio": 160
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 562,
+    "fields": {
+        "nombre": "Florencio Ram\u00edrez",
+        "municipio": 160
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 563,
+    "fields": {
+        "nombre": "Santo Domingo",
+        "municipio": 161
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 564,
+    "fields": {
+        "nombre": "Las Piedras",
+        "municipio": 161
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 565,
+    "fields": {
+        "nombre": "Guaraque",
+        "municipio": 162
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 566,
+    "fields": {
+        "nombre": "Mesa de Quintero",
+        "municipio": 162
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 567,
+    "fields": {
+        "nombre": "R\u00edo Negro",
+        "municipio": 162
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 568,
+    "fields": {
+        "nombre": "Arapuey",
+        "municipio": 163
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 569,
+    "fields": {
+        "nombre": "Palmira",
+        "municipio": 163
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 570,
+    "fields": {
+        "nombre": "San Crist\u00f3bal de Torondoy",
+        "municipio": 164
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 571,
+    "fields": {
+        "nombre": "Torondoy",
+        "municipio": 164
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 572,
+    "fields": {
+        "nombre": "Antonio Spinetti Dini",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 573,
+    "fields": {
+        "nombre": "Arias",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 574,
+    "fields": {
+        "nombre": "Caracciolo Parra P\u00e9rez",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 575,
+    "fields": {
+        "nombre": "Domingo Pe\u00f1a",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 576,
+    "fields": {
+        "nombre": "El Llano",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 577,
+    "fields": {
+        "nombre": "Gonzalo Pic\u00f3n Febres",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 578,
+    "fields": {
+        "nombre": "Jacinto Plaza",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 579,
+    "fields": {
+        "nombre": "Juan Rodr\u00edguez Su\u00e1rez",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 580,
+    "fields": {
+        "nombre": "Lasso de la Vega",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 581,
+    "fields": {
+        "nombre": "Mariano Pic\u00f3n Salas",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 582,
+    "fields": {
+        "nombre": "Milla",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 583,
+    "fields": {
+        "nombre": "Osuna Rodr\u00edguez",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 584,
+    "fields": {
+        "nombre": "Sagrario",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 585,
+    "fields": {
+        "nombre": "El Morro",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 586,
+    "fields": {
+        "nombre": "Los Nevados",
+        "municipio": 165
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 587,
+    "fields": {
+        "nombre": "Andr\u00e9s Eloy Blanco",
+        "municipio": 166
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 588,
+    "fields": {
+        "nombre": "La Venta",
+        "municipio": 166
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 589,
+    "fields": {
+        "nombre": "Pi\u00f1ango",
+        "municipio": 166
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 590,
+    "fields": {
+        "nombre": "Timotes",
+        "municipio": 166
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 591,
+    "fields": {
+        "nombre": "Eloy Paredes",
+        "municipio": 167
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 592,
+    "fields": {
+        "nombre": "San Rafael de Alc\u00e1zar",
+        "municipio": 167
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 593,
+    "fields": {
+        "nombre": "Santa Elena de Arenales",
+        "municipio": 167
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 594,
+    "fields": {
+        "nombre": "Santa Mar\u00eda de Caparo",
+        "municipio": 168
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 595,
+    "fields": {
+        "nombre": "Pueblo Llano",
+        "municipio": 169
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 596,
+    "fields": {
+        "nombre": "Cacute",
+        "municipio": 170
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 597,
+    "fields": {
+        "nombre": "La Toma",
+        "municipio": 170
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 598,
+    "fields": {
+        "nombre": "Mucuch\u00edes",
+        "municipio": 170
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 599,
+    "fields": {
+        "nombre": "Mucurub\u00e1",
+        "municipio": 170
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 600,
+    "fields": {
+        "nombre": "San Rafael",
+        "municipio": 170
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 601,
+    "fields": {
+        "nombre": "Ger\u00f3nimo Maldonado",
+        "municipio": 171
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 602,
+    "fields": {
+        "nombre": "Bailadores",
+        "municipio": 171
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 603,
+    "fields": {
+        "nombre": "Tabay",
+        "municipio": 172
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 604,
+    "fields": {
+        "nombre": "Chiguar\u00e1",
+        "municipio": 173
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 605,
+    "fields": {
+        "nombre": "Est\u00e1nquez",
+        "municipio": 173
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 606,
+    "fields": {
+        "nombre": "Lagunillas",
+        "municipio": 173
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 607,
+    "fields": {
+        "nombre": "La Trampa",
+        "municipio": 173
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 608,
+    "fields": {
+        "nombre": "Pueblo Nuevo del Sur",
+        "municipio": 173
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 609,
+    "fields": {
+        "nombre": "San Juan",
+        "municipio": 173
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 610,
+    "fields": {
+        "nombre": "El Amparo",
+        "municipio": 174
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 611,
+    "fields": {
+        "nombre": "El Llano",
+        "municipio": 174
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 612,
+    "fields": {
+        "nombre": "San Francisco",
+        "municipio": 174
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 613,
+    "fields": {
+        "nombre": "Tovar",
+        "municipio": 174
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 614,
+    "fields": {
+        "nombre": "Independencia",
+        "municipio": 175
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 615,
+    "fields": {
+        "nombre": "Mar\u00eda de la Concepci\u00f3n Palacios Blanco",
+        "municipio": 175
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 616,
+    "fields": {
+        "nombre": "Nueva Bolivia",
+        "municipio": 175
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 617,
+    "fields": {
+        "nombre": "Santa Apolonia",
+        "municipio": 175
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 618,
+    "fields": {
+        "nombre": "Ca\u00f1o El Tigre",
+        "municipio": 176
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 619,
+    "fields": {
+        "nombre": "Zea",
+        "municipio": 176
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 620,
+    "fields": {
+        "nombre": "Arag\u00fcita",
+        "municipio": 177
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 621,
+    "fields": {
+        "nombre": "Ar\u00e9valo Gonz\u00e1lez",
+        "municipio": 177
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 622,
+    "fields": {
+        "nombre": "Capaya",
+        "municipio": 177
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 623,
+    "fields": {
+        "nombre": "Caucagua",
+        "municipio": 177
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 624,
+    "fields": {
+        "nombre": "Panaquire",
+        "municipio": 177
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 625,
+    "fields": {
+        "nombre": "Ribas",
+        "municipio": 177
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 626,
+    "fields": {
+        "nombre": "El Caf\u00e9",
+        "municipio": 177
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 627,
+    "fields": {
+        "nombre": "Marizapa",
+        "municipio": 177
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 628,
+    "fields": {
+        "nombre": "Cumbo",
+        "municipio": 178
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 629,
+    "fields": {
+        "nombre": "San Jos\u00e9 de Barlovento",
+        "municipio": 178
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 630,
+    "fields": {
+        "nombre": "El Cafetal",
+        "municipio": 179
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 631,
+    "fields": {
+        "nombre": "Las Minas",
+        "municipio": 179
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 632,
+    "fields": {
+        "nombre": "Nuestra Se\u00f1ora del Rosario",
+        "municipio": 179
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 633,
+    "fields": {
+        "nombre": "Higuerote",
+        "municipio": 180
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 634,
+    "fields": {
+        "nombre": "Curiepe",
+        "municipio": 180
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 635,
+    "fields": {
+        "nombre": "Tacarigua de Bri\u00f3n",
+        "municipio": 180
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 636,
+    "fields": {
+        "nombre": "Mamporal",
+        "municipio": 182
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 637,
+    "fields": {
+        "nombre": "Carrizal",
+        "municipio": 183
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 638,
+    "fields": {
+        "nombre": "Chacao",
+        "municipio": 184
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 639,
+    "fields": {
+        "nombre": "Charallave",
+        "municipio": 194
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 640,
+    "fields": {
+        "nombre": "Las Brisas",
+        "municipio": 194
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 641,
+    "fields": {
+        "nombre": "El Hatillo",
+        "municipio": 185
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 642,
+    "fields": {
+        "nombre": "Altagracia de la Monta\u00f1a",
+        "municipio": 186
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 643,
+    "fields": {
+        "nombre": "Cecilio Acosta",
+        "municipio": 186
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 644,
+    "fields": {
+        "nombre": "Los Teques",
+        "municipio": 186
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 645,
+    "fields": {
+        "nombre": "El Jarillo",
+        "municipio": 186
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 646,
+    "fields": {
+        "nombre": "San Pedro",
+        "municipio": 186
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 647,
+    "fields": {
+        "nombre": "T\u00e1cata",
+        "municipio": 186
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 648,
+    "fields": {
+        "nombre": "Paracotos",
+        "municipio": 186
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 649,
+    "fields": {
+        "nombre": "Cartanal",
+        "municipio": 188
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 650,
+    "fields": {
+        "nombre": "Santa Teresa del Tuy",
+        "municipio": 188
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 651,
+    "fields": {
+        "nombre": "La Democracia",
+        "municipio": 189
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 652,
+    "fields": {
+        "nombre": "Ocumare del Tuy",
+        "municipio": 189
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 653,
+    "fields": {
+        "nombre": "Santa B\u00e1rbara",
+        "municipio": 189
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 654,
+    "fields": {
+        "nombre": "San Antonio de los Altos",
+        "municipio": 190
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 655,
+    "fields": {
+        "nombre": "R\u00edo Chico",
+        "municipio": 191
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 656,
+    "fields": {
+        "nombre": "El Guapo",
+        "municipio": 191
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 657,
+    "fields": {
+        "nombre": "Tacarigua de la Laguna",
+        "municipio": 191
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 658,
+    "fields": {
+        "nombre": "Paparo",
+        "municipio": 191
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 659,
+    "fields": {
+        "nombre": "San Fernando del Guapo",
+        "municipio": 191
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 660,
+    "fields": {
+        "nombre": "Santa Luc\u00eda del Tuy",
+        "municipio": 192
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 661,
+    "fields": {
+        "nombre": "C\u00fapira",
+        "municipio": 187
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 662,
+    "fields": {
+        "nombre": "Machurucuto",
+        "municipio": 187
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 663,
+    "fields": {
+        "nombre": "Guarenas",
+        "municipio": 193
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 664,
+    "fields": {
+        "nombre": "San Antonio de Yare",
+        "municipio": 181
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 665,
+    "fields": {
+        "nombre": "San Francisco de Yare",
+        "municipio": 181
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 666,
+    "fields": {
+        "nombre": "C\u00faa",
+        "municipio": 195
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 667,
+    "fields": {
+        "nombre": "Nueva C\u00faa",
+        "municipio": 195
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 668,
+    "fields": {
+        "nombre": "Leoncio Mart\u00ednez",
+        "municipio": 196
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 669,
+    "fields": {
+        "nombre": "Caucag\u00fcita",
+        "municipio": 196
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 670,
+    "fields": {
+        "nombre": "Filas de Mariche",
+        "municipio": 196
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 671,
+    "fields": {
+        "nombre": "La Dolorita",
+        "municipio": 196
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 672,
+    "fields": {
+        "nombre": "Petare",
+        "municipio": 196
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 673,
+    "fields": {
+        "nombre": "Guatire",
+        "municipio": 197
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 674,
+    "fields": {
+        "nombre": "Bol\u00edvar",
+        "municipio": 197
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 675,
+    "fields": {
+        "nombre": "San Antonio de Matur\u00edn",
+        "municipio": 198
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 676,
+    "fields": {
+        "nombre": "San Francisco de Matur\u00edn",
+        "municipio": 198
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 677,
+    "fields": {
+        "nombre": "Aguasay",
+        "municipio": 199
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 678,
+    "fields": {
+        "nombre": "Caripito",
+        "municipio": 200
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 679,
+    "fields": {
+        "nombre": "El Gu\u00e1charo",
+        "municipio": 201
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 680,
+    "fields": {
+        "nombre": "La Guanota",
+        "municipio": 201
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 681,
+    "fields": {
+        "nombre": "Sabana de Piedra",
+        "municipio": 201
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 682,
+    "fields": {
+        "nombre": "San Agust\u00edn",
+        "municipio": 201
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 683,
+    "fields": {
+        "nombre": "Teresen",
+        "municipio": 201
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 684,
+    "fields": {
+        "nombre": "Caripe",
+        "municipio": 201
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 685,
+    "fields": {
+        "nombre": "Areo",
+        "municipio": 202
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 686,
+    "fields": {
+        "nombre": "Capital Cede\u00f1o",
+        "municipio": 202
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 687,
+    "fields": {
+        "nombre": "San F\u00e9lix de Cantalicio",
+        "municipio": 202
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 688,
+    "fields": {
+        "nombre": "Viento Fresco",
+        "municipio": 202
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 689,
+    "fields": {
+        "nombre": "El Tejero",
+        "municipio": 210
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 690,
+    "fields": {
+        "nombre": "Punta de Mata",
+        "municipio": 210
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 691,
+    "fields": {
+        "nombre": "Chaguaramas",
+        "municipio": 203
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 692,
+    "fields": {
+        "nombre": "Las Alhuacas",
+        "municipio": 203
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 693,
+    "fields": {
+        "nombre": "Tabasca",
+        "municipio": 203
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 694,
+    "fields": {
+        "nombre": "Temblador",
+        "municipio": 203
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 695,
+    "fields": {
+        "nombre": "Alto de los Godos",
+        "municipio": 204
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 696,
+    "fields": {
+        "nombre": "Boquer\u00f3n",
+        "municipio": 204
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 697,
+    "fields": {
+        "nombre": "Las Cocuizas",
+        "municipio": 204
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 698,
+    "fields": {
+        "nombre": "La Cruz",
+        "municipio": 204
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 699,
+    "fields": {
+        "nombre": "San Sim\u00f3n",
+        "municipio": 204
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 700,
+    "fields": {
+        "nombre": "El Corozo",
+        "municipio": 204
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 701,
+    "fields": {
+        "nombre": "El Furrial",
+        "municipio": 204
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 702,
+    "fields": {
+        "nombre": "Jusep\u00edn",
+        "municipio": 204
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 703,
+    "fields": {
+        "nombre": "La Pica",
+        "municipio": 204
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 704,
+    "fields": {
+        "nombre": "San Vicente",
+        "municipio": 204
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 705,
+    "fields": {
+        "nombre": "Aparicio",
+        "municipio": 205
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 706,
+    "fields": {
+        "nombre": "Aragua de Matur\u00edn",
+        "municipio": 205
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 707,
+    "fields": {
+        "nombre": "Chaguamal",
+        "municipio": 205
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 708,
+    "fields": {
+        "nombre": "El Pinto",
+        "municipio": 205
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 709,
+    "fields": {
+        "nombre": "Guanaguana",
+        "municipio": 205
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 710,
+    "fields": {
+        "nombre": "La Toscana",
+        "municipio": 205
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 711,
+    "fields": {
+        "nombre": "Taguaya",
+        "municipio": 205
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 712,
+    "fields": {
+        "nombre": "Cachipo",
+        "municipio": 206
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 713,
+    "fields": {
+        "nombre": "Quiriquire",
+        "municipio": 206
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 714,
+    "fields": {
+        "nombre": "Santa B\u00e1rbara",
+        "municipio": 207
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 715,
+    "fields": {
+        "nombre": "Mor\u00f3n",
+        "municipio": 207
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 716,
+    "fields": {
+        "nombre": "Barrancas",
+        "municipio": 208
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 717,
+    "fields": {
+        "nombre": "Los Barrancos de Fajardo",
+        "municipio": 208
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 718,
+    "fields": {
+        "nombre": "Uracoa",
+        "municipio": 209
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 719,
+    "fields": {
+        "nombre": "Antol\u00edn del Campo",
+        "municipio": 211
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 720,
+    "fields": {
+        "nombre": "Arismendi",
+        "municipio": 212
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 721,
+    "fields": {
+        "nombre": "San Juan Bautista",
+        "municipio": 213
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 722,
+    "fields": {
+        "nombre": "Zabala",
+        "municipio": 213
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 723,
+    "fields": {
+        "nombre": "Garc\u00eda",
+        "municipio": 214
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 724,
+    "fields": {
+        "nombre": "Francisco Fajardo",
+        "municipio": 214
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 725,
+    "fields": {
+        "nombre": "Bol\u00edvar",
+        "municipio": 215
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 726,
+    "fields": {
+        "nombre": "Guevara",
+        "municipio": 215
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 727,
+    "fields": {
+        "nombre": "Cerro de Matasiete",
+        "municipio": 215
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 728,
+    "fields": {
+        "nombre": "Santa Ana",
+        "municipio": 215
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 729,
+    "fields": {
+        "nombre": "Sucre",
+        "municipio": 215
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 730,
+    "fields": {
+        "nombre": "Aguirre",
+        "municipio": 216
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 731,
+    "fields": {
+        "nombre": "Maneiro",
+        "municipio": 216
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 732,
+    "fields": {
+        "nombre": "Adri\u00e1n",
+        "municipio": 217
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 733,
+    "fields": {
+        "nombre": "Juan Griego",
+        "municipio": 217
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 734,
+    "fields": {
+        "nombre": "Yaguaraparo",
+        "municipio": 217
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 735,
+    "fields": {
+        "nombre": "Mari\u00f1o",
+        "municipio": 218
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 736,
+    "fields": {
+        "nombre": "San Francisco de Macanao",
+        "municipio": 219
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 737,
+    "fields": {
+        "nombre": "Boca de R\u00edo",
+        "municipio": 219
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 738,
+    "fields": {
+        "nombre": "Tubores",
+        "municipio": 220
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 739,
+    "fields": {
+        "nombre": "Los Barales",
+        "municipio": 220
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 740,
+    "fields": {
+        "nombre": "Vicente Fuentes",
+        "municipio": 221
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 741,
+    "fields": {
+        "nombre": "Villalba",
+        "municipio": 221
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 742,
+    "fields": {
+        "nombre": "Agua Blanca",
+        "municipio": 222
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 743,
+    "fields": {
+        "nombre": "Araure",
+        "municipio": 223
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 744,
+    "fields": {
+        "nombre": "R\u00edo Acarigua",
+        "municipio": 223
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 745,
+    "fields": {
+        "nombre": "P\u00edritu",
+        "municipio": 224
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 746,
+    "fields": {
+        "nombre": "Uveral",
+        "municipio": 224
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 747,
+    "fields": {
+        "nombre": "Cordova",
+        "municipio": 225
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 748,
+    "fields": {
+        "nombre": "Guanare",
+        "municipio": 225
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 749,
+    "fields": {
+        "nombre": "San Jos\u00e9 de la Monta\u00f1a",
+        "municipio": 225
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 750,
+    "fields": {
+        "nombre": "San Juan de Guanaguanare",
+        "municipio": 225
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 751,
+    "fields": {
+        "nombre": "Virgen de Coromoto",
+        "municipio": 225
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 752,
+    "fields": {
+        "nombre": "Guanarito",
+        "municipio": 226
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 753,
+    "fields": {
+        "nombre": "Trinidad de la Capilla",
+        "municipio": 226
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 754,
+    "fields": {
+        "nombre": "Divina Pastora",
+        "municipio": 226
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 755,
+    "fields": {
+        "nombre": "Pe\u00f1a Blanca",
+        "municipio": 227
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 756,
+    "fields": {
+        "nombre": "Aparici\u00f3n",
+        "municipio": 228
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 757,
+    "fields": {
+        "nombre": "La Estaci\u00f3n",
+        "municipio": 228
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 758,
+    "fields": {
+        "nombre": "Ospino",
+        "municipio": 228
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 759,
+    "fields": {
+        "nombre": "Acarigua",
+        "municipio": 229
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 760,
+    "fields": {
+        "nombre": "Payara",
+        "municipio": 229
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 761,
+    "fields": {
+        "nombre": "Pimpinela",
+        "municipio": 229
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 762,
+    "fields": {
+        "nombre": "Ram\u00f3n Peraza",
+        "municipio": 229
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 763,
+    "fields": {
+        "nombre": "Ca\u00f1o Delgadito",
+        "municipio": 230
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 764,
+    "fields": {
+        "nombre": "Papel\u00f3n",
+        "municipio": 230
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 765,
+    "fields": {
+        "nombre": "Antol\u00edn Tovar Anquino",
+        "municipio": 231
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 766,
+    "fields": {
+        "nombre": "Bocono\u00edto",
+        "municipio": 231
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 767,
+    "fields": {
+        "nombre": "Santa F\u00e9",
+        "municipio": 232
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 768,
+    "fields": {
+        "nombre": "San Rafael de Onoto",
+        "municipio": 232
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 769,
+    "fields": {
+        "nombre": "Thermo Morales",
+        "municipio": 232
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 770,
+    "fields": {
+        "nombre": "Florida",
+        "municipio": 233
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 771,
+    "fields": {
+        "nombre": "El Play\u00f3n",
+        "municipio": 233
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 772,
+    "fields": {
+        "nombre": "Biscucuy",
+        "municipio": 234
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 773,
+    "fields": {
+        "nombre": "Concepci\u00f3n",
+        "municipio": 234
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 774,
+    "fields": {
+        "nombre": "San Jos\u00e9 de Saguaz",
+        "municipio": 234
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 775,
+    "fields": {
+        "nombre": "San Rafael de Palo Alzado",
+        "municipio": 234
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 776,
+    "fields": {
+        "nombre": "Uvencio Antonio Vel\u00e1squez",
+        "municipio": 234
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 777,
+    "fields": {
+        "nombre": "Villa Rosa",
+        "municipio": 234
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 778,
+    "fields": {
+        "nombre": "Villa Bruzual",
+        "municipio": 235
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 779,
+    "fields": {
+        "nombre": "Canelones",
+        "municipio": 235
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 780,
+    "fields": {
+        "nombre": "Santa Cruz",
+        "municipio": 235
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 781,
+    "fields": {
+        "nombre": "San Isidro Labrador",
+        "municipio": 235
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 782,
+    "fields": {
+        "nombre": "Mari\u00f1o",
+        "municipio": 236
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 783,
+    "fields": {
+        "nombre": "R\u00f3mulo Gallegos",
+        "municipio": 236
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 784,
+    "fields": {
+        "nombre": "San Jos\u00e9 de Aerocuar",
+        "municipio": 237
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 785,
+    "fields": {
+        "nombre": "Tavera Acosta",
+        "municipio": 237
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 786,
+    "fields": {
+        "nombre": "R\u00edo Caribe",
+        "municipio": 238
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 787,
+    "fields": {
+        "nombre": "Antonio Jos\u00e9 de Sucre",
+        "municipio": 238
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 788,
+    "fields": {
+        "nombre": "El Morro de Puerto Santo",
+        "municipio": 238
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 789,
+    "fields": {
+        "nombre": "Puerto Santo",
+        "municipio": 238
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 790,
+    "fields": {
+        "nombre": "San Juan de las Galdonas",
+        "municipio": 238
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 791,
+    "fields": {
+        "nombre": "El Pilar",
+        "municipio": 239
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 792,
+    "fields": {
+        "nombre": "El Rinc\u00f3n",
+        "municipio": 239
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 793,
+    "fields": {
+        "nombre": "General Francisco Antonio V\u00e1quez",
+        "municipio": 239
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 794,
+    "fields": {
+        "nombre": "Guara\u00fanos",
+        "municipio": 239
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 795,
+    "fields": {
+        "nombre": "Tunapuicito",
+        "municipio": 239
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 796,
+    "fields": {
+        "nombre": "Uni\u00f3n",
+        "municipio": 239
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 797,
+    "fields": {
+        "nombre": "Santa Catalina",
+        "municipio": 240
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 798,
+    "fields": {
+        "nombre": "Santa Rosa",
+        "municipio": 240
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 799,
+    "fields": {
+        "nombre": "Santa Teresa",
+        "municipio": 240
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 800,
+    "fields": {
+        "nombre": "Bol\u00edvar",
+        "municipio": 240
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 801,
+    "fields": {
+        "nombre": "Maracapana",
+        "municipio": 240
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 802,
+    "fields": {
+        "nombre": "Libertad",
+        "municipio": 242
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 803,
+    "fields": {
+        "nombre": "El Paujil",
+        "municipio": 242
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 804,
+    "fields": {
+        "nombre": "Yaguaraparo",
+        "municipio": 242
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 805,
+    "fields": {
+        "nombre": "Cruz Salmer\u00f3n Acosta",
+        "municipio": 243
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 806,
+    "fields": {
+        "nombre": "Chacopata",
+        "municipio": 243
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 807,
+    "fields": {
+        "nombre": "Manicuare",
+        "municipio": 243
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 808,
+    "fields": {
+        "nombre": "Tunapuy",
+        "municipio": 244
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 809,
+    "fields": {
+        "nombre": "Campo El\u00edas",
+        "municipio": 244
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 810,
+    "fields": {
+        "nombre": "Irapa",
+        "municipio": 245
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 811,
+    "fields": {
+        "nombre": "Campo Claro",
+        "municipio": 245
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 812,
+    "fields": {
+        "nombre": "Maraval",
+        "municipio": 245
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 813,
+    "fields": {
+        "nombre": "San Antonio de Irapa",
+        "municipio": 245
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 814,
+    "fields": {
+        "nombre": "Soro",
+        "municipio": 245
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 815,
+    "fields": {
+        "nombre": "Mej\u00eda",
+        "municipio": 246
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 816,
+    "fields": {
+        "nombre": "Cumanacoa",
+        "municipio": 247
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 817,
+    "fields": {
+        "nombre": "Arenas",
+        "municipio": 247
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 818,
+    "fields": {
+        "nombre": "Aricagua",
+        "municipio": 247
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 819,
+    "fields": {
+        "nombre": "Cocollar",
+        "municipio": 247
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 820,
+    "fields": {
+        "nombre": "San Fernando",
+        "municipio": 247
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 821,
+    "fields": {
+        "nombre": "San Lorenzo",
+        "municipio": 247
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 822,
+    "fields": {
+        "nombre": "Villa Frontado",
+        "municipio": 248
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 823,
+    "fields": {
+        "nombre": "Catuaro",
+        "municipio": 248
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 824,
+    "fields": {
+        "nombre": "Rend\u00f3n",
+        "municipio": 248
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 825,
+    "fields": {
+        "nombre": "San Cruz",
+        "municipio": 248
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 826,
+    "fields": {
+        "nombre": "Santa Mar\u00eda",
+        "municipio": 248
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 827,
+    "fields": {
+        "nombre": "Altagracia",
+        "municipio": 249
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 828,
+    "fields": {
+        "nombre": "Santa In\u00e9s",
+        "municipio": 249
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 829,
+    "fields": {
+        "nombre": "Valent\u00edn Valiente",
+        "municipio": 249
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 830,
+    "fields": {
+        "nombre": "Ayacucho",
+        "municipio": 249
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 831,
+    "fields": {
+        "nombre": "San Juan",
+        "municipio": 249
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 832,
+    "fields": {
+        "nombre": "Ra\u00fal Leoni",
+        "municipio": 249
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 833,
+    "fields": {
+        "nombre": "Gran Mariscal",
+        "municipio": 249
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 834,
+    "fields": {
+        "nombre": "Crist\u00f3bal Col\u00f3n",
+        "municipio": 250
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 835,
+    "fields": {
+        "nombre": "Bideau",
+        "municipio": 250
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 836,
+    "fields": {
+        "nombre": "Punta de Piedras",
+        "municipio": 250
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 837,
+    "fields": {
+        "nombre": "G\u00fciria",
+        "municipio": 250
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 838,
+    "fields": {
+        "nombre": "Andr\u00e9s Bello",
+        "municipio": 251
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 839,
+    "fields": {
+        "nombre": "Antonio R\u00f3mulo Costa",
+        "municipio": 252
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 840,
+    "fields": {
+        "nombre": "Ayacucho",
+        "municipio": 253
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 841,
+    "fields": {
+        "nombre": "Rivas Berti",
+        "municipio": 253
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 842,
+    "fields": {
+        "nombre": "San Pedro del R\u00edo",
+        "municipio": 253
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 843,
+    "fields": {
+        "nombre": "Palotal",
+        "municipio": 254
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 844,
+    "fields": {
+        "nombre": "General Juan Vicente G\u00f3mez",
+        "municipio": 254
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 845,
+    "fields": {
+        "nombre": "Isa\u00edas Medina Angarita",
+        "municipio": 254
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 846,
+    "fields": {
+        "nombre": "C\u00e1rdenas",
+        "municipio": 255
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 847,
+    "fields": {
+        "nombre": "Amenodoro Rangel Lamus",
+        "municipio": 255
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 848,
+    "fields": {
+        "nombre": "La Florida",
+        "municipio": 255
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 849,
+    "fields": {
+        "nombre": "C\u00f3rdoba",
+        "municipio": 256
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 850,
+    "fields": {
+        "nombre": "Fern\u00e1ndez Feo",
+        "municipio": 257
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 851,
+    "fields": {
+        "nombre": "Alberto Adriani",
+        "municipio": 257
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 852,
+    "fields": {
+        "nombre": "Santo Domingo",
+        "municipio": 257
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 853,
+    "fields": {
+        "nombre": "Francisco de Miranda",
+        "municipio": 258
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 854,
+    "fields": {
+        "nombre": "Garc\u00eda de Hevia",
+        "municipio": 259
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 855,
+    "fields": {
+        "nombre": "Boca de Grita",
+        "municipio": 259
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 856,
+    "fields": {
+        "nombre": "Jos\u00e9 Antonio P\u00e1ez",
+        "municipio": 259
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 857,
+    "fields": {
+        "nombre": "Gu\u00e1simos",
+        "municipio": 260
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 858,
+    "fields": {
+        "nombre": "Independencia",
+        "municipio": 261
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 859,
+    "fields": {
+        "nombre": "Juan Germ\u00e1n Roscio",
+        "municipio": 261
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 860,
+    "fields": {
+        "nombre": "Rom\u00e1n C\u00e1rdenas",
+        "municipio": 261
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 861,
+    "fields": {
+        "nombre": "J\u00e1uregui",
+        "municipio": 262
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 862,
+    "fields": {
+        "nombre": "Emilio Constantino Guerrero",
+        "municipio": 262
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 863,
+    "fields": {
+        "nombre": "Monse\u00f1or Miguel Antonio Salas",
+        "municipio": 262
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 864,
+    "fields": {
+        "nombre": "Jos\u00e9 Mar\u00eda Vargas",
+        "municipio": 263
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 865,
+    "fields": {
+        "nombre": "Jun\u00edn",
+        "municipio": 264
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 866,
+    "fields": {
+        "nombre": "La Petr\u00f3lea",
+        "municipio": 264
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 867,
+    "fields": {
+        "nombre": "Quinimar\u00ed",
+        "municipio": 264
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 868,
+    "fields": {
+        "nombre": "Bram\u00f3n",
+        "municipio": 264
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 869,
+    "fields": {
+        "nombre": "Libertad",
+        "municipio": 322
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 870,
+    "fields": {
+        "nombre": "Cipriano Castro",
+        "municipio": 322
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 871,
+    "fields": {
+        "nombre": "Manuel Felipe Rugeles",
+        "municipio": 322
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 872,
+    "fields": {
+        "nombre": "Capital Libertador",
+        "municipio": 323
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 873,
+    "fields": {
+        "nombre": "Doradas",
+        "municipio": 323
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 874,
+    "fields": {
+        "nombre": "Emeterio Ochoa",
+        "municipio": 323
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 875,
+    "fields": {
+        "nombre": "San Joaqu\u00edn de Navay",
+        "municipio": 323
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 876,
+    "fields": {
+        "nombre": "Lobatera",
+        "municipio": 324
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 877,
+    "fields": {
+        "nombre": "Constituci\u00f3n",
+        "municipio": 324
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 878,
+    "fields": {
+        "nombre": "Michelena",
+        "municipio": 325
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 879,
+    "fields": {
+        "nombre": "Panamericano",
+        "municipio": 326
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 880,
+    "fields": {
+        "nombre": "La Palmita",
+        "municipio": 326
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 881,
+    "fields": {
+        "nombre": "Pedro Mar\u00eda Ure\u00f1a",
+        "municipio": 327
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 882,
+    "fields": {
+        "nombre": "Nueva Arcadia",
+        "municipio": 327
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 883,
+    "fields": {
+        "nombre": "Delicias",
+        "municipio": 328
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 884,
+    "fields": {
+        "nombre": "Pecaya",
+        "municipio": 328
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 885,
+    "fields": {
+        "nombre": "Samuel Dar\u00edo Maldonado",
+        "municipio": 329
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 886,
+    "fields": {
+        "nombre": "Bocon\u00f3",
+        "municipio": 329
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 887,
+    "fields": {
+        "nombre": "Hern\u00e1ndez",
+        "municipio": 329
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 888,
+    "fields": {
+        "nombre": "La Concordia",
+        "municipio": 330
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 889,
+    "fields": {
+        "nombre": "San Juan Bautista",
+        "municipio": 330
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 890,
+    "fields": {
+        "nombre": "Pedro Mar\u00eda Morantes",
+        "municipio": 330
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 891,
+    "fields": {
+        "nombre": "San Sebasti\u00e1n",
+        "municipio": 330
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 892,
+    "fields": {
+        "nombre": "Dr. Francisco Romero Lobo",
+        "municipio": 330
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 893,
+    "fields": {
+        "nombre": "Seboruco",
+        "municipio": 331
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 894,
+    "fields": {
+        "nombre": "Sim\u00f3n Rodr\u00edguez",
+        "municipio": 332
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 895,
+    "fields": {
+        "nombre": "Sucre",
+        "municipio": 333
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 896,
+    "fields": {
+        "nombre": "Eleazar L\u00f3pez Contreras",
+        "municipio": 333
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 897,
+    "fields": {
+        "nombre": "San Pablo",
+        "municipio": 333
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 898,
+    "fields": {
+        "nombre": "San Jos\u00e9 Obrero",
+        "municipio": 334
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 899,
+    "fields": {
+        "nombre": "Uribante",
+        "municipio": 335
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 900,
+    "fields": {
+        "nombre": "C\u00e1rdenas",
+        "municipio": 335
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 901,
+    "fields": {
+        "nombre": "Juan Pablo Pe\u00f1alosa",
+        "municipio": 335
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 902,
+    "fields": {
+        "nombre": "Potos\u00ed",
+        "municipio": 335
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 903,
+    "fields": {
+        "nombre": "San Judas Tadeo",
+        "municipio": 265
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 904,
+    "fields": {
+        "nombre": "Araguaney",
+        "municipio": 266
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 905,
+    "fields": {
+        "nombre": "El Jaguito",
+        "municipio": 266
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 906,
+    "fields": {
+        "nombre": "La Esperanza",
+        "municipio": 266
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 907,
+    "fields": {
+        "nombre": "Santa Isabel",
+        "municipio": 266
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 908,
+    "fields": {
+        "nombre": "Bocon\u00f3",
+        "municipio": 267
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 909,
+    "fields": {
+        "nombre": "El Carmen",
+        "municipio": 267
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 910,
+    "fields": {
+        "nombre": "Mosquey",
+        "municipio": 267
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 911,
+    "fields": {
+        "nombre": "Ayacucho",
+        "municipio": 267
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 912,
+    "fields": {
+        "nombre": "Burbusay",
+        "municipio": 267
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 913,
+    "fields": {
+        "nombre": "General Ribas",
+        "municipio": 267
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 914,
+    "fields": {
+        "nombre": "Guaramacal",
+        "municipio": 267
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 915,
+    "fields": {
+        "nombre": "Vega de Guaramacal",
+        "municipio": 267
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 916,
+    "fields": {
+        "nombre": "Monse\u00f1or J\u00e1uregui",
+        "municipio": 267
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 917,
+    "fields": {
+        "nombre": "Rafael Rangel",
+        "municipio": 267
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 918,
+    "fields": {
+        "nombre": "San Miguel",
+        "municipio": 267
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 919,
+    "fields": {
+        "nombre": "San Jos\u00e9",
+        "municipio": 267
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 920,
+    "fields": {
+        "nombre": "Sabana Grande",
+        "municipio": 268
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 921,
+    "fields": {
+        "nombre": "Chereg\u00fc\u00e9",
+        "municipio": 268
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 922,
+    "fields": {
+        "nombre": "Granados",
+        "municipio": 268
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 923,
+    "fields": {
+        "nombre": "Arnoldo Gabald\u00f3n",
+        "municipio": 269
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 924,
+    "fields": {
+        "nombre": "Bolivia",
+        "municipio": 269
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 925,
+    "fields": {
+        "nombre": "Carrillo",
+        "municipio": 269
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 926,
+    "fields": {
+        "nombre": "Cegarra",
+        "municipio": 269
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 927,
+    "fields": {
+        "nombre": "Chejend\u00e9",
+        "municipio": 269
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 928,
+    "fields": {
+        "nombre": "Manuel Salvador Ulloa",
+        "municipio": 269
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 929,
+    "fields": {
+        "nombre": "San Jos\u00e9",
+        "municipio": 269
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 930,
+    "fields": {
+        "nombre": "Carache",
+        "municipio": 270
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 931,
+    "fields": {
+        "nombre": "La Concepci\u00f3n",
+        "municipio": 270
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 932,
+    "fields": {
+        "nombre": "Cuicas",
+        "municipio": 270
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 933,
+    "fields": {
+        "nombre": "Panamericana",
+        "municipio": 270
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 934,
+    "fields": {
+        "nombre": "Santa Cruz",
+        "municipio": 270
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 935,
+    "fields": {
+        "nombre": "Escuque",
+        "municipio": 273
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 936,
+    "fields": {
+        "nombre": "La Uni\u00f3n",
+        "municipio": 273
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 937,
+    "fields": {
+        "nombre": "Santa Rita",
+        "municipio": 273
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 938,
+    "fields": {
+        "nombre": "Sabana Libre",
+        "municipio": 273
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 939,
+    "fields": {
+        "nombre": "El Socorro",
+        "municipio": 275
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 940,
+    "fields": {
+        "nombre": "Los Caprichos",
+        "municipio": 275
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 941,
+    "fields": {
+        "nombre": "Antonio Jos\u00e9 de Sucre",
+        "municipio": 275
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 942,
+    "fields": {
+        "nombre": "Campo El\u00edas",
+        "municipio": 272
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 943,
+    "fields": {
+        "nombre": "Arnoldo Gabald\u00f3n",
+        "municipio": 272
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 944,
+    "fields": {
+        "nombre": "Santa Apolonia",
+        "municipio": 274
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 945,
+    "fields": {
+        "nombre": "El Progreso",
+        "municipio": 274
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 946,
+    "fields": {
+        "nombre": "La Ceiba",
+        "municipio": 274
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 947,
+    "fields": {
+        "nombre": "Tres de Febrero",
+        "municipio": 274
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 948,
+    "fields": {
+        "nombre": "El Dividive",
+        "municipio": 276
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 949,
+    "fields": {
+        "nombre": "Agua Santa",
+        "municipio": 276
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 950,
+    "fields": {
+        "nombre": "Agua Caliente",
+        "municipio": 276
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 951,
+    "fields": {
+        "nombre": "El Cenizo",
+        "municipio": 276
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 952,
+    "fields": {
+        "nombre": "Valerita",
+        "municipio": 276
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 953,
+    "fields": {
+        "nombre": "Monte Carmelo",
+        "municipio": 277
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 954,
+    "fields": {
+        "nombre": "Buena Vista",
+        "municipio": 277
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 955,
+    "fields": {
+        "nombre": "Santa Mar\u00eda del Horc\u00f3n",
+        "municipio": 277
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 956,
+    "fields": {
+        "nombre": "Motat\u00e1n",
+        "municipio": 278
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 957,
+    "fields": {
+        "nombre": "El Ba\u00f1o",
+        "municipio": 278
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 958,
+    "fields": {
+        "nombre": "Jalisco",
+        "municipio": 278
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 959,
+    "fields": {
+        "nombre": "Pamp\u00e1n",
+        "municipio": 279
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 960,
+    "fields": {
+        "nombre": "Flor de Patria",
+        "municipio": 279
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 961,
+    "fields": {
+        "nombre": "La Paz",
+        "municipio": 279
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 962,
+    "fields": {
+        "nombre": "Santa Ana",
+        "municipio": 279
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 963,
+    "fields": {
+        "nombre": "Pampanito",
+        "municipio": 280
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 964,
+    "fields": {
+        "nombre": "La Concepci\u00f3n",
+        "municipio": 280
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 965,
+    "fields": {
+        "nombre": "Pampanito II",
+        "municipio": 280
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 966,
+    "fields": {
+        "nombre": "Betijoque",
+        "municipio": 281
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 967,
+    "fields": {
+        "nombre": "Jos\u00e9 Gregorio Hern\u00e1ndez",
+        "municipio": 281
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 968,
+    "fields": {
+        "nombre": "La Pueblita",
+        "municipio": 281
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 969,
+    "fields": {
+        "nombre": "Los Cedros",
+        "municipio": 281
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 970,
+    "fields": {
+        "nombre": "Carvajal",
+        "municipio": 271
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 971,
+    "fields": {
+        "nombre": "Campo Alegre",
+        "municipio": 271
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 972,
+    "fields": {
+        "nombre": "Antonio Nicol\u00e1s Brice\u00f1o",
+        "municipio": 271
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 973,
+    "fields": {
+        "nombre": "Jos\u00e9 Leonardo Su\u00e1rez",
+        "municipio": 271
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 974,
+    "fields": {
+        "nombre": "Sabana de Mendoza",
+        "municipio": 282
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 975,
+    "fields": {
+        "nombre": "Jun\u00edn",
+        "municipio": 282
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 976,
+    "fields": {
+        "nombre": "Valmore Rodr\u00edguez",
+        "municipio": 282
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 977,
+    "fields": {
+        "nombre": "El Para\u00edso",
+        "municipio": 282
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 978,
+    "fields": {
+        "nombre": "Andr\u00e9s Linares",
+        "municipio": 283
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 979,
+    "fields": {
+        "nombre": "Chiquinquir\u00e1",
+        "municipio": 283
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 980,
+    "fields": {
+        "nombre": "Crist\u00f3bal Mendoza",
+        "municipio": 283
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 981,
+    "fields": {
+        "nombre": "Cruz Carrillo",
+        "municipio": 283
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 982,
+    "fields": {
+        "nombre": "Matriz",
+        "municipio": 283
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 983,
+    "fields": {
+        "nombre": "Monse\u00f1or Carrillo",
+        "municipio": 283
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 984,
+    "fields": {
+        "nombre": "Tres Esquinas",
+        "municipio": 283
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 985,
+    "fields": {
+        "nombre": "Cabimb\u00fa",
+        "municipio": 284
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 986,
+    "fields": {
+        "nombre": "Jaj\u00f3",
+        "municipio": 284
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 987,
+    "fields": {
+        "nombre": "La Mesa de Esnujaque",
+        "municipio": 284
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 988,
+    "fields": {
+        "nombre": "Santiago",
+        "municipio": 284
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 989,
+    "fields": {
+        "nombre": "Tu\u00f1ame",
+        "municipio": 284
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 990,
+    "fields": {
+        "nombre": "La Quebrada",
+        "municipio": 284
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 991,
+    "fields": {
+        "nombre": "Juan Ignacio Montilla",
+        "municipio": 285
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 992,
+    "fields": {
+        "nombre": "La Beatriz",
+        "municipio": 285
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 993,
+    "fields": {
+        "nombre": "La Puerta",
+        "municipio": 285
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 994,
+    "fields": {
+        "nombre": "Mendoza del Valle de Momboy",
+        "municipio": 285
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 995,
+    "fields": {
+        "nombre": "Mercedes D\u00edaz",
+        "municipio": 285
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 996,
+    "fields": {
+        "nombre": "San Luis",
+        "municipio": 285
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 997,
+    "fields": {
+        "nombre": "Caraballeda",
+        "municipio": 286
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 998,
+    "fields": {
+        "nombre": "Carayaca",
+        "municipio": 286
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 999,
+    "fields": {
+        "nombre": "Carlos Soublette",
+        "municipio": 286
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1000,
+    "fields": {
+        "nombre": "Caruao",
+        "municipio": 286
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1001,
+    "fields": {
+        "nombre": "Catia La Mar",
+        "municipio": 286
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1002,
+    "fields": {
+        "nombre": "El Junko",
+        "municipio": 286
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1003,
+    "fields": {
+        "nombre": "La Guaira",
+        "municipio": 286
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1004,
+    "fields": {
+        "nombre": "Macuto",
+        "municipio": 286
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1005,
+    "fields": {
+        "nombre": "Maiquet\u00eda",
+        "municipio": 286
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1006,
+    "fields": {
+        "nombre": "Naiguat\u00e1",
+        "municipio": 286
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1007,
+    "fields": {
+        "nombre": "Urimare",
+        "municipio": 286
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1008,
+    "fields": {
+        "nombre": "Ar\u00edstides Bastidas",
+        "municipio": 287
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1009,
+    "fields": {
+        "nombre": "Bol\u00edvar",
+        "municipio": 288
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1010,
+    "fields": {
+        "nombre": "Chivacoa",
+        "municipio": 289
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1011,
+    "fields": {
+        "nombre": "Campo El\u00edas",
+        "municipio": 289
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1012,
+    "fields": {
+        "nombre": "Cocorote",
+        "municipio": 290
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1013,
+    "fields": {
+        "nombre": "Independencia",
+        "municipio": 291
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1014,
+    "fields": {
+        "nombre": "Jos\u00e9 Antonio P\u00e1ez",
+        "municipio": 295
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1015,
+    "fields": {
+        "nombre": "La Trinidad",
+        "municipio": 292
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1016,
+    "fields": {
+        "nombre": "Manuel Monge",
+        "municipio": 293
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1017,
+    "fields": {
+        "nombre": "Sal\u00f3m",
+        "municipio": 294
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1018,
+    "fields": {
+        "nombre": "Temerla",
+        "municipio": 294
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1019,
+    "fields": {
+        "nombre": "Nirgua",
+        "municipio": 294
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1020,
+    "fields": {
+        "nombre": "San Andr\u00e9s",
+        "municipio": 296
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1021,
+    "fields": {
+        "nombre": "Yaritagua",
+        "municipio": 296
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1022,
+    "fields": {
+        "nombre": "San Javier",
+        "municipio": 297
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1023,
+    "fields": {
+        "nombre": "Albarico",
+        "municipio": 297
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1024,
+    "fields": {
+        "nombre": "San Felipe",
+        "municipio": 297
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1025,
+    "fields": {
+        "nombre": "Sucre",
+        "municipio": 298
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1026,
+    "fields": {
+        "nombre": "Urachiche",
+        "municipio": 299
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1027,
+    "fields": {
+        "nombre": "El Guayabo",
+        "municipio": 300
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1028,
+    "fields": {
+        "nombre": "Farriar",
+        "municipio": 300
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1029,
+    "fields": {
+        "nombre": "Isla de Toas",
+        "municipio": 301
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1030,
+    "fields": {
+        "nombre": "Monagas",
+        "municipio": 301
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1031,
+    "fields": {
+        "nombre": "San Timoteo",
+        "municipio": 302
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1032,
+    "fields": {
+        "nombre": "General Urdaneta",
+        "municipio": 302
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1033,
+    "fields": {
+        "nombre": "Libertador",
+        "municipio": 302
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1034,
+    "fields": {
+        "nombre": "Marcelino Brice\u00f1o",
+        "municipio": 302
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1035,
+    "fields": {
+        "nombre": "Pueblo Nuevo",
+        "municipio": 302
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1036,
+    "fields": {
+        "nombre": "Manuel Guanipa Matos",
+        "municipio": 302
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1037,
+    "fields": {
+        "nombre": "Ambrosio",
+        "municipio": 303
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1038,
+    "fields": {
+        "nombre": "Carmen Herrera",
+        "municipio": 303
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1039,
+    "fields": {
+        "nombre": "La Rosa",
+        "municipio": 303
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1040,
+    "fields": {
+        "nombre": "Germ\u00e1n R\u00edos Linares",
+        "municipio": 303
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1041,
+    "fields": {
+        "nombre": "San Benito",
+        "municipio": 303
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1042,
+    "fields": {
+        "nombre": "R\u00f3mulo Betancourt",
+        "municipio": 303
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1043,
+    "fields": {
+        "nombre": "Jorge Hern\u00e1ndez",
+        "municipio": 303
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1044,
+    "fields": {
+        "nombre": "Punta Gorda",
+        "municipio": 303
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1045,
+    "fields": {
+        "nombre": "Ar\u00edstides Calvani",
+        "municipio": 303
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1046,
+    "fields": {
+        "nombre": "Encontrados",
+        "municipio": 304
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1047,
+    "fields": {
+        "nombre": "Ud\u00f3n P\u00e9rez",
+        "municipio": 304
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1048,
+    "fields": {
+        "nombre": "Moralito",
+        "municipio": 305
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1049,
+    "fields": {
+        "nombre": "San Carlos del Zulia",
+        "municipio": 305
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1050,
+    "fields": {
+        "nombre": "Santa Cruz del Zulia",
+        "municipio": 305
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1051,
+    "fields": {
+        "nombre": "Santa B\u00e1rbara",
+        "municipio": 305
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1052,
+    "fields": {
+        "nombre": "Urribarr\u00ed",
+        "municipio": 305
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1053,
+    "fields": {
+        "nombre": "Carlos Quevedo",
+        "municipio": 306
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1054,
+    "fields": {
+        "nombre": "Francisco Javier Pulgar",
+        "municipio": 306
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1055,
+    "fields": {
+        "nombre": "Sim\u00f3n Rodr\u00edguez",
+        "municipio": 306
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1056,
+    "fields": {
+        "nombre": "Guamo-Gavilanes",
+        "municipio": 306
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1057,
+    "fields": {
+        "nombre": "La Concepci\u00f3n",
+        "municipio": 307
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1058,
+    "fields": {
+        "nombre": "San Jos\u00e9",
+        "municipio": 307
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1059,
+    "fields": {
+        "nombre": "Mariano Parra Le\u00f3n",
+        "municipio": 307
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1060,
+    "fields": {
+        "nombre": "Jos\u00e9 Ram\u00f3n Y\u00e9pez",
+        "municipio": 307
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1061,
+    "fields": {
+        "nombre": "Jes\u00fas Mar\u00eda Sempr\u00fan",
+        "municipio": 308
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1062,
+    "fields": {
+        "nombre": "Bar\u00ed",
+        "municipio": 308
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1063,
+    "fields": {
+        "nombre": "Concepci\u00f3n",
+        "municipio": 309
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1064,
+    "fields": {
+        "nombre": "Andr\u00e9s Bello",
+        "municipio": 309
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1065,
+    "fields": {
+        "nombre": "Chiquinquir\u00e1",
+        "municipio": 309
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1066,
+    "fields": {
+        "nombre": "El Carmelo",
+        "municipio": 309
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1067,
+    "fields": {
+        "nombre": "Potreritos",
+        "municipio": 309
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1068,
+    "fields": {
+        "nombre": "Libertad",
+        "municipio": 310
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1069,
+    "fields": {
+        "nombre": "Alonso de Ojeda",
+        "municipio": 310
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1070,
+    "fields": {
+        "nombre": "Venezuela",
+        "municipio": 310
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1071,
+    "fields": {
+        "nombre": "Eleazar L\u00f3pez Contreras",
+        "municipio": 310
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1072,
+    "fields": {
+        "nombre": "Campo Lara",
+        "municipio": 310
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1073,
+    "fields": {
+        "nombre": "Bartolom\u00e9 de las Casas",
+        "municipio": 311
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1074,
+    "fields": {
+        "nombre": "Libertad",
+        "municipio": 311
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1075,
+    "fields": {
+        "nombre": "R\u00edo Negro",
+        "municipio": 311
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1076,
+    "fields": {
+        "nombre": "San Jos\u00e9 de Perij\u00e1",
+        "municipio": 311
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1077,
+    "fields": {
+        "nombre": "San Rafael",
+        "municipio": 312
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1078,
+    "fields": {
+        "nombre": "La Sierrita",
+        "municipio": 312
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1079,
+    "fields": {
+        "nombre": "Las Parcelas",
+        "municipio": 312
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1080,
+    "fields": {
+        "nombre": "Luis de Vicente",
+        "municipio": 312
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1081,
+    "fields": {
+        "nombre": "Monse\u00f1or Marcos Sergio Godoy",
+        "municipio": 312
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1082,
+    "fields": {
+        "nombre": "Ricaurte",
+        "municipio": 312
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1083,
+    "fields": {
+        "nombre": "Tamare",
+        "municipio": 312
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1084,
+    "fields": {
+        "nombre": "Antonio Borjas Romero",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1085,
+    "fields": {
+        "nombre": "Bol\u00edvar",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1086,
+    "fields": {
+        "nombre": "Cacique Mara",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1087,
+    "fields": {
+        "nombre": "Carracciolo Parra P\u00e9rez",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1088,
+    "fields": {
+        "nombre": "Cecilio Acosta",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1089,
+    "fields": {
+        "nombre": "Cristo de Aranza",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1090,
+    "fields": {
+        "nombre": "Coquivacoa",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1091,
+    "fields": {
+        "nombre": "Chiquinquir\u00e1",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1092,
+    "fields": {
+        "nombre": "Francisco Eugenio Bustamante",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1093,
+    "fields": {
+        "nombre": "Idelfonzo V\u00e1squez",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1094,
+    "fields": {
+        "nombre": "Juana de \u00c1vila",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1095,
+    "fields": {
+        "nombre": "Luis Hurtado Higuera",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1096,
+    "fields": {
+        "nombre": "Manuel Dagnino",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1097,
+    "fields": {
+        "nombre": "Olegario Villalobos",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1098,
+    "fields": {
+        "nombre": "Ra\u00fal Leoni",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1099,
+    "fields": {
+        "nombre": "Santa Luc\u00eda",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1100,
+    "fields": {
+        "nombre": "Venancio Pulgar",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1101,
+    "fields": {
+        "nombre": "San Isidro",
+        "municipio": 313
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1102,
+    "fields": {
+        "nombre": "Altagracia",
+        "municipio": 314
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1103,
+    "fields": {
+        "nombre": "Far\u00eda",
+        "municipio": 314
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1104,
+    "fields": {
+        "nombre": "Ana Mar\u00eda Campos",
+        "municipio": 314
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1105,
+    "fields": {
+        "nombre": "San Antonio",
+        "municipio": 314
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1106,
+    "fields": {
+        "nombre": "San Jos\u00e9",
+        "municipio": 314
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1107,
+    "fields": {
+        "nombre": "Sinamaica",
+        "municipio": 336
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1108,
+    "fields": {
+        "nombre": "Alta Guajira",
+        "municipio": 336
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1109,
+    "fields": {
+        "nombre": "El\u00edas S\u00e1nchez Rubio",
+        "municipio": 336
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1110,
+    "fields": {
+        "nombre": "Guajira",
+        "municipio": 336
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1111,
+    "fields": {
+        "nombre": "Donaldo Garc\u00eda",
+        "municipio": 316
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1112,
+    "fields": {
+        "nombre": "El Rosario",
+        "municipio": 316
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1113,
+    "fields": {
+        "nombre": "Sixto Zambrano",
+        "municipio": 316
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1114,
+    "fields": {
+        "nombre": "San Francisco",
+        "municipio": 317
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1115,
+    "fields": {
+        "nombre": "El Bajo",
+        "municipio": 317
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1116,
+    "fields": {
+        "nombre": "Domitila Flores",
+        "municipio": 317
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1117,
+    "fields": {
+        "nombre": "Francisco Ochoa",
+        "municipio": 317
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1118,
+    "fields": {
+        "nombre": "Los Cortijos",
+        "municipio": 317
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1119,
+    "fields": {
+        "nombre": "Marcial Hern\u00e1ndez",
+        "municipio": 317
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1120,
+    "fields": {
+        "nombre": "Jos\u00e9 Domingo Rus",
+        "municipio": 317
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1121,
+    "fields": {
+        "nombre": "Santa Rita",
+        "municipio": 318
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1122,
+    "fields": {
+        "nombre": "El Mene",
+        "municipio": 318
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1123,
+    "fields": {
+        "nombre": "Pedro Lucas Urribarr\u00ed",
+        "municipio": 318
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1124,
+    "fields": {
+        "nombre": "Jos\u00e9 Cenobio Urribarr\u00ed",
+        "municipio": 318
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1125,
+    "fields": {
+        "nombre": "Rafael Maria Baralt",
+        "municipio": 319
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1126,
+    "fields": {
+        "nombre": "Manuel Manrique",
+        "municipio": 319
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1127,
+    "fields": {
+        "nombre": "Rafael Urdaneta",
+        "municipio": 319
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1128,
+    "fields": {
+        "nombre": "Bobures",
+        "municipio": 320
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1129,
+    "fields": {
+        "nombre": "Gibraltar",
+        "municipio": 320
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1130,
+    "fields": {
+        "nombre": "Heras",
+        "municipio": 320
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1131,
+    "fields": {
+        "nombre": "Monse\u00f1or Arturo \u00c1lvarez",
+        "municipio": 320
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1132,
+    "fields": {
+        "nombre": "R\u00f3mulo Gallegos",
+        "municipio": 320
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1133,
+    "fields": {
+        "nombre": "El Batey",
+        "municipio": 320
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1134,
+    "fields": {
+        "nombre": "Rafael Urdaneta",
+        "municipio": 321
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1135,
+    "fields": {
+        "nombre": "La Victoria",
+        "municipio": 321
+    }
+},
+{
+    "model": "base.parroquia",
+    "pk": 1136,
+    "fields": {
+        "nombre": "Ra\u00fal Cuenca",
+        "municipio": 321
+    }
+}
+]

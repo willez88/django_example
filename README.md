@@ -102,7 +102,11 @@ Crear usuario administrador
 
 Cargar datos predefinidos para poblar algunas tablas de la base de datos que lo requieran
 
-    (nombre_entorno) ~$ python manage.py loaddata nombre_archivo.json
+    (nombre_entorno) ~$ python manage.py loaddata nombre_archivo_1.json nombre_archivo_2.json ... nombre_archivo_n.json
+
+Exportar datos a json
+
+    (nombre_entorno) ~$ python manage.py dumpdata nombre_app.NombreModelo --indent 4 -o initial_data_nombre_archivo.json
 
 Correr el servidor de django
 
