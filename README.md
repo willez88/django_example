@@ -116,7 +116,7 @@ Subir cambios al repositorio (no importa si el entorno virtual está deasactivad
 
     (nombre_entorno) ~$ git add .
 
-    (nombre_entorno) ~$ git -m "descripción espefícifa acerca del cambio que se está subiendo"
+    (nombre_entorno) ~$ git commit -m "descripción espefícifa acerca del cambio que se está subiendo"
 
     // Con este comando pedirá las credenciales de la cuenta
     (nombre_entorno) ~$ git push origin master
