@@ -111,3 +111,14 @@ Exportar datos a json
 Correr el servidor de django
 
     (nombre_entorno) ~$ python manage.py runserver
+
+Subir cambios al repositorio (no importa si el entorno virtual está deasactivado)
+
+    (nombre_entorno) ~$ git add .
+
+    (nombre_entorno) ~$ git -m "descripción espefícifa acerca del cambio que se está subiendo"
+
+    // Con este comando pedirá las credenciales de la cuenta
+    (nombre_entorno) ~$ git push origin master
+
+Cuando un proyecto tiene varios desarrolladores se deben usar ramas
