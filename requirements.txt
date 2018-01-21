@@ -2,3 +2,5 @@ django
 psycopg2
 django-extensions
 pygraphviz
+## Comentar la linea 4 y descomentar la linea 6, instalar los requerimientos de nuevo
+## --install-option="--include-path=/usr/local/include/graphviz/" --install-option="--library-path=/usr/local/lib/graphviz" pygraphviz
