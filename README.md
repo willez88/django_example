@@ -16,7 +16,7 @@ Desde el terminal, moverse a la carpeta Programación y ejecutar
 
     ~$ mkdir EntornosVirtuales ProyectosDjango
 
-Instalar graphviz git npm phppgadmin postgresql python y virtualenv
+Instalar git graphviz graphviz-dev npm phppgadmin postgresql python y virtualenv
 
     ~# apt install git graphviz-dev npm postgresql phppgadmin python3.6-dev virtualenv
 
@@ -81,6 +81,11 @@ Instalar django y otras aplicaciones en el entorno:
 Si las aplicaciones requeridas están en un archivo de texto
 
     (nombre_entorno) ~$ pip install -r requirements.txt
+
+A veces pygraphviz da errores cuando se instala en sistemas operativos x86, cuando esto ocurra revisar el siguiente archivo
+
+    // En este archivo se indica que hacer en caso de error
+    requirements/dev.txt
 
 Crear proyectos en django. Desde el terminal, moverse a la carpeta ProyectosDjango y ejecutar
 
