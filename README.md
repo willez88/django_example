@@ -117,13 +117,25 @@ Correr el servidor de django
 
     (nombre_entorno) ~$ python manage.py runserver
 
-Subir cambios al repositorio (no importa si el entorno virtual está deasactivado)
+Subir cambios al repositorio
 
-    (nombre_entorno) ~$ git add .
+    ~$ git add .
 
-    (nombre_entorno) ~$ git commit -m "descripción espefícifa acerca del cambio que se está subiendo"
+    ~$ git commit -m "descripción espefícifa acerca del cambio que se está subiendo"
 
     // Con este comando pedirá las credenciales de la cuenta
-    (nombre_entorno) ~$ git push origin master
+    ~$ git push origin master
+
+Actualizar los cambios de un repositorio
+
+    ~$ git pull
 
 Cuando un proyecto tiene varios desarrolladores se deben usar ramas
+
+Generar modelo de datos del proyecto completo. Crea la imagen en la raíz del proyecto
+
+    (nombre_entorno) ~$ python manage.py graph_models -a -g -o nombre_proyecto.svg
+
+Generar modelo de datos de una aplicación del proyecto
+
+    (nombre_entorno) ~$ python manage.py graph_models nombre_app -g -o nombre_app.svg
