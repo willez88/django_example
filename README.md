@@ -18,11 +18,11 @@ Desde el terminal, moverse a la carpeta Programación y ejecutar
 
 Instalar git graphviz graphviz-dev npm phppgadmin postgresql python y virtualenv
 
-    ~# apt install git graphviz graphviz-dev npm postgresql phppgadmin python3.6-dev virtualenv
+    ~# apt install git graphviz graphviz-dev npm postgresql phppgadmin python3-dev virtualenv
 
 Desde el terminal, moverse a la carpeta EntornosVirtuales y ejecutar
 
-    ~$ virtualenv -p python3.6 nombre_entorno
+    ~$ virtualenv -p python3 nombre_entorno
 
 Para activar el entorno
 
