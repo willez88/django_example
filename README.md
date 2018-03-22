@@ -22,34 +22,32 @@ Instalar git graphviz graphviz-dev npm phppgadmin postgresql python y virtualenv
 
 Desde el terminal, moverse a la carpeta EntornosVirtuales y ejecutar
 
-    ~$ virtualenv -p python3 nombre_entorno
+    ~$ virtualenv -p python3 django_ejemplo_basico
 
 Para activar el entorno
 
-    ~$ source nombre_entorno/bin/activate
-
-Para salir del entorno usar: deactivate
+    ~$ source django_ejemplo_basico/bin/activate
 
 Nos movemos a la Carpeta ProyectosDjango para descargar el sistema con el siguiente comando
 
-    ~$ git clone direccion_del_repositorio
+    (django_ejemplo_basico) ~$ git clone https://github.com/willez88/django_ejemplo_basico.git
 
 Tendremos las carpetas estructuradas de la siguiente manera
 
     // Entorno virtual
-    Programación/EntornosVirtuales/nombre_entorno
+    Programación/EntornosVirtuales/django_ejemplo_basico
 
     // Servidor de desarrollo
-    Programación/ProyectosDjango/nombre_proyecto
+    Programación/ProyectosDjango/django_ejemplo_basico
 
 Instalar las dependencias de css y js: moverse a la carpeta static y ejecutar
 
     // Usa el archivo package.json para instalar lo que ya se configuro allí
-    ~$ npm install
+    (django_ejemplo_basico) ~$ npm install
 
     // Terminado el proceso volver a la carpeta raíz del proyecto
 
-Crear la base de datos para __nombre_proyecto__
+Crear la base de datos para __django_ejemplo_basico__
 
     // Acceso al usuario postgres
     ~# su postgres
@@ -72,20 +70,38 @@ Puedes crear la base de datos usando la interfaz gráfica phppgadmin
     // Desde algún navegador ir al siguiente sitio y entrar con el usuario que se acaba de crear
     localhost/phppgadmin
 
-    // Nombre de la base de datos: nombre_proyecto
+    // Nombre de la base de datos: django_ejemplo_basico
 
-Instalar django y otras aplicaciones en el entorno:
+Instalamos los requemientos que el sistema necesita en el entorno virtual
 
-    (nombre_entorno) ~$ pip install nombre_aplicación
-
-Si las aplicaciones requeridas están en un archivo de texto
-
-    (nombre_entorno) ~$ pip install -r requirements.txt
+    (django_ejemplo_basico) ~$ pip install -r requirements.txt
 
 A veces pygraphviz da errores cuando se instala en sistemas operativos x86, cuando esto ocurra revisar el siguiente archivo
 
     // En este archivo se indica que hacer en caso de error
     requirements/dev.txt
+
+Hacer las migraciones
+
+    (django_ejemplo_basico) ~$ python manage.py makemigrations base persona
+
+    (django_ejemplo_basico) ~$ python manage.py migrate
+
+Crear usuario administrador
+
+    (django_ejemplo_basico) ~$ python manage.py createsuperuser
+
+Correr el servidor de django
+
+    (django_ejemplo_basico) ~$ python manage.py runserver
+
+Poner en el navegador la url que sale en el terminal para entrar el sistema
+
+Llegado hasta aquí el sistema ya debe estar funcionando
+
+Para salir del entorno virtual se puede ejecutar desde cualquier lugar del terminal: deactivate
+
+__Algunos comandos básicos__
 
 Crear proyectos en django. Desde el terminal, moverse a la carpeta ProyectosDjango y ejecutar
 
@@ -95,16 +111,6 @@ Crear aplicaciones en un proyecto de django. Desde el terminal, moverse a la car
 
     (nombre_entorno) ~$ django-admin startapp nombre_app
 
-Hacer las migraciones
-
-    (nombre_entorno) ~$ python manage.py makemigrations app-1 app-2 ... app-n
-
-    (nombre_entorno) ~$ python manage.py migrate
-
-Crear usuario administrador
-
-    (nombre_entorno) ~$ python manage.py createsuperuser
-
 Cargar datos predefinidos para poblar algunas tablas de la base de datos que lo requieran
 
     (nombre_entorno) ~$ python manage.py loaddata nombre_archivo_1.json nombre_archivo_2.json ... nombre_archivo_n.json
@@ -113,15 +119,11 @@ Exportar datos a json
 
     (nombre_entorno) ~$ python manage.py dumpdata nombre_app.NombreModelo --indent 4 -o initial_data_nombre_archivo.json
 
-Correr el servidor de django
-
-    (nombre_entorno) ~$ python manage.py runserver
-
 Subir cambios al repositorio
 
     ~$ git add .
 
-    ~$ git commit -m "descripción espefícifa acerca del cambio que se está subiendo"
+    ~$ git commit -m "descripción específica acerca del cambio que se está subiendo"
 
     // Con este comando pedirá las credenciales de la cuenta
     ~$ git push origin master
@@ -132,10 +134,14 @@ Actualizar los cambios de un repositorio
 
 Cuando un proyecto tiene varios desarrolladores se deben usar ramas
 
-Generar modelo de datos del proyecto completo. Crea la imagen en la raíz del proyecto
+Generar modelo de datos relacional del proyecto completo. Crea la imagen en la raíz del proyecto
 
     (nombre_entorno) ~$ python manage.py graph_models -a -g -o nombre_proyecto.svg
 
-Generar modelo de datos de una aplicación del proyecto
+Generar modelo de datos relacional de una aplicación del proyecto
 
     (nombre_entorno) ~$ python manage.py graph_models nombre_app -g -o nombre_app.svg
+
+Instalar django y otras aplicaciones en el entorno:
+
+    (nombre_entorno) ~$ pip install nombre_aplicación
