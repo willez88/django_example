@@ -1,8 +1,7 @@
 *.pyc
 *.py~
 *.sqlite3
-django_ejemplo_basico/settings.py
-__pycache__
+settings.py
 migrations
 static/node_modules
 package-lock.json
