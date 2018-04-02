@@ -16,9 +16,15 @@ Desde el terminal, moverse a la carpeta Programación y ejecutar
 
     ~$ mkdir EntornosVirtuales ProyectosDjango
 
-Instalar git graphviz graphviz-dev npm phppgadmin postgresql python y virtualenv
+Instalar curl git graphviz graphviz-dev phppgadmin postgresql python y virtualenv
 
-    ~# apt install git graphviz graphviz-dev npm postgresql phppgadmin python3-dev virtualenv
+    ~# apt install curl git graphviz graphviz-dev postgresql phppgadmin python3-dev virtualenv
+
+Para instalar npm hacer lo siguiente
+
+    ~# curl -sL https://deb.nodesource.com/setup_9.x | bash -
+
+    ~# apt install -y nodejs
 
 Desde el terminal, moverse a la carpeta EntornosVirtuales y ejecutar
 
