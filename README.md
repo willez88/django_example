@@ -53,19 +53,19 @@ Instalar las dependencias de css y js: moverse a la carpeta static y ejecutar
 
     // Terminado el proceso volver a la carpeta raíz del proyecto
 
-Crear la base de datos para __django_ejemplo_basico__
+Crear la base de datos para __django_ejemplo_basico__ usando PostgresSQL
 
     // Acceso al usuario postgres
     ~# su postgres
 
-    // Acceso a la interfaz de comandos de postgresql
+    // Acceso a la interfaz de comandos de PostgreSQL
     postgres@xxx:$ psql
 
     // Creación del usuario de a base de datos
-    postgres=# CREATE USER admin WITH ENCRYPTED PASSWORD '123' CREATEDB;
+    postgres=# CREATE USER admin WITH LOGIN ENCRYPTED PASSWORD '123' CREATEDB;
     postgres=# \q
 
-    // Desautenticar el usuario postgres y regresar al usuario root
+    // Desautenticar el usuario PostgreSQL y regresar al usuario root
     postgres@xxx:$ exit
 
     // Salir del usuario root
@@ -75,6 +75,26 @@ Puedes crear la base de datos usando la interfaz gráfica phppgadmin
 
     // Desde algún navegador ir al siguiente sitio y entrar con el usuario que se acaba de crear
     localhost/phppgadmin
+
+    // Nombre de la base de datos: django_ejemplo_basico
+
+Crear la base de datos para __django_ejemplo_basico__ usando MariaDB
+
+    // Acesso al usuario root del sistema
+    # mysql
+
+    // Crea el usuario
+    CREATE USER 'admin'@'localhost' IDENTIFIED BY '123';
+
+    // Se Otorgan todos los permisos
+    GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost';
+
+    FLUSH PRIVILEGES;
+
+Puedes crear la base de datos usando la interfaz gráfica phpmyadmin
+
+    // Desde algún navegador ir al siguiente sitio y entrar con el usuario que se acaba de crear
+    localhost/phpmyadmin
 
     // Nombre de la base de datos: django_ejemplo_basico
 
