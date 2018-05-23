@@ -22,7 +22,7 @@ Instalar curl git graphviz graphviz-dev phppgadmin postgresql python y virtualen
 
 Para instalar npm hacer lo siguiente
 
-    ~# curl -sL https://deb.nodesource.com/setup_9.x | bash -
+    ~# curl -sL https://deb.nodesource.com/setup_10.x | bash -
 
     ~# apt install -y nodejs
 
