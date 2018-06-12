@@ -54,14 +54,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'django_ejemplo_basico.urls'
 
-BASE_TEMPLATES = os.path.join(BASE_DIR, "base/templates")
-USUARIO_TEMPLATES = os.path.join(BASE_DIR, "usuario/templates")
-PERSONA_TEMPLATES = os.path.join(BASE_DIR, "persona/templates")
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_TEMPLATES,USUARIO_TEMPLATES,PERSONA_TEMPLATES],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -138,8 +134,8 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static/'),
 )
 
-LOGIN_URL = "login"
+LOGIN_URL = "usuario:login"
 
-LOGIN_REDIRECT_URL = 'inicio'
+LOGIN_REDIRECT_URL = 'base:inicio'
 
-LOGOUT_REDIRECT_URL = 'login'
+LOGOUT_REDIRECT_URL = 'usuario:login'

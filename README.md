@@ -8,15 +8,7 @@ Cuando somos un usuario normal del sistema, en el terminal se mostrará el sigui
 
 Cuando accedemos al usuario root del sistema, en el terminal se mostrará el siguiente símbolo: ~#
 
-Crear las siguientes carpetas
-
-    ~$ mkdir Programación
-
-Desde el terminal, moverse a la carpeta Programación y ejecutar
-
-    ~$ mkdir EntornosVirtuales ProyectosDjango
-
-Instalar curl git graphviz graphviz-dev phppgadmin postgresql python y virtualenv
+Probado en Debian y Ubuntu. Instalar los siguientes programas
 
     ~# apt install curl git graphviz graphviz-dev postgresql phppgadmin python3-dev virtualenv
 
@@ -26,7 +18,31 @@ Para instalar npm hacer lo siguiente
 
     ~# apt install -y nodejs
 
-Desde el terminal, moverse a la carpeta EntornosVirtuales y ejecutar
+Crear las siguientes carpetas
+
+    ~$ mkdir Programación
+
+Desde el terminal, moverse a la carpeta Programación y ejecutar
+
+    ~$ cd Programación/
+
+    ~$ mkdir Python
+
+Entrar a la carpeta Python y hacer lo siguiente
+
+    ~$ cd Python/
+
+    ~$ mkdir EntornosVirtuales ProyectosDjango
+
+Entrar a EntornosVirtuales
+
+    ~$ cd EntornosVirtuales/
+
+    ~$ mkdir Django
+
+Desde el terminal, moverse a la carpeta Django y ejecutar
+
+    ~$ cd Django/
 
     ~$ virtualenv -p python3 django_ejemplo_basico
 
@@ -34,24 +50,31 @@ Para activar el entorno
 
     ~$ source django_ejemplo_basico/bin/activate
 
-Nos movemos a la Carpeta ProyectosDjango para descargar el sistema con el siguiente comando
+Nos movemos a la carpeta ProyectosDjango, descargamos el sistema y entramos a la carpeta con los siguientes comandos
+
+    (django_ejemplo_basico) ~$ cd ../../ProyectosDjango/
 
     (django_ejemplo_basico) ~$ git clone https://github.com/willez88/django_ejemplo_basico.git
+
+    (django_ejemplo_basico) ~$ cd django_ejemplo_basico/
 
 Tendremos las carpetas estructuradas de la siguiente manera
 
     // Entorno virtual
-    Programación/EntornosVirtuales/django_ejemplo_basico
+    Programación/Python/EntornosVirtuales/Django/django_ejemplo_basico
 
     // Servidor de desarrollo
-    Programación/ProyectosDjango/django_ejemplo_basico
+    Programación/Python/ProyectosDjango/django_ejemplo_basico
 
 Instalar las dependencias de css y js: moverse a la carpeta static y ejecutar
+
+    (django_ejemplo_basico) ~$ cd static/
 
     // Usa el archivo package.json para instalar lo que ya se configuro allí
     (django_ejemplo_basico) ~$ npm install
 
     // Terminado el proceso volver a la carpeta raíz del proyecto
+    (django_ejemplo_basico) ~$ cd ../
 
 Crear la base de datos para __django_ejemplo_basico__ usando PostgresSQL
 
@@ -100,7 +123,7 @@ Puedes crear la base de datos usando la interfaz gráfica phpmyadmin
 
 Instalamos los requemientos que el sistema necesita en el entorno virtual
 
-    (django_ejemplo_basico) ~$ pip install -r requirements.txt
+    (django_ejemplo_basico) ~$ pip install -r requirements/dev.txt
 
 A veces pygraphviz da errores cuando se instala en sistemas operativos x86, cuando esto ocurra revisar el siguiente archivo
 

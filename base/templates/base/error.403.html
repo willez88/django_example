@@ -1,0 +1,17 @@
+{% extends 'base.template.html' %}
+{% load i18n %}
+{% block content_header_title %}<br>{% endblock %}
+{% block contenido %}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="text-left">Error</h4>
+    </div>
+    <div class="panel-body">
+      <h3 class="text-center"><i class="fa fa-warning text-red"></i> Oops! No tiene permiso de acceso a esta página.</h3>
+      <p class="text-center">
+        No puedes acceder a la pagina que buscas.
+        Puedes <b><a href="{% url 'inicio' %}">retornar a inicio</a></b> o solicitar al administrador permisos de acceso.
+      </p>
+    </div>
+  </div>
+{% endblock %}

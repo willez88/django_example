@@ -9,7 +9,7 @@ from .forms import PersonaForm
 
 class PersonaList(ListView):
     model = Persona
-    template_name = "persona.lista.html"
+    template_name = "persona/listar.html"
 
     def get_queryset(self):
         queryset = Persona.objects.filter(user=self.request.user)
@@ -18,8 +18,8 @@ class PersonaList(ListView):
 class PersonaCreate(CreateView):
     model = Persona
     form_class = PersonaForm
-    template_name = "persona.registro.html"
-    success_url = reverse_lazy('persona_lista')
+    template_name = "persona/registrar.html"
+    success_url = reverse_lazy('persona:listar')
 
     def form_valid(self, form):
         self.object = form.save(commit=False)
@@ -30,8 +30,8 @@ class PersonaCreate(CreateView):
 class PersonaUpdate(UpdateView):
     model = Persona
     form_class = PersonaForm
-    template_name = "persona.registro.html"
-    success_url = reverse_lazy('persona_lista')
+    template_name = "persona/registrar.html"
+    success_url = reverse_lazy('persona:listar')
 
     def dispatch(self, request, *args, **kwargs):
         user = User.objects.get(username=self.request.user.username)
@@ -41,8 +41,8 @@ class PersonaUpdate(UpdateView):
 
 class PersonaDelete(DeleteView):
     model = Persona
-    template_name = "persona.eliminar.html"
-    success_url = reverse_lazy('persona_lista')
+    template_name = "persona/eliminar.html"
+    success_url = reverse_lazy('persona:listar')
 
     def dispatch(self, request, *args, **kwargs):
         user = User.objects.get(username=self.request.user.username)

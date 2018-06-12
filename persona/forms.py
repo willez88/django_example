@@ -8,7 +8,7 @@ class PersonaForm(forms.ModelForm):
         max_length=100,
         widget=forms.TextInput(
             attrs={
-                'class': 'form-control input-sm', 'data-toggle': 'tooltip', 'style': 'width:250px',
+                'class': 'form-control input-sm', 'data-toggle': 'tooltip',
                 'title': _("Indique los Nombres de la Persona"),
             }
         )
@@ -19,7 +19,7 @@ class PersonaForm(forms.ModelForm):
         max_length=100,
         widget=forms.TextInput(
             attrs={
-                'class': 'form-control input-sm', 'data-toggle': 'tooltip', 'style': 'width:250px',
+                'class': 'form-control input-sm', 'data-toggle': 'tooltip',
                 'title': _("Indique los Apellidos de la Persona"),
             }
         )
@@ -30,7 +30,7 @@ class PersonaForm(forms.ModelForm):
         max_length=9,
         widget=forms.TextInput(
             attrs={
-                'class': 'form-control input-sm', 'data-toggle': 'tooltip', 'style': 'width:250px',
+                'class': 'form-control input-sm', 'data-toggle': 'tooltip',
                 'title': _("Indique la Cédula de la Persona"),
             }
         )
@@ -43,7 +43,7 @@ class PersonaForm(forms.ModelForm):
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control input-sm', 'placeholder': '+58-000-0000000',
-                'data-rule-required': 'true', 'data-toggle': 'tooltip', 'style': 'width:250px',
+                'data-rule-required': 'true', 'data-toggle': 'tooltip',
                 'title': _("Indique el número telefónico de contacto"), 'data-mask': '+00-000-0000000'
             }
         ),
@@ -57,7 +57,7 @@ class PersonaForm(forms.ModelForm):
         widget=forms.EmailInput(
             attrs={
                 'class': 'form-control input-sm email-mask', 'placeholder': _("Correo de contacto"),
-                'data-toggle': 'tooltip', 'data-rule-required': 'true', 'style': 'width:250px',
+                'data-toggle': 'tooltip', 'data-rule-required': 'true',
                 'title': _("Indique el correo electrónico de contacto con el usuario.")
             }
         )

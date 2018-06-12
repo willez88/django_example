@@ -1,0 +1,15 @@
+{% load i18n %}
+{% if form_errors %}
+  <div class="error-notice">
+    <div class="oaerror danger">
+      <div class="row">
+        <div class="{% if not col_title_error %}col-sm-3{% else %}{{ col_title_error }}{% endif %}">
+          <strong>{% trans 'Error' %}</strong>
+        </div>
+        <div class="{% if not col_msg_error %}col-sm-9{% else %}{{ col_msg_error }}{% endif %}">
+          {% if custom_message_error %}{{ custom_message_error }}{% else %}{{ form_errors }}{% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
