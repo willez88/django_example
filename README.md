@@ -10,7 +10,7 @@ Cuando accedemos al usuario root del sistema, en el terminal se mostrará el sig
 
 Probado en Debian 9 y Ubuntu 18.04. Instalar los siguientes programas
 
-    ~# apt install curl git graphviz graphviz-dev mariadb-server postgresql phpmyadmin phppgadmin python3-dev virtualenv
+    ~# apt install curl git graphviz graphviz-dev libmariadbclient-dev mariadb-server postgresql phpmyadmin phppgadmin python3-dev virtualenv
 
 Para instalar npm hacer lo siguiente
 
