@@ -8,9 +8,9 @@ Cuando somos un usuario normal del sistema, en el terminal se mostrará el sigui
 
 Cuando accedemos al usuario root del sistema, en el terminal se mostrará el siguiente símbolo: ~#
 
-Probado en Debian y Ubuntu. Instalar los siguientes programas
+Probado en Debian 9 y Ubuntu 18.04. Instalar los siguientes programas
 
-    ~# apt install curl git graphviz graphviz-dev postgresql phppgadmin python3-dev virtualenv
+    ~# apt install curl git graphviz graphviz-dev mariadb-server postgresql phpmyadmin phppgadmin python3-dev virtualenv
 
 Para instalar npm hacer lo siguiente
 
@@ -57,6 +57,8 @@ Nos movemos a la carpeta ProyectosDjango, descargamos el sistema y entramos a la
     (django_ejemplo_basico) ~$ git clone https://github.com/willez88/django_ejemplo_basico.git
 
     (django_ejemplo_basico) ~$ cd django_ejemplo_basico/
+
+    (django_ejemplo_basico) ~$ cp django_ejemplo_basico/settings.py_example django_ejemplo_basico/settings.py
 
 Tendremos las carpetas estructuradas de la siguiente manera
 
@@ -118,6 +120,9 @@ Puedes crear la base de datos usando la interfaz gráfica phpmyadmin
 
     // Desde algún navegador ir al siguiente sitio y entrar con el usuario que se acaba de crear
     localhost/phpmyadmin
+
+    // Si phpmyadmin no abre, ejecutar el siguiente comando
+    ~# ln -s /usr/share/phpmyadmin /var/www/html
 
     // Nombre de la base de datos: django_ejemplo_basico
 
@@ -182,6 +187,21 @@ Actualizar los cambios de un repositorio
     ~$ git pull
 
 Cuando un proyecto tiene varios desarrolladores se deben usar ramas
+
+    // Crear rama a partir de la master (nueva funcionalidad)
+    ~$ git checkout -b nombre_rama
+
+    // Terminada y probada la funcionalidad, moverse a la rama master para hacer la fusión
+    ~$ git checkout master
+
+    // Fusionar nombre_rama con la rama master
+    ~$ git merge nombre_rama
+
+    // Si la fusión se completó con éxito, eliminar la rama de manera local
+    ~$ git branch -d nombre_rama
+
+    // Eliminar la rama remota
+    ~$ git push origin :nombre_rama
 
 Generar modelo de datos relacional del proyecto completo. Crea la imagen en la raíz del proyecto
 
