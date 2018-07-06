@@ -44,41 +44,41 @@ Desde el terminal, moverse a la carpeta Django y ejecutar
 
     ~$ cd Django/
 
-    ~$ virtualenv -p python3 django_ejemplo_basico
+    ~$ virtualenv -p python3 django_example
 
 Para activar el entorno
 
-    ~$ source django_ejemplo_basico/bin/activate
+    ~$ source django_example/bin/activate
 
 Nos movemos a la carpeta ProyectosDjango, descargamos el sistema y entramos a la carpeta con los siguientes comandos
 
-    (django_ejemplo_basico) ~$ cd ../../ProyectosDjango/
+    (django_example) ~$ cd ../../ProyectosDjango/
 
-    (django_ejemplo_basico) ~$ git clone https://github.com/willez88/django_ejemplo_basico.git
+    (django_example) ~$ git clone https://github.com/willez88/django_example.git
 
-    (django_ejemplo_basico) ~$ cd django_ejemplo_basico/
+    (django_example) ~$ cd django_example/
 
-    (django_ejemplo_basico) ~$ cp django_ejemplo_basico/settings.py_example django_ejemplo_basico/settings.py
+    (django_ex) ~$ cp django_example/settings.py_example django_example/settings.py
 
 Tendremos las carpetas estructuradas de la siguiente manera
 
     // Entorno virtual
-    Programación/Python/EntornosVirtuales/Django/django_ejemplo_basico
+    Programación/Python/EntornosVirtuales/Django/django_example
 
     // Servidor de desarrollo
-    Programación/Python/ProyectosDjango/django_ejemplo_basico
+    Programación/Python/ProyectosDjango/django_example
 
 Instalar las dependencias de css y js: moverse a la carpeta static y ejecutar
 
-    (django_ejemplo_basico) ~$ cd static/
+    (django_example) ~$ cd static/
 
     // Usa el archivo package.json para instalar lo que ya se configuro allí
-    (django_ejemplo_basico) ~$ npm install
+    (django_example) ~$ npm install
 
     // Terminado el proceso volver a la carpeta raíz del proyecto
-    (django_ejemplo_basico) ~$ cd ../
+    (django_example) ~$ cd ../
 
-Crear la base de datos para __django_ejemplo_basico__ usando PostgresSQL
+Crear la base de datos para __django_example__ usando PostgresSQL
 
     // Acceso al usuario postgres
     ~# su postgres
@@ -101,9 +101,9 @@ Puedes crear la base de datos usando la interfaz gráfica phppgadmin
     // Desde algún navegador ir al siguiente sitio y entrar con el usuario que se acaba de crear
     localhost/phppgadmin
 
-    // Nombre de la base de datos: django_ejemplo_basico
+    // Nombre de la base de datos: django_example
 
-Crear la base de datos para __django_ejemplo_basico__ usando MariaDB
+Crear la base de datos para __django_example__ usando MariaDB
 
     // Acesso al usuario root del sistema
     # mysql
@@ -124,11 +124,11 @@ Puedes crear la base de datos usando la interfaz gráfica phpmyadmin
     // Si phpmyadmin no abre, ejecutar el siguiente comando
     ~# ln -s /usr/share/phpmyadmin /var/www/html
 
-    // Nombre de la base de datos: django_ejemplo_basico
+    // Nombre de la base de datos: django_example
 
 Instalamos los requemientos que el sistema necesita en el entorno virtual
 
-    (django_ejemplo_basico) ~$ pip install -r requirements/dev.txt
+    (django_example) ~$ pip install -r requirements/dev.txt
 
 A veces pygraphviz da errores cuando se instala en sistemas operativos x86, cuando esto ocurra revisar el siguiente archivo
 
@@ -137,17 +137,19 @@ A veces pygraphviz da errores cuando se instala en sistemas operativos x86, cuan
 
 Hacer las migraciones
 
-    (django_ejemplo_basico) ~$ python manage.py makemigrations base persona
+    (django_example) ~$ python manage.py makemigrations base person
 
-    (django_ejemplo_basico) ~$ python manage.py migrate
+    (django_example) ~$ python manage.py migrate
+
+    (django_example) ~$ python manage.py loaddata 1_country.json 2_state.json 3_municipality.json 4_city.json 5_parish.json
 
 Crear usuario administrador
 
-    (django_ejemplo_basico) ~$ python manage.py createsuperuser
+    (django_example) ~$ python manage.py createsuperuser
 
 Correr el servidor de django
 
-    (django_ejemplo_basico) ~$ python manage.py runserver
+    (django_example) ~$ python manage.py runserver
 
 Poner en el navegador la url que sale en el terminal para entrar el sistema
 
