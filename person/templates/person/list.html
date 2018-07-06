@@ -1,0 +1,51 @@
+{% extends 'base/base.html' %}
+{% load i18n %}
+{% block content_header_title %}{% trans 'Persona' %}{% endblock %}
+{% block contenido %}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="text-left">Listar <a href="{% url 'person:create' %}" class="btn btn-success btn-sm pull-right">Registrar</a></h4>
+        </div>
+
+        <div class="panel-body">
+            <div class="row table-responsive">
+                <table class="table table-striped table-hover table-bordered display dataTable" id="table" style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Cédula</th>
+                            <th>Teléfono</th>
+                            <th>Correo</th>
+                            <th>Estado, Municipio, Parroquia</th>
+                            <th>Dirección</th>
+                            <th>Operación</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for person in object_list %}
+                            <tr>
+                            <td> {{ person.first_name }} </td>
+                            <td> {{ person.last_name }} </td>
+                            <td> {{ person.identification_card }} </td>
+                            <td> {{ person.phone }} </td>
+                            <td> {{ person.email }} </td>
+                            <td> {{ person.parish.municipality.state }}, {{ person.parish.municipality }}, {{ person.parish }} </td>
+                            <td> {{ person.address }} </td>
+                            <td> <a href="{% url 'person:update' person.id %}">Actualizar</a> | <a href="{% url 'person:delete' person.id %}">Eliminar</a> </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block extra_footer %}
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var table = $('#table').DataTable();
+            button_datatable(table);
+        });
+    </script>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'base/base.html' %}
+{% load i18n %}
+{% block content_header_title %}{% trans 'Persona' %}{% endblock %}
+{% block contenido %}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="text-left">Eliminar</h4>
+        </div>
+        <div class="panel-body">
+	        <form action="" role="form" class="form form-horizontal validate-form" method="post" autocomplete="off">
+                {% csrf_token %}
+                <p>¿Estás seguro que deseas eliminar los datos de la Persona "{{ object }}"?</p>
+                <div class="box-footer text-right">
+                    <button type="submit" class="btn btn-danger btn-sm" data-toggle="tooltip">{% trans 'Eliminar' %}</button>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}

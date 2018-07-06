@@ -1,0 +1,602 @@
+[
+{
+    "model": "base.city",
+    "pk": 1,
+    "fields": {
+        "name": "Puerto Ayacucho",
+        "state": 1
+    }
+},
+{
+    "model": "base.city",
+    "pk": 2,
+    "fields": {
+        "name": "Barcelona",
+        "state": 2
+    }
+},
+{
+    "model": "base.city",
+    "pk": 3,
+    "fields": {
+        "name": "Puerto La Cruz",
+        "state": 2
+    }
+},
+{
+    "model": "base.city",
+    "pk": 4,
+    "fields": {
+        "name": "El Tigre",
+        "state": 2
+    }
+},
+{
+    "model": "base.city",
+    "pk": 5,
+    "fields": {
+        "name": "Anaco",
+        "state": 2
+    }
+},
+{
+    "model": "base.city",
+    "pk": 6,
+    "fields": {
+        "name": "San Fernando de Apure",
+        "state": 3
+    }
+},
+{
+    "model": "base.city",
+    "pk": 7,
+    "fields": {
+        "name": "Guasdualito",
+        "state": 3
+    }
+},
+{
+    "model": "base.city",
+    "pk": 8,
+    "fields": {
+        "name": "Maracay",
+        "state": 4
+    }
+},
+{
+    "model": "base.city",
+    "pk": 9,
+    "fields": {
+        "name": "Turmero",
+        "state": 4
+    }
+},
+{
+    "model": "base.city",
+    "pk": 10,
+    "fields": {
+        "name": "La Victoria",
+        "state": 4
+    }
+},
+{
+    "model": "base.city",
+    "pk": 11,
+    "fields": {
+        "name": "Villa de Cura",
+        "state": 4
+    }
+},
+{
+    "model": "base.city",
+    "pk": 12,
+    "fields": {
+        "name": "Santa Rita",
+        "state": 4
+    }
+},
+{
+    "model": "base.city",
+    "pk": 13,
+    "fields": {
+        "name": "Cagua",
+        "state": 4
+    }
+},
+{
+    "model": "base.city",
+    "pk": 14,
+    "fields": {
+        "name": "El Lim\u00f3n",
+        "state": 4
+    }
+},
+{
+    "model": "base.city",
+    "pk": 15,
+    "fields": {
+        "name": "Barinas",
+        "state": 5
+    }
+},
+{
+    "model": "base.city",
+    "pk": 16,
+    "fields": {
+        "name": "Ciudad Guayana",
+        "state": 6
+    }
+},
+{
+    "model": "base.city",
+    "pk": 17,
+    "fields": {
+        "name": "Ciudad Bol\u00edvar",
+        "state": 6
+    }
+},
+{
+    "model": "base.city",
+    "pk": 18,
+    "fields": {
+        "name": "Upata",
+        "state": 6
+    }
+},
+{
+    "model": "base.city",
+    "pk": 19,
+    "fields": {
+        "name": "Caicara del Orinoco",
+        "state": 6
+    }
+},
+{
+    "model": "base.city",
+    "pk": 20,
+    "fields": {
+        "name": "Valencia",
+        "state": 7
+    }
+},
+{
+    "model": "base.city",
+    "pk": 21,
+    "fields": {
+        "name": "Puerto Cabello",
+        "state": 7
+    }
+},
+{
+    "model": "base.city",
+    "pk": 22,
+    "fields": {
+        "name": "Tocuyito",
+        "state": 7
+    }
+},
+{
+    "model": "base.city",
+    "pk": 23,
+    "fields": {
+        "name": "Guacara",
+        "state": 7
+    }
+},
+{
+    "model": "base.city",
+    "pk": 24,
+    "fields": {
+        "name": "G\u00fcig\u00fce",
+        "state": 7
+    }
+},
+{
+    "model": "base.city",
+    "pk": 25,
+    "fields": {
+        "name": "Los Guayos",
+        "state": 7
+    }
+},
+{
+    "model": "base.city",
+    "pk": 26,
+    "fields": {
+        "name": "Naguanagua",
+        "state": 7
+    }
+},
+{
+    "model": "base.city",
+    "pk": 27,
+    "fields": {
+        "name": "Mariara",
+        "state": 7
+    }
+},
+{
+    "model": "base.city",
+    "pk": 28,
+    "fields": {
+        "name": "San Carlos",
+        "state": 8
+    }
+},
+{
+    "model": "base.city",
+    "pk": 29,
+    "fields": {
+        "name": "Tinaquillo",
+        "state": 8
+    }
+},
+{
+    "model": "base.city",
+    "pk": 30,
+    "fields": {
+        "name": "Tinaco",
+        "state": 8
+    }
+},
+{
+    "model": "base.city",
+    "pk": 31,
+    "fields": {
+        "name": "Tucupita",
+        "state": 9
+    }
+},
+{
+    "model": "base.city",
+    "pk": 32,
+    "fields": {
+        "name": "Caracas",
+        "state": 10
+    }
+},
+{
+    "model": "base.city",
+    "pk": 33,
+    "fields": {
+        "name": "Punto Fijo",
+        "state": 11
+    }
+},
+{
+    "model": "base.city",
+    "pk": 34,
+    "fields": {
+        "name": "Coro",
+        "state": 11
+    }
+},
+{
+    "model": "base.city",
+    "pk": 35,
+    "fields": {
+        "name": "Calabozo",
+        "state": 12
+    }
+},
+{
+    "model": "base.city",
+    "pk": 36,
+    "fields": {
+        "name": "San Juan de Los Morros",
+        "state": 12
+    }
+},
+{
+    "model": "base.city",
+    "pk": 37,
+    "fields": {
+        "name": "Valle de la Pascua",
+        "state": 12
+    }
+},
+{
+    "model": "base.city",
+    "pk": 38,
+    "fields": {
+        "name": "Zaraza",
+        "state": 12
+    }
+},
+{
+    "model": "base.city",
+    "pk": 39,
+    "fields": {
+        "name": "Barquisimeto",
+        "state": 13
+    }
+},
+{
+    "model": "base.city",
+    "pk": 40,
+    "fields": {
+        "name": "Carora",
+        "state": 13
+    }
+},
+{
+    "model": "base.city",
+    "pk": 41,
+    "fields": {
+        "name": "Cabudare",
+        "state": 13
+    }
+},
+{
+    "model": "base.city",
+    "pk": 42,
+    "fields": {
+        "name": "El Tocuyo",
+        "state": 13
+    }
+},
+{
+    "model": "base.city",
+    "pk": 43,
+    "fields": {
+        "name": "Qu\u00edbor",
+        "state": 13
+    }
+},
+{
+    "model": "base.city",
+    "pk": 44,
+    "fields": {
+        "name": "M\u00e9rida",
+        "state": 14
+    }
+},
+{
+    "model": "base.city",
+    "pk": 45,
+    "fields": {
+        "name": "El Vig\u00eda",
+        "state": 14
+    }
+},
+{
+    "model": "base.city",
+    "pk": 46,
+    "fields": {
+        "name": "Ejido",
+        "state": 14
+    }
+},
+{
+    "model": "base.city",
+    "pk": 47,
+    "fields": {
+        "name": "Tovar",
+        "state": 14
+    }
+},
+{
+    "model": "base.city",
+    "pk": 48,
+    "fields": {
+        "name": "Caracas",
+        "state": 15
+    }
+},
+{
+    "model": "base.city",
+    "pk": 49,
+    "fields": {
+        "name": "Guarenas",
+        "state": 15
+    }
+},
+{
+    "model": "base.city",
+    "pk": 50,
+    "fields": {
+        "name": "Los Teques",
+        "state": 15
+    }
+},
+{
+    "model": "base.city",
+    "pk": 51,
+    "fields": {
+        "name": "Guatire",
+        "state": 15
+    }
+},
+{
+    "model": "base.city",
+    "pk": 52,
+    "fields": {
+        "name": "Santa Teresa del Tuy",
+        "state": 15
+    }
+},
+{
+    "model": "base.city",
+    "pk": 53,
+    "fields": {
+        "name": "Ocumare del Tuy",
+        "state": 15
+    }
+},
+{
+    "model": "base.city",
+    "pk": 54,
+    "fields": {
+        "name": "C\u00faa",
+        "state": 15
+    }
+},
+{
+    "model": "base.city",
+    "pk": 55,
+    "fields": {
+        "name": "Santa Luc\u00eda",
+        "state": 15
+    }
+},
+{
+    "model": "base.city",
+    "pk": 56,
+    "fields": {
+        "name": "Charallave",
+        "state": 15
+    }
+},
+{
+    "model": "base.city",
+    "pk": 57,
+    "fields": {
+        "name": "Matur\u00edn",
+        "state": 16
+    }
+},
+{
+    "model": "base.city",
+    "pk": 58,
+    "fields": {
+        "name": "Porlamar",
+        "state": 17
+    }
+},
+{
+    "model": "base.city",
+    "pk": 59,
+    "fields": {
+        "name": "Guanare",
+        "state": 18
+    }
+},
+{
+    "model": "base.city",
+    "pk": 60,
+    "fields": {
+        "name": "Acarigua",
+        "state": 18
+    }
+},
+{
+    "model": "base.city",
+    "pk": 61,
+    "fields": {
+        "name": "Araure",
+        "state": 18
+    }
+},
+{
+    "model": "base.city",
+    "pk": 62,
+    "fields": {
+        "name": "Cuman\u00e1",
+        "state": 19
+    }
+},
+{
+    "model": "base.city",
+    "pk": 63,
+    "fields": {
+        "name": "Car\u00fapano",
+        "state": 19
+    }
+},
+{
+    "model": "base.city",
+    "pk": 64,
+    "fields": {
+        "name": "San Crist\u00f3bal",
+        "state": 20
+    }
+},
+{
+    "model": "base.city",
+    "pk": 65,
+    "fields": {
+        "name": "T\u00e1riba",
+        "state": 20
+    }
+},
+{
+    "model": "base.city",
+    "pk": 66,
+    "fields": {
+        "name": "Valera",
+        "state": 21
+    }
+},
+{
+    "model": "base.city",
+    "pk": 67,
+    "fields": {
+        "name": "San Felipe",
+        "state": 23
+    }
+},
+{
+    "model": "base.city",
+    "pk": 68,
+    "fields": {
+        "name": "Yaritagua",
+        "state": 23
+    }
+},
+{
+    "model": "base.city",
+    "pk": 69,
+    "fields": {
+        "name": "Maracaibo",
+        "state": 24
+    }
+},
+{
+    "model": "base.city",
+    "pk": 70,
+    "fields": {
+        "name": "Cabimas",
+        "state": 24
+    }
+},
+{
+    "model": "base.city",
+    "pk": 71,
+    "fields": {
+        "name": "Ciudad Ojeda",
+        "state": 24
+    }
+},
+{
+    "model": "base.city",
+    "pk": 72,
+    "fields": {
+        "name": "Santa B\u00e1rbara del Zulia",
+        "state": 24
+    }
+},
+{
+    "model": "base.city",
+    "pk": 73,
+    "fields": {
+        "name": "Machiques",
+        "state": 24
+    }
+},
+{
+    "model": "base.city",
+    "pk": 74,
+    "fields": {
+        "name": "La Concepci\u00f3n",
+        "state": 24
+    }
+},
+{
+    "model": "base.city",
+    "pk": 75,
+    "fields": {
+        "name": "Los Puertos de Altagracia",
+        "state": 24
+    }
+}
+]

@@ -3,7 +3,7 @@ from django.views.generic import TemplateView
 
 # Create your views here.
 
-class InicioView(TemplateView):
+class HomeView(TemplateView):
     template_name = "base/base.html"
 
 class Error403View(TemplateView):
