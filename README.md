@@ -193,6 +193,9 @@ Cuando un proyecto tiene varios desarrolladores se deben usar ramas
     // Crear rama a partir de la master (nueva funcionalidad)
     ~$ git checkout -b nombre_rama
 
+    // Subir cambios a nombre_rama
+    ~$ git push origin nombre_rama
+
     // Terminada y probada la funcionalidad, moverse a la rama master para hacer la fusión
     ~$ git checkout master
 
