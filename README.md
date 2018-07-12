@@ -177,15 +177,16 @@ Exportar datos a json
 
 Subir cambios al repositorio
 
+    // Prepara todos los cambios para subirlos
     ~$ git add .
 
+    // Descripción de lo que se sube
     ~$ git commit -m "descripción específica acerca del cambio que se está subiendo"
 
     // Con este comando pedirá las credenciales de la cuenta
     ~$ git push origin master
 
-Actualizar los cambios de un repositorio
-
+    // Actualizar los cambios de un repositorio
     ~$ git pull
 
 Cuando un proyecto tiene varios desarrolladores se deben usar ramas
