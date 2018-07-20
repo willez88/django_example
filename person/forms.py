@@ -10,7 +10,7 @@ class PersonForm(forms.ModelForm):
         max_length=100,
         widget=forms.TextInput(
             attrs={
-                'class': 'form-control input-sm', 'data-toggle': 'tooltip',
+                'class': 'form-control form-control-sm', 'data-toggle': 'tooltip',
                 'title': _("Indique los Nombres de la Persona"),
             }
         )
@@ -21,7 +21,7 @@ class PersonForm(forms.ModelForm):
         max_length=100,
         widget=forms.TextInput(
             attrs={
-                'class': 'form-control input-sm', 'data-toggle': 'tooltip',
+                'class': 'form-control form-control-sm', 'data-toggle': 'tooltip',
                 'title': _("Indique los Apellidos de la Persona"),
             }
         )
@@ -32,7 +32,7 @@ class PersonForm(forms.ModelForm):
         max_length=9,
         widget=forms.TextInput(
             attrs={
-                'class': 'form-control input-sm', 'data-toggle': 'tooltip',
+                'class': 'form-control form-control-sm', 'data-toggle': 'tooltip',
                 'title': _("Indique la Cédula de la Persona"),
             }
         )
@@ -44,9 +44,9 @@ class PersonForm(forms.ModelForm):
         max_length=15,
         widget=forms.TextInput(
             attrs={
-                'class': 'form-control input-sm', 'placeholder': '+58-000-0000000',
-                'data-rule-required': 'true', 'data-toggle': 'tooltip',
-                'title': _("Indique el número telefónico de contacto"), 'data-mask': '+00-000-0000000'
+                'class': 'form-control form-control-sm', 'placeholder': '+58-000-0000000',
+                'data-toggle': 'tooltip', 'data-mask': '+00-000-0000000',
+                'title': _("Indique el número telefónico de contacto"),
             }
         ),
         help_text=_("(país)-área-número")
@@ -57,7 +57,7 @@ class PersonForm(forms.ModelForm):
         max_length=100,
         widget=forms.EmailInput(
             attrs={
-                'class': 'form-control input-sm email-mask', 'placeholder': _("Correo de contacto"),
+                'class': 'form-control form-control-sm email-mask', 'placeholder': _("Correo de contacto"),
                 'data-toggle': 'tooltip',
                 'title': _("Indique el correo electrónico de contacto con el usuario.")
             }
@@ -68,7 +68,7 @@ class PersonForm(forms.ModelForm):
     state = forms.ModelChoiceField(
         label=_("Estado:"), queryset=State.objects.all(), empty_label=_("Seleccione..."),
         widget=forms.Select(attrs={
-            'class': 'form-control select2', 'data-toggle': 'tooltip',
+            'class': 'form-control form-control-sm select2', 'data-toggle': 'tooltip',
             'title': _("Seleccione el estado en donde se encuentra ubicada"),
             'onchange': "combo_update(this.value,'base','Municipality','state','pk','name','id_municipality')",
         })
@@ -78,7 +78,7 @@ class PersonForm(forms.ModelForm):
     municipality = forms.ModelChoiceField(
         label=_("Municipio:"), queryset=Municipality.objects.all(), empty_label=_("Seleccione..."),
         widget=forms.Select(attrs={
-            'class': 'form-control select2', 'data-toggle': 'tooltip', 'disabled': 'true',
+            'class': 'form-control form-control-sm select2', 'data-toggle': 'tooltip', 'disabled': 'true',
             'title': _("Seleccione el municipio en donde se encuentra ubicada"),
             'onchange': "combo_update(this.value,'base','Parish','municipality','pk','name','id_parish')",
         })
@@ -88,7 +88,7 @@ class PersonForm(forms.ModelForm):
     parish = forms.ModelChoiceField(
         label=_("Parroquia:"), queryset=Parish.objects.all(), empty_label=_("Seleccione..."),
         widget=forms.Select(attrs={
-            'class': 'form-control select2', 'data-toggle': 'tooltip', 'disabled': 'true',
+            'class': 'form-control form-control-sm select2', 'data-toggle': 'tooltip', 'disabled': 'true',
             'title': _("Seleccione la parroquia en donde se encuentra ubicada"),
         })
     )
@@ -98,7 +98,7 @@ class PersonForm(forms.ModelForm):
         max_length=100,
         widget=forms.TextInput(
             attrs={
-                'class': 'form-control input-sm', 'data-toggle': 'tooltip',
+                'class': 'form-control form-control-sm', 'data-toggle': 'tooltip',
                 'title': _("Indique la dirección exacta"),
             }
         )

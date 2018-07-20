@@ -1,7 +1,12 @@
-{% extends "base/base.html" %}
+{% extends 'base/base.html' %}
 {% load i18n static %}
-{% block content_header_title %}{% trans 'Usuario' %}{% endblock %}
-{% block contenido %}
+{% block breadcrumb %}
+    <li class="breadcrumb-item">
+        <a href="#">Usuario</a>
+    </li>
+    <li class="breadcrumb-item active">Iniciar Sesión</li>
+{% endblock %}
+{% block content %}
     {% if form.non_field_errors %}
         {% for error in form.non_field_errors %}
             <p class="alert alert-danger">
@@ -10,59 +15,38 @@
         {% endfor %}
     {% endif %}
 
-        {% if user.is_authenticated %}
-            <p class="alert alert-warning">
-                {% blocktrans trimmed %}
-                    Ya se ha autenticado, pero no está autorizado a acceder a esta página.
-                    ¿Desea autenticarse con una cuenta diferente?
-                {% endblocktrans %}
-            </p>
-        {% endif %}
+    {% if user.is_authenticated %}
+        <p class="alert alert-warning">
+            {% blocktrans trimmed %}
+                Ya se ha autenticado, pero no está autorizado a acceder a esta página.
+                ¿Desea autenticarse con una cuenta diferente?
+            {% endblocktrans %}
+        </p>
+    {% endif %}
 
-    <div class="panel panel-default">
-        <div class="panel-heading text-center">
-            <h4 class="panel-title">Inicie Sesión</h4>
-        </div>
-        <div class="panel-body">
-            <form action="{{ app_path }}" method="post" id="login-form" autocomplete="off" class="form form-horizontal validate-form">
+    <div class="card card-login mx-auto mt-5">
+        <div class="card-header">Iniciar Sesión</div>
+        <div class="card-body">
+            <form method="post" autocomplete="off" class="validate-form">
                 {% csrf_token %}
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="form-group {% if form.username.errors %}has-error{% endif %}">
-                            <label class="col-md-6 col-xs-6 col-sm-6 control-label" for="{{ form.username.auto_id }}">
-                                {{ form.username.label_tag }}
-                            </label>
-                            <div class="col-md-6 col-xs-6 col-sm-6">
-                                <div class="form-inline">
-                                    {{ form.username }}
-                                    <i class="ion ion-ios-medical item-requerido"></i>
-                                </div>
-                                {% include 'base/form.errors.html' with form_errors=form.username.errors col_title_error='col-sm-2' col_msg_error='col-sm-10' %}
-                            </div>
-                        </div>
-                    </div>
+                <div class="form-group">
+                    <label for="{{ form.username.auto_id }}">
+                        {{ form.username.label_tag }}
+                    </label>
+                    <input class="form-control" type="text" aria-describedby="emailHelp" name="username" required>
                 </div>
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="form-group {% if form.password.errors %}has-error{% endif %}">
-                            <label class="col-md-6 col-xs-6 col-sm-6 control-label" for="{{ form.password.auto_id }}">
-                                {{ form.password.label_tag }}
-                            </label>
-                            <div class="col-md-6 col-xs-6 col-sm-6">
-                                <div class="form-inline">
-                                    {{ form.password }}
-                                    <i class="ion ion-ios-medical item-requerido"></i>
-                                </div>
-                                <a href="{% url 'user:password_reset' %}">Olvidé mi contraseña</a>
-                            </div>
-                        </div>
-                    </div>
-                    <input type="hidden" name="next" value="{{ next }}" />
+                <div class="form-group">
+                    <label for="{{ form.password.auto_id }}">
+                        {{ form.password.label_tag }}
+                    </label>
+                    <input class="form-control" type="password" name="password" required>
                 </div>
-                <div class="text-right">
-                    <button type="submit" class="btn btn-primary btn-sm" data-toggle="tooltip">{% trans 'Entrar' %}</button>
-                </div>
+                <button class="btn btn-primary btn-block" type="submit">Entrar</button>
             </form>
+            <div class="text-center">
+                <a class="d-block small mt-3" href="#">Registrarse</a>
+                <a class="d-block small" href="{% url 'user:password_reset' %}">Olvidé mi contraseña</a>
+            </div>
         </div>
     </div>
 {% endblock %}
