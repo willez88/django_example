@@ -3,70 +3,43 @@
 {% get_current_language as LANGUAGE_CODE %}
 <html lang="{{ LANGUAGE_CODE|default:"es-ve" }}">
     {% include 'base/head.html' %}
-    <body>
-        <nav class="navbar navbar-inverse">
+    <body class="fixed-nav sticky-footer bg-dark" id="page-top">
+        <div class="content-wrapper">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="{% url 'base:home' %}">Ejemplo Django</a>
-                </div>
-                {% if request.user.is_authenticated %}
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menú<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="{% url 'person:list' %}">Persona</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Otro<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Otro 1</a></li>
-                                <li><a href="#">Otro 2</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> {{ request.user.username }}</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="{% url 'user:password_change' %}"> Cambiar Contraseña</a></li>
-                                <li><a href="{% url 'user:logout' %}"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                {% else %}
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="{% url 'user:login' %}"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesión</a></li>
-                    </ul>
-                {% endif %}
-            </div>
-        </nav>
+                {% include 'base/navbar.html' %}
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="{% url 'base:home' %}">Inicio</a>
+                    </li>
+                    {% block breadcrumb %}
 
-        <div class="container-fluid">
-            <h2>{% block content_header_title %}{% trans 'Página Principal' %}{% endblock %}</h2>
-            {% block contenido %}
-                {% if request.user.is_authenticated %}
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="text-center">Bienvenido {{ request.user.username }}</h4>
-                        </div>
-                        <div class="panel-body">
-                            <h4 class="text-center">Proceda a registrar los datos del menú que se habilitó</h4>
+                    {% endblock %}
+                </ol>
+                <div class="row">
+                    <div class="col-12">
+                        <h1>{% block content_header_title %}{% endblock %}</h1>
+                    </div>
+                </div>
+                {% block content %}
+                    <div class="row">
+                        <div class="col-12">
+                            <center>
+                                {% if request.user.is_authenticated %}
+                                    <p>Bienvenido {{ request.user.username }}.</p>
+                                {% else %}
+                                    <p>Bienvenido al sistema.</p>
+                                    <p>Inicie sesión para registrar los datos.</p>
+                                {% endif %}
+                            </center>
                         </div>
                     </div>
-                {% else %}
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="text-center">Bienvenido al Sistema de Registro</h4>
-                        </div>
-                        <div class="panel-body">
-                            <h4 class="text-center">Inicie sesión para poder empezar a registrar los datos.</h4>
-                        </div>
-                    </div>
-                {% endif %}
+                {% endblock %}
+            </div>
+            {% include 'base/footer.info.html' %}
+            {% include 'base/footer.html' %}
+            {% block extra_footer %}
+
             {% endblock %}
         </div>
-        {% include 'base/footer.html' %}
-        {% block extra_footer %}
-
-        {% endblock %}
     </body>
 </html>
