@@ -203,7 +203,32 @@ Cuando un proyecto tiene varios desarrolladores se deben usar ramas
     // Fusionar nombre_rama con la rama master
     ~$ git merge nombre_rama
 
-    // Si la fusión se completó con éxito, eliminar la rama de manera local
+En caso que hayan conflictos en la fusión, probar lo siguiente
+
+    // Ver los archivos que tienen conflicto
+    git status
+
+    git add archivos ó git add .
+
+    git commit -m "solución de los conflictos en la fusión"
+
+    git merge nombre_rama
+
+    //ver el estado
+    git status
+
+    git push
+
+Arreglar los archivos en donde hubo conflictos durante la fusión, luego suba los cambios
+
+    git add .
+
+    git commit -m "fusion completada"
+
+    git push origin master
+
+Si la fusión se completó con éxito, eliminar la rama de manera local
+
     ~$ git branch -d nombre_rama
 
     // Eliminar la rama remota
