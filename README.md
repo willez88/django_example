@@ -26,23 +26,23 @@ Desde el terminal, moverse a la carpeta Programación y ejecutar
 
     ~$ cd Programación/
 
-    ~$ mkdir Python
+    ~$ mkdir python
 
-Entrar a la carpeta Python y hacer lo siguiente
+Entrar a la carpeta python y hacer lo siguiente
 
-    ~$ cd Python/
+    ~$ cd python/
 
-    ~$ mkdir EntornosVirtuales ProyectosDjango
+    ~$ mkdir entornos_virtuales proyectos_django
 
-Entrar a EntornosVirtuales
+Entrar a entornos_virtuales
 
-    ~$ cd EntornosVirtuales/
+    ~$ cd entornos_virtuales/
 
-    ~$ mkdir Django
+    ~$ mkdir django
 
-Desde el terminal, moverse a la carpeta Django y ejecutar
+Desde el terminal, moverse a la carpeta django y ejecutar
 
-    ~$ cd Django/
+    ~$ cd django/
 
     ~$ virtualenv -p python3 django_example
 
@@ -50,23 +50,23 @@ Para activar el entorno
 
     ~$ source django_example/bin/activate
 
-Nos movemos a la carpeta ProyectosDjango, descargamos el sistema y entramos a la carpeta con los siguientes comandos
+Nos movemos a la carpeta proyectos_django, descargamos el sistema y entramos a la carpeta con los siguientes comandos
 
-    (django_example) ~$ cd ../../ProyectosDjango/
+    (django_example) ~$ cd ../../proyectos_django/
 
     (django_example) ~$ git clone https://github.com/willez88/django_example.git
 
     (django_example) ~$ cd django_example/
 
-    (django_ex) ~$ cp django_example/settings.py_example django_example/settings.py
+    (django_example) ~$ cp django_example/settings.py_example django_example/settings.py
 
 Tendremos las carpetas estructuradas de la siguiente manera
 
     // Entorno virtual
-    Programación/Python/EntornosVirtuales/Django/django_example
+    Programación/python/entornos_virtuales/django/django_example
 
     // Servidor de desarrollo
-    Programación/Python/ProyectosDjango/django_example
+    Programación/python/proyectos_django/django_example
 
 Instalar las dependencias de css y js: moverse a la carpeta static y ejecutar
 
@@ -159,7 +159,7 @@ Para salir del entorno virtual se puede ejecutar desde cualquier lugar del termi
 
 __Algunos comandos básicos__
 
-Crear proyectos en django. Desde el terminal, moverse a la carpeta ProyectosDjango y ejecutar
+Crear proyectos en django. Desde el terminal, moverse a la carpeta proyectos_django y ejecutar
 
     (nombre_entorno) ~$ django-admin startproject nombre_proyecto
 
