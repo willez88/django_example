@@ -4,7 +4,15 @@ from .models import Person
 from base.models import State, Municipality, Parish
 
 class PersonForm(forms.ModelForm):
+    """!
+    Clase que contiene los campos del formulario
 
+    @author William Páez (paez.william8 at gmail.com)
+    @copyright <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GNU Public License versión 3 (GPLv3)</a>
+    @date 06-07-2018
+    """
+
+    ## Nombre
     first_name = forms.CharField(
         label=_("Nombres:"),
         max_length=100,
@@ -16,6 +24,7 @@ class PersonForm(forms.ModelForm):
         )
     )
 
+    ## Apellido
     last_name = forms.CharField(
         label=_("Apellidos:"),
         max_length=100,
@@ -27,6 +36,7 @@ class PersonForm(forms.ModelForm):
         )
     )
 
+    ## Cédula de identidad
     identification_card = forms.CharField(
         label=_("Cédula:"),
         max_length=9,
@@ -38,7 +48,7 @@ class PersonForm(forms.ModelForm):
         )
     )
 
-    ## Número telefónico de contacto con el usuario
+    ## Número telefónico
     phone = forms.CharField(
         label=_("Teléfono:"),
         max_length=15,
@@ -52,6 +62,7 @@ class PersonForm(forms.ModelForm):
         help_text=_("(país)-área-número")
     )
 
+    ## Correo Electrónico
     email = forms.EmailField(
         label=_("Correo Electrónico:"),
         max_length=100,
@@ -64,7 +75,7 @@ class PersonForm(forms.ModelForm):
         )
     )
 
-    ## Estado donde se ecnuetra ubicado el municipio
+    ## Estado
     state = forms.ModelChoiceField(
         label=_("Estado:"), queryset=State.objects.all(), empty_label=_("Seleccione..."),
         widget=forms.Select(attrs={
@@ -74,7 +85,7 @@ class PersonForm(forms.ModelForm):
         })
     )
 
-    ## Municipio donde se encuentra ubicada la parroquia
+    ## Municipio
     municipality = forms.ModelChoiceField(
         label=_("Municipio:"), queryset=Municipality.objects.all(), empty_label=_("Seleccione..."),
         widget=forms.Select(attrs={
@@ -84,7 +95,7 @@ class PersonForm(forms.ModelForm):
         })
     )
 
-    ## Parroquia donde se encuentra ubicado el consejo comunal
+    ## Parroquia
     parish = forms.ModelChoiceField(
         label=_("Parroquia:"), queryset=Parish.objects.all(), empty_label=_("Seleccione..."),
         widget=forms.Select(attrs={
@@ -93,6 +104,7 @@ class PersonForm(forms.ModelForm):
         })
     )
 
+    ## Dirección
     address = forms.CharField(
         label=_("Dirección:"),
         max_length=100,
@@ -105,5 +117,16 @@ class PersonForm(forms.ModelForm):
     )
 
     class Meta:
+        """!
+        Meta clase del formulario que establece algunas propiedades
+
+        @author William Páez (paez.william8 at gmail.com)
+        @copyright <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GNU Public License versión 3 (GPLv3)</a>
+        @date 06-07-2018
+        """
+
+        ## Modelo
         model = Person
+
+        ## Campos a expluir
         exclude = ['user']

@@ -1,4 +1,4 @@
-# Ejemplo Básico Completo de Django
+# Ejemplo Django
 
 En este proyecto cada usuario puede registrar los datos de una persona, quedando relacionado para poder saber que datos han registrado ciertos usuarios. Tiene un gestor de usuarios completo que permite iniciar sesión, salir de la sesión y agregar nuevos usuarios por el panel administrativo de django. Todavía no tiene habilitado la creación de nuevos usuarios mediante un formulario de registro.
 
@@ -26,23 +26,23 @@ Desde el terminal, moverse a la carpeta Programación y ejecutar
 
     ~$ cd Programación/
 
-    ~$ mkdir Python
+    ~$ mkdir python
 
-Entrar a la carpeta Python y hacer lo siguiente
+Entrar a la carpeta python y hacer lo siguiente
 
-    ~$ cd Python/
+    ~$ cd python/
 
-    ~$ mkdir EntornosVirtuales ProyectosDjango
+    ~$ mkdir entornos_virtuales proyectos_django
 
-Entrar a EntornosVirtuales
+Entrar a entornos_virtuales
 
-    ~$ cd EntornosVirtuales/
+    ~$ cd entornos_virtuales/
 
-    ~$ mkdir Django
+    ~$ mkdir django
 
-Desde el terminal, moverse a la carpeta Django y ejecutar
+Desde el terminal, moverse a la carpeta django y ejecutar
 
-    ~$ cd Django/
+    ~$ cd django/
 
     ~$ virtualenv -p python3 django_example
 
@@ -50,23 +50,23 @@ Para activar el entorno
 
     ~$ source django_example/bin/activate
 
-Nos movemos a la carpeta ProyectosDjango, descargamos el sistema y entramos a la carpeta con los siguientes comandos
+Nos movemos a la carpeta proyectos_django, descargamos el sistema y entramos a la carpeta con los siguientes comandos
 
-    (django_example) ~$ cd ../../ProyectosDjango/
+    (django_example) ~$ cd ../../proyectos_django/
 
     (django_example) ~$ git clone https://github.com/willez88/django_example.git
 
     (django_example) ~$ cd django_example/
 
-    (django_ex) ~$ cp django_example/settings.py_example django_example/settings.py
+    (django_example) ~$ cp django_example/settings.py_example django_example/settings.py
 
 Tendremos las carpetas estructuradas de la siguiente manera
 
     // Entorno virtual
-    Programación/Python/EntornosVirtuales/Django/django_example
+    Programación/python/entornos_virtuales/django/django_example
 
     // Servidor de desarrollo
-    Programación/Python/ProyectosDjango/django_example
+    Programación/python/proyectos_django/django_example
 
 Instalar las dependencias de css y js: moverse a la carpeta static y ejecutar
 
@@ -159,7 +159,7 @@ Para salir del entorno virtual se puede ejecutar desde cualquier lugar del termi
 
 __Algunos comandos básicos__
 
-Crear proyectos en django. Desde el terminal, moverse a la carpeta ProyectosDjango y ejecutar
+Crear proyectos en django. Desde el terminal, moverse a la carpeta proyectos_django y ejecutar
 
     (nombre_entorno) ~$ django-admin startproject nombre_proyecto
 
@@ -203,7 +203,32 @@ Cuando un proyecto tiene varios desarrolladores se deben usar ramas
     // Fusionar nombre_rama con la rama master
     ~$ git merge nombre_rama
 
-    // Si la fusión se completó con éxito, eliminar la rama de manera local
+En caso que hayan conflictos en la fusión, probar lo siguiente
+
+    // Ver los archivos que tienen conflicto
+    git status
+
+    git add archivos ó git add .
+
+    git commit -m "solución de los conflictos en la fusión"
+
+    git merge nombre_rama
+
+    //ver el estado
+    git status
+
+    git push
+
+Arreglar los archivos en donde hubo conflictos durante la fusión, luego suba los cambios
+
+    git add .
+
+    git commit -m "fusion completada"
+
+    git push origin master
+
+Si la fusión se completó con éxito, eliminar la rama de manera local
+
     ~$ git branch -d nombre_rama
 
     // Eliminar la rama remota
