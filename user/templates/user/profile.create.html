@@ -1,0 +1,135 @@
+{% extends 'base/base.html' %}
+{% load i18n %}
+{% block breadcrumb %}
+  <li class="breadcrumb-item">
+    <a href="#">Usuario</a>
+  </li>
+  <li class="breadcrumb-item active">Registrar</li>
+{% endblock %}
+{% block content %}
+  <div class="card">
+    <div class="card-header">
+      {% if not form.instance.pk %}{% trans 'Registrar' %}{% else %}{% trans 'Actualizar' %}{% endif %}
+    </div>
+    <form action="" role="form" class="form form-horizontal validate-form" method="post" autocomplete="off">
+      {% csrf_token %}
+      <div class="card-body">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="form-group {% if form.username.errors %}has-error{% endif %}">
+              <label class="col-xl-5 col-lg-5 col-md-5 col-sm-5 control-label" for="{{ form.username.auto_id }}">
+                {{ form.username.label }}
+              </label>
+              <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+                <div class="form-inline">
+                  {{ form.username }}
+                  <i class="fas fa-asterisk item-required" aria-hidden="true"></i>
+                </div>
+                {% include 'base/form.errors.html' with form_errors=form.username.errors col_title_error='col-sm-4' col_msg_error='col-sm-8' %}
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="form-group {% if form.first_name.errors %}has-error{% endif %}">
+              <label class="col-xl-5 col-lg-5 col-md-5 col-sm-5 control-label" for="{{ form.first_name.auto_id }}">
+                {{ form.first_name.label }}
+              </label>
+              <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+                <div class="form-inline">
+                  {{ form.first_name }}
+                  <i class="fas fa-asterisk item-required" aria-hidden="true"></i>
+                </div>
+                {% include 'base/form.errors.html' with form_errors=form.first_name.errors col_title_error='col-sm-4' col_msg_error='col-sm-8' %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="form-group {% if form.last_name.errors %}has-error{% endif %}">
+              <label class="col-xl-5 col-lg-5 col-md-5 col-sm-5 control-label" for="{{ form.last_name.auto_id }}">
+                {{ form.last_name.label }}
+              </label>
+              <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+                <div class="form-inline">
+                  {{ form.last_name }}
+                  <i class="fas fa-asterisk item-required" aria-hidden="true"></i>
+                </div>
+                {% include 'base/form.errors.html' with form_errors=form.last_name.errors col_title_error='col-sm-4' col_msg_error='col-sm-8' %}
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="form-group {% if form.email.errors %}has-error{% endif %}">
+              <label class="col-xl-5 col-lg-5 col-md-5 col-sm-5 control-label" for="{{ form.email.auto_id }}">
+                {{ form.email.label }}
+              </label>
+              <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+                <div class="form-inline">
+                  {{ form.email }}
+                  <i class="fas fa-asterisk item-required" aria-hidden="true"></i>
+                </div>
+                {% include 'base/form.errors.html' with form_errors=form.email.errors col_title_error='col-sm-4' col_msg_error='col-sm-8' %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="form-group {% if form.phone.errors %}has-error{% endif %}">
+              <label class="col-xl-5 col-lg-5 col-md-5 col-sm-5 control-label" for="{{ form.phone.auto_id }}">
+                {{ form.phone.label }}
+              </label>
+              <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+                <div class="form-inline">
+                  {{ form.phone }}
+                  <i class="fas fa-asterisk item-required" aria-hidden="true"></i>
+                </div>
+                {% include 'base/form.errors.html' with form_errors=form.phone.errors col_title_error='col-sm-4' col_msg_error='col-sm-8' %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="form-group {% if form.password.errors %}has-error{% endif %}">
+              <label class="col-xl-5 col-lg-5 col-md-5 col-sm-5 control-label" for="{{ form.password.auto_id }}">
+                {{ form.password.label }}
+              </label>
+              <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+                <div class="form-inline">
+                  {{ form.password }}
+                  <i class="fas fa-asterisk item-required" aria-hidden="true"></i>
+                </div>
+                {% include 'base/form.errors.html' with form_errors=form.password.errors col_title_error='col-sm-4' col_msg_error='col-sm-8' %}
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="form-group {% if form.confirm_password.errors %}has-error{% endif %}">
+              <label class="col-xl-5 col-lg-5 col-md-5 col-sm-5 control-label" for="{{ form.confirm_password.auto_id }}">
+                {{ form.confirm_password.label }}
+              </label>
+              <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+                <div class="form-inline">
+                  {{ form.confirm_password }}
+                  <i class="fas fa-asterisk item-required" aria-hidden="true"></i>
+                </div>
+                {% include 'base/form.errors.html' with form_errors=form.confirm_password.errors col_title_error='col-sm-4' col_msg_error='col-sm-8' %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="card-footer small text-right">
+        <button type="reset" class="btn btn-primary btn-sm" data-toggle="tooltip">{% trans 'Limpiar' %}</button>
+        <button type="submit" class="btn btn-primary btn-sm" data-toggle="tooltip">{% if not form.instance.pk %}{% trans 'Registrar' %}{% else %}{% trans 'Actualizar' %}{% endif %}</button>
+      </div>
+    </form>
+  </div>
+  <br>
+{% endblock %}

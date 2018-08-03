@@ -1,6 +1,7 @@
 # Ejemplo Django
 
-En este proyecto cada usuario puede registrar los datos de una persona, quedando relacionado para poder saber que datos han registrado ciertos usuarios. Tiene un gestor de usuarios completo que permite iniciar sesión, salir de la sesión y agregar nuevos usuarios por el panel administrativo de django. Todavía no tiene habilitado la creación de nuevos usuarios mediante un formulario de registro.
+Este sistema permite a un usuario registrarse, iniciar sesión, salir, recuperar contraseña, cambiar contraseña, actualizar perfil. También cada usuario puede gestionar
+el registro de personas.
 
 # Pasos para crear el entorno de desarrollo
 
@@ -137,7 +138,7 @@ A veces pygraphviz da errores cuando se instala en sistemas operativos x86, cuan
 
 Hacer las migraciones
 
-    (django_example) ~$ python manage.py makemigrations base person
+    (django_example) ~$ python manage.py makemigrations base user person
 
     (django_example) ~$ python manage.py migrate
 

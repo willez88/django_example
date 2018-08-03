@@ -16,46 +16,48 @@ class Person(models.Model):
     """
 
     ## Nombre
-    first_name = models.CharField(max_length=100)
+    first_name = models.CharField('nombres', max_length=100)
 
     ## Apellido
-    last_name = models.CharField(max_length=100)
+    last_name = models.CharField('apellidos', max_length=100)
 
     ## Cédula de identidad
     identification_card = models.CharField(
+        'cédula de identidad',
         max_length=9,
         validators=[
             validators.RegexValidator(
                 r'^[VE][\d]{8}$',
-                _("Introduzca un número de cédula válido. Solo se permiten números y una longitud de 8 carácteres. Se agrega un 0 si la longitud es de 7 carácteres.")
+                _('Introduzca un número de cédula válido. Solo se permiten números y una longitud de 8 carácteres. Se agrega un 0 si la longitud es de 7 carácteres.')
             ),
         ],unique=True
     )
 
     ## Número telefónico
     phone = models.CharField(
+        'teléfono',
         max_length=15,
         validators=[
             validators.RegexValidator(
                 r'^\+\d{2}-\d{3}-\d{7}$',
-                _("Número telefónico inválido. Solo se permiten números.")
+                _('Número telefónico inválido. Solo se permiten números.')
             ),
         ]
     )
 
     ## Correo electrónico
     email = models.CharField(
-        max_length=100, help_text=("correo@correo.com")
+        'correo electrónico', max_length=100, help_text=('correo@correo.com')
     )
 
-    ## Relación entre la persona y el usuario del sistema
-    user = models.ForeignKey(User,on_delete=models.CASCADE)
+    ## Dirección
+    address = models.CharField('dirección', max_length=100)
 
     ## Relación entre la persona y la parroquia
-    parish = models.ForeignKey(Parish,on_delete=models.CASCADE)
+    parish = models.ForeignKey(Parish,on_delete=models.CASCADE, verbose_name='parroquia')
 
-    ## Parroquia
-    address = models.CharField(max_length=100)
+    ## Relación entre la persona y el usuario del sistema
+    user = models.ForeignKey(User,on_delete=models.CASCADE, verbose_name='usuario')
 
     def __str__(self):
         """!

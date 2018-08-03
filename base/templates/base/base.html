@@ -2,44 +2,44 @@
 {% load i18n %}
 {% get_current_language as LANGUAGE_CODE %}
 <html lang="{{ LANGUAGE_CODE|default:"es-ve" }}">
-    {% include 'base/head.html' %}
-    <body class="fixed-nav sticky-footer bg-dark" id="page-top">
-        <div class="content-wrapper">
-            <div class="container-fluid">
-                {% include 'base/navbar.html' %}
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item">
-                        <a href="{% url 'base:home' %}">Inicio</a>
-                    </li>
-                    {% block breadcrumb %}
+  {% include 'base/head.html' %}
+  <body class="fixed-nav sticky-footer bg-dark" id="page-top">
+    <div class="content-wrapper">
+      <div class="container-fluid">
+        {% include 'base/navbar.html' %}
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="{% url 'base:home' %}">Inicio</a>
+          </li>
+          {% block breadcrumb %}
 
-                    {% endblock %}
-                </ol>
-                <div class="row">
-                    <div class="col-12">
-                        <h1>{% block content_header_title %}{% endblock %}</h1>
-                    </div>
-                </div>
-                {% block content %}
-                    <div class="row">
-                        <div class="col-12">
-                            <center>
-                                {% if request.user.is_authenticated %}
-                                    <p>Bienvenido {{ request.user.username }}.</p>
-                                {% else %}
-                                    <p>Bienvenido al sistema.</p>
-                                    <p>Inicie sesión para registrar los datos.</p>
-                                {% endif %}
-                            </center>
-                        </div>
-                    </div>
-                {% endblock %}
-            </div>
-            {% include 'base/footer.info.html' %}
-            {% include 'base/footer.html' %}
-            {% block extra_footer %}
-
-            {% endblock %}
+          {% endblock %}
+        </ol>
+        <div class="row">
+          <div class="col-12">
+            <h1>{% block content_header_title %}{% endblock %}</h1>
+          </div>
         </div>
-    </body>
+        {% block content %}
+          <div class="row">
+            <div class="col-12">
+              <center>
+                {% if request.user.is_authenticated %}
+                  <p>Bienvenido {{ request.user.username }}.</p>
+                {% else %}
+                  <p>Bienvenido al sistema.</p>
+                  <p>Inicie sesión para registrar los datos.</p>
+                {% endif %}
+              </center>
+            </div>
+          </div>
+        {% endblock %}
+      </div>
+      {% include 'base/footer.info.html' %}
+      {% include 'base/footer.html' %}
+      {% block extra_footer %}
+
+      {% endblock %}
+    </div>
+  </body>
 </html>

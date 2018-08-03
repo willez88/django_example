@@ -1,71 +1,48 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <a class="navbar-brand" href="{% url 'base:home' %}">Ejemplo Django</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Inicio">
-                <a class="nav-link" href="{% url 'base:home' %}">
-                    <i class="fa fa-fw fa-dashboard"></i>
-                    <span class="nav-link-text">Inicio</span>
-                </a>
-            </li>
-            {% if request.user.is_authenticated %}
-                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Personas">
-                    <a class="nav-link" href="{% url 'person:list' %}">
-                        <i class="fa fa-fw fa-user-plus"></i>
-                        <span class="nav-link-text">Personas</span>
-                    </a>
-                </li>
-            {% endif %}
-        </ul>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link text-center" id="sidenavToggler">
-                    <i class="fa fa-fw fa-angle-left"></i>
-                </a>
-            </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle mr-lg-2" id="alertsDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-fw fa-bell"></i>
-                    <span class="d-lg-none">Alerts
-                        <span class="badge badge-pill badge-warning">6 New</span>
-                    </span>
-                    <span class="indicator text-warning d-none d-lg-block">
-                        <i class="fa fa-fw fa-circle"></i>
-                    </span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown">
-                    <h6 class="dropdown-header">Nuevas Alertas:</h6>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">
-                        <span class="text-warning">
-                            <strong><i class="fa fa-long-arrow-up fa-fw"></i>Estatus Actualizados</strong>
-                        </span>
-                        <span class="small float-right text-muted">11:21 AM</span>
-                        <div class="dropdown-message small">Este sistema está corriendo en un servidor de pruebas.</div>
-                    </a>
-                    <!--<div class="dropdown-divider"></div>
-                    <a class="dropdown-item small" href="#">Ver todas las alertas.</a>-->
-                </div>
-            </li>
-            {% if request.user.is_authenticated %}
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ request.user.username }}</a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Perfil</a>
-                        <a class="dropdown-item" href="{% url 'user:password_change' %}">Cambiar Contraseña</a>
-                        <a class="dropdown-item" href="{% url 'user:logout' %}"><i class="fa fa-fw fa-sign-out"></i>Salir</a>
-                    </div>
-                </li>
-            {% else %}
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'user:login' %}"><i class="fa fa-fw fa-sign-in"></i>Iniciar Sesión</a>
-                </li>
-            {% endif %}
-        </ul>
-    </div>
+  <a class="navbar-brand" href="{% url 'base:home' %}">Ejemplo Django</a>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+      <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Inicio">
+        <a class="nav-link" href="{% url 'base:home' %}">
+          <i class="fas fa-tachometer-alt"></i>
+          <span class="nav-link-text">Inicio</span>
+        </a>
+      </li>
+      {% if request.user.is_authenticated %}
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Personas">
+          <a class="nav-link" href="{% url 'person:list' %}">
+            <i class="fa fa-fw fa-user-plus"></i>
+            <span class="nav-link-text">Personas</span>
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-center" id="sidenavToggler">
+          <i class="fas fa-angle-left"></i>
+        </a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      {% if request.user.is_authenticated %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ request.user.username }}</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="{% url 'user:profile_detail' request.user.id %}">Detalles</a>
+            <a class="dropdown-item" href="{% url 'user:profile_update' request.user.id %}">Perfil</a>
+            <a class="dropdown-item" href="{% url 'user:password_change' %}">Cambiar Contraseña</a>
+            <a class="dropdown-item" href="{% url 'user:logout' %}"><i class="fas fa-sign-out-alt"></i>Salir</a>
+          </div>
+        </li>
+      {% else %}
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'user:login' %}"><i class="fas fa-sign-in-alt"></i> Iniciar Sesión</a>
+        </li>
+      {% endif %}
+    </ul>
+  </div>
 </nav>

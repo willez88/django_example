@@ -11,12 +11,12 @@ class PersonAdmin(admin.ModelAdmin):
     """
 
     ## Mostrar los campos de la clase
-    list_display = ('user','first_name','last_name','identification_card',)
+    list_display = ('user','first_name','last_name','identification_card','phone')
 
     ## Seleccionar campo para filtrar
     list_filter = ('user',)
 
     ## Seleccionar campo para ordenar
-    ordering = ('user',)
+    ordering = ('first_name',)
 
 admin.site.register(Person, PersonAdmin)

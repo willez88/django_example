@@ -14,104 +14,104 @@ class PersonForm(forms.ModelForm):
 
     ## Nombre
     first_name = forms.CharField(
-        label=_("Nombres:"),
+        label=_('Nombres:'),
         max_length=100,
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control form-control-sm', 'data-toggle': 'tooltip',
-                'title': _("Indique los Nombres de la Persona"),
+                'title': _('Indique los Nombres de la Persona'),
             }
         )
     )
 
     ## Apellido
     last_name = forms.CharField(
-        label=_("Apellidos:"),
+        label=_('Apellidos:'),
         max_length=100,
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control form-control-sm', 'data-toggle': 'tooltip',
-                'title': _("Indique los Apellidos de la Persona"),
+                'title': _('Indique los Apellidos de la Persona'),
             }
         )
     )
 
     ## Cédula de identidad
     identification_card = forms.CharField(
-        label=_("Cédula:"),
+        label=_('Cédula:'),
         max_length=9,
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control form-control-sm', 'data-toggle': 'tooltip',
-                'title': _("Indique la Cédula de la Persona"),
+                'title': _('Indique la Cédula de la Persona'),
             }
         )
     )
 
     ## Número telefónico
     phone = forms.CharField(
-        label=_("Teléfono:"),
+        label=_('Teléfono:'),
         max_length=15,
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control form-control-sm', 'placeholder': '+58-000-0000000',
                 'data-toggle': 'tooltip', 'data-mask': '+00-000-0000000',
-                'title': _("Indique el número telefónico de contacto"),
+                'title': _('Indique el número telefónico de contacto'),
             }
         ),
-        help_text=_("(país)-área-número")
+        help_text=_('(país)-área-número')
     )
 
     ## Correo Electrónico
     email = forms.EmailField(
-        label=_("Correo Electrónico:"),
+        label=_('Correo Electrónico:'),
         max_length=100,
         widget=forms.EmailInput(
             attrs={
                 'class': 'form-control form-control-sm email-mask', 'placeholder': _("Correo de contacto"),
                 'data-toggle': 'tooltip',
-                'title': _("Indique el correo electrónico de contacto con el usuario.")
+                'title': _('Indique el correo electrónico de contacto con el usuario')
             }
         )
     )
 
     ## Estado
     state = forms.ModelChoiceField(
-        label=_("Estado:"), queryset=State.objects.all(), empty_label=_("Seleccione..."),
+        label=_('Estado:'), queryset=State.objects.all(), empty_label=_('Seleccione...'),
         widget=forms.Select(attrs={
             'class': 'form-control form-control-sm select2', 'data-toggle': 'tooltip',
-            'title': _("Seleccione el estado en donde se encuentra ubicada"),
+            'title': _('Seleccione el estado en donde se encuentra ubicada'),
             'onchange': "combo_update(this.value,'base','Municipality','state','pk','name','id_municipality')",
         })
     )
 
     ## Municipio
     municipality = forms.ModelChoiceField(
-        label=_("Municipio:"), queryset=Municipality.objects.all(), empty_label=_("Seleccione..."),
+        label=_('Municipio:'), queryset=Municipality.objects.all(), empty_label=_('Seleccione...'),
         widget=forms.Select(attrs={
             'class': 'form-control form-control-sm select2', 'data-toggle': 'tooltip', 'disabled': 'true',
-            'title': _("Seleccione el municipio en donde se encuentra ubicada"),
+            'title': _('Seleccione el municipio en donde se encuentra ubicada'),
             'onchange': "combo_update(this.value,'base','Parish','municipality','pk','name','id_parish')",
         })
     )
 
     ## Parroquia
     parish = forms.ModelChoiceField(
-        label=_("Parroquia:"), queryset=Parish.objects.all(), empty_label=_("Seleccione..."),
+        label=_('Parroquia:'), queryset=Parish.objects.all(), empty_label=_('Seleccione...'),
         widget=forms.Select(attrs={
             'class': 'form-control form-control-sm select2', 'data-toggle': 'tooltip', 'disabled': 'true',
-            'title': _("Seleccione la parroquia en donde se encuentra ubicada"),
+            'title': _('Seleccione la parroquia en donde se encuentra ubicada'),
         })
     )
 
     ## Dirección
     address = forms.CharField(
-        label=_("Dirección:"),
+        label=_('Dirección:'),
         max_length=100,
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control form-control-sm', 'data-toggle': 'tooltip',
-                'title': _("Indique la dirección exacta"),
+                'title': _('Indique la dirección exacta'),
             }
         )
     )

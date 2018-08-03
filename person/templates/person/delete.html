@@ -1,22 +1,22 @@
 {% extends 'base/base.html' %}
 {% load i18n %}
 {% block breadcrumb %}
-    <li class="breadcrumb-item">
-        <a href="{% url 'person:list' %}">Personas</a>
-    </li>
-    <li class="breadcrumb-item active">Eliminar</li>
+  <li class="breadcrumb-item">
+    <a href="{% url 'person:list' %}">Personas</a>
+  </li>
+  <li class="breadcrumb-item active">Eliminar</li>
 {% endblock %}
 {% block content %}
-    <div class="card md-3">
-        <form action="" role="form" class="form form-horizontal validate-form" method="post" autocomplete="off">
-            {% csrf_token %}
-            <div class="card-header">Eliminar</div>
-            <div class="card-body">
-                <p>¿Estás seguro que deseas eliminar los datos de la Persona "{{ object }}"?</p>
-            </div>
-            <div class="card-footer small text-right">
-                <button type="submit" class="btn btn-danger btn-sm" data-toggle="tooltip">Eliminar</button>
-            </div>
-        </form>
-    </div>
+  <div class="card md-3">
+    <form action="" role="form" class="form form-horizontal validate-form" method="post" autocomplete="off">
+      {% csrf_token %}
+      <div class="card-header">Eliminar</div>
+      <div class="card-body">
+        <p>¿Estás seguro que deseas eliminar los datos de la Persona "{{ object }}"?</p>
+      </div>
+      <div class="card-footer small text-right">
+        <button type="submit" class="btn btn-danger btn-sm" data-toggle="tooltip">Eliminar</button>
+      </div>
+    </form>
+  </div>
 {% endblock %}

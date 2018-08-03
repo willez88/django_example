@@ -1,7 +1,7 @@
-from django.urls import path, include
+from django.urls import path, include, reverse_lazy
 from django.contrib.auth import views
 from django.contrib.auth.decorators import login_required
-from django.urls import reverse_lazy
+from .views import ProfileCreateView, ProfileUpdateView, ProfileDetailView
 
 app_name = 'user'
 
@@ -20,4 +20,7 @@ urlpatterns = [
     path('cambiar-clave/', login_required(views.PasswordChangeView.as_view(template_name='user/password_change_form.html',
         success_url = reverse_lazy('user:password_change_done'))), name='password_change'),
     path('cambiar-clave-hecho/', login_required(views.PasswordChangeDoneView.as_view(template_name='user/password_change_done.html')), name='password_change_done'),
+    path('registrar/', ProfileCreateView.as_view(), name='profile_create'),
+    path('actualizar/<int:pk>/', login_required(ProfileUpdateView.as_view()), name='profile_update'),
+    path('detalle/<int:pk>/', ProfileDetailView.as_view(), name='profile_detail')
 ]

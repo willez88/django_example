@@ -1,52 +1,52 @@
 {% extends 'base/base.html' %}
 {% load i18n static %}
 {% block breadcrumb %}
-    <li class="breadcrumb-item">
-        <a href="#">Usuario</a>
-    </li>
-    <li class="breadcrumb-item active">Iniciar Sesión</li>
+  <li class="breadcrumb-item">
+    <a href="#">Usuario</a>
+  </li>
+  <li class="breadcrumb-item active">Iniciar Sesión</li>
 {% endblock %}
 {% block content %}
-    {% if form.non_field_errors %}
-        {% for error in form.non_field_errors %}
-            <p class="alert alert-danger">
-                {{ error }}
-            </p>
-        {% endfor %}
-    {% endif %}
+  {% if form.non_field_errors %}
+    {% for error in form.non_field_errors %}
+      <p class="alert alert-danger">
+        {{ error }}
+      </p>
+    {% endfor %}
+  {% endif %}
 
-    {% if user.is_authenticated %}
-        <p class="alert alert-warning">
-            {% blocktrans trimmed %}
-                Ya se ha autenticado, pero no está autorizado a acceder a esta página.
-                ¿Desea autenticarse con una cuenta diferente?
-            {% endblocktrans %}
-        </p>
-    {% endif %}
+  {% if user.is_authenticated %}
+    <p class="alert alert-warning">
+      {% blocktrans trimmed %}
+        Ya se ha autenticado, pero no está autorizado a acceder a esta página.
+        ¿Desea autenticarse con una cuenta diferente?
+      {% endblocktrans %}
+    </p>
+  {% endif %}
 
-    <div class="card card-login mx-auto mt-5">
-        <div class="card-header">Iniciar Sesión</div>
-        <div class="card-body">
-            <form method="post" autocomplete="off" class="validate-form">
-                {% csrf_token %}
-                <div class="form-group">
-                    <label for="{{ form.username.auto_id }}">
-                        {{ form.username.label_tag }}
-                    </label>
-                    <input class="form-control" type="text" aria-describedby="emailHelp" name="username" required>
-                </div>
-                <div class="form-group">
-                    <label for="{{ form.password.auto_id }}">
-                        {{ form.password.label_tag }}
-                    </label>
-                    <input class="form-control" type="password" name="password" required>
-                </div>
-                <button class="btn btn-primary btn-block" type="submit">Entrar</button>
-            </form>
-            <div class="text-center">
-                <a class="d-block small mt-3" href="#">Registrarse</a>
-                <a class="d-block small" href="{% url 'user:password_reset' %}">Olvidé mi contraseña</a>
-            </div>
+  <div class="card card-login mx-auto mt-5">
+    <div class="card-header">Iniciar Sesión</div>
+    <div class="card-body">
+      <form method="post" autocomplete="off" class="validate-form">
+        {% csrf_token %}
+        <div class="form-group">
+          <label for="{{ form.username.auto_id }}">
+            {{ form.username.label_tag }}
+          </label>
+          <input class="form-control" type="text" aria-describedby="emailHelp" name="username" required>
         </div>
+        <div class="form-group">
+          <label for="{{ form.password.auto_id }}">
+            {{ form.password.label_tag }}
+          </label>
+          <input class="form-control" type="password" name="password" required>
+        </div>
+        <button class="btn btn-primary btn-block" type="submit">Entrar</button>
+      </form>
+      <div class="text-center">
+        <a class="d-block small mt-3" href="{% url 'user:profile_create' %}">Registrarse</a>
+        <a class="d-block small" href="{% url 'user:password_reset' %}">Olvidé mi contraseña</a>
+      </div>
     </div>
+  </div>
 {% endblock %}

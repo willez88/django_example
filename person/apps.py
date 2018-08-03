@@ -1,5 +1,6 @@
 from django.apps import AppConfig
 
 
-class PersonaConfig(AppConfig):
+class PersonConfig(AppConfig):
     name = 'person'
+    verbose_name = 'Persona'

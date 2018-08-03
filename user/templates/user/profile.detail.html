@@ -1,0 +1,20 @@
+{% extends 'base/base.html' %}
+{% load i18n %}
+{% block breadcrumb %}
+  <li class="breadcrumb-item">
+    <a href="#">Usuario</a>
+  </li>
+  <li class="breadcrumb-item active">Detalle</li>
+{% endblock %}
+{% block content %}
+  <div class="card mb-3">
+    <div class="card-header">Detalle del Perfil</div>
+    <div class="card-body">
+      <p>Nombre de Usuario: {{ object.username }}</p>
+      <p>Nombres: {{ object.first_name }}</p>
+      <p>Apellidos: {{ object.last_name }}</p>
+      <p>Correo Electrónico: {{ object.email }}</p>
+      <p>Teléfono: {{ object.profile.phone }}</p>
+    </div>
+  </div>
+{% endblock %}
