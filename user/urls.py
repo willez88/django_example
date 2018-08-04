@@ -17,10 +17,11 @@ urlpatterns = [
         success_url = reverse_lazy('user:password_reset_complete')), name='password_reset_confirm'),
     path('reset/done/', views.PasswordResetCompleteView.as_view(template_name='user/password_reset_complete.html'),
         name='password_reset_complete'),
-    path('cambiar-clave/', login_required(views.PasswordChangeView.as_view(template_name='user/password_change_form.html',
+    path('password-change/', login_required(views.PasswordChangeView.as_view(template_name='user/password_change_form.html',
         success_url = reverse_lazy('user:password_change_done'))), name='password_change'),
-    path('cambiar-clave-hecho/', login_required(views.PasswordChangeDoneView.as_view(template_name='user/password_change_done.html')), name='password_change_done'),
-    path('registrar/', ProfileCreateView.as_view(), name='profile_create'),
-    path('actualizar/<int:pk>/', login_required(ProfileUpdateView.as_view()), name='profile_update'),
-    path('detalle/<int:pk>/', ProfileDetailView.as_view(), name='profile_detail')
+    path('password-change-done/', login_required(views.PasswordChangeDoneView.as_view(template_name='user/password_change_done.html')),
+        name='password_change_done'),
+    path('profile-create/', ProfileCreateView.as_view(), name='profile_create'),
+    path('profile-update/<int:pk>/', login_required(ProfileUpdateView.as_view()), name='profile_update'),
+    path('profile-detail/<int:pk>/', ProfileDetailView.as_view(), name='profile_detail')
 ]

@@ -3,43 +3,69 @@
 {% get_current_language as LANGUAGE_CODE %}
 <html lang="{{ LANGUAGE_CODE|default:"es-ve" }}">
   {% include 'base/head.html' %}
-  <body class="fixed-nav sticky-footer bg-dark" id="page-top">
-    <div class="content-wrapper">
-      <div class="container-fluid">
-        {% include 'base/navbar.html' %}
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">
-            <a href="{% url 'base:home' %}">Inicio</a>
-          </li>
-          {% block breadcrumb %}
+  <body id="page-top">
+    {% include 'base/navbar.html' %}
+    <div id="wrapper">
+      {% include 'base/sidebar.html' %}
+      <div id="content-wrapper">
+        <div class="container-fluid">
 
-          {% endblock %}
-        </ol>
-        <div class="row">
-          <div class="col-12">
-            <h1>{% block content_header_title %}{% endblock %}</h1>
-          </div>
-        </div>
-        {% block content %}
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="{% url 'base:home' %}">Inicio</a>
+            </li>
+            {% block breadcrumb %}
+
+            {% endblock %}
+          </ol>
+
           <div class="row">
             <div class="col-12">
-              <center>
-                {% if request.user.is_authenticated %}
-                  <p>Bienvenido {{ request.user.username }}.</p>
-                {% else %}
-                  <p>Bienvenido al sistema.</p>
-                  <p>Inicie sesión para registrar los datos.</p>
-                {% endif %}
-              </center>
+              <h1>{% block content_header_title %}{% endblock %}</h1>
             </div>
           </div>
-        {% endblock %}
+          {% block content %}
+            <div class="row">
+              <div class="col-12">
+                <center>
+                  {% if request.user.is_authenticated %}
+                    <p>Bienvenido {{ request.user.username }}.</p>
+                  {% else %}
+                    <p>Bienvenido al sistema.</p>
+                    <p>Inicie sesión para registrar los datos.</p>
+                  {% endif %}
+                </center>
+              </div>
+            </div>
+          {% endblock %}
+        </div>
+        {% include 'base/footer.info.html' %}
       </div>
-      {% include 'base/footer.info.html' %}
-      {% include 'base/footer.html' %}
-      {% block extra_footer %}
-
-      {% endblock %}
     </div>
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+    {% include 'base/footer.html' %}
+    {% block extra_footer %}
+
+    {% endblock %}
+    <script type="text/javascript">
+      $(document).ready(function()
+        {
+          //obtiene la url actual del sistema
+          var route = "{{ request.path }}";
+          //rutas de la app persona
+          var pe = "/person/list/";
+
+          if( route == "/" )
+          {
+            $("#ba").addClass("active");
+          }
+          else if( route == pe )
+          {
+            $("#pe").addClass("active");
+          }
+        });
+    </script>
   </body>
 </html>
