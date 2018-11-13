@@ -59,7 +59,7 @@ Nos movemos a la carpeta proyectos_django, descargamos el sistema y entramos a l
 
     (django_example) ~$ cd django_example/
 
-    (django_example) ~$ cp django_example/settings.py_example django_example/settings.py
+    (django_example) ~$ cp django_example/settings.default.py django_example/settings.py
 
 Tendremos las carpetas estructuradas de la siguiente manera
 
@@ -104,28 +104,30 @@ Puedes crear la base de datos usando la interfaz gráfica phppgadmin
 
     // Nombre de la base de datos: django_example
 
-Crear la base de datos para __django_example__ usando MariaDB
+Opcional:
 
-    // Acesso al usuario root del sistema
-    # mysql
+    Crear la base de datos para __django_example__ usando MariaDB
 
-    // Crea el usuario
-    CREATE USER 'admin'@'localhost' IDENTIFIED BY '123';
+        // Acesso al usuario root del sistema
+        # mysql
 
-    // Se Otorgan todos los permisos
-    GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost';
+        // Crea el usuario
+        CREATE USER 'admin'@'localhost' IDENTIFIED BY '123';
 
-    FLUSH PRIVILEGES;
+        // Se Otorgan todos los permisos
+        GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost';
 
-Puedes crear la base de datos usando la interfaz gráfica phpmyadmin
+        FLUSH PRIVILEGES;
 
-    // Desde algún navegador ir al siguiente sitio y entrar con el usuario que se acaba de crear
-    localhost/phpmyadmin
+    Puedes crear la base de datos usando la interfaz gráfica phpmyadmin
 
-    // Si phpmyadmin no abre, ejecutar el siguiente comando
-    ~# ln -s /usr/share/phpmyadmin /var/www/html
+        // Desde algún navegador ir al siguiente sitio y entrar con el usuario que se acaba de crear
+        localhost/phpmyadmin
 
-    // Nombre de la base de datos: django_example
+        // Si phpmyadmin no abre, ejecutar el siguiente comando
+        ~# ln -s /usr/share/phpmyadmin /var/www/html
+
+        // Nombre de la base de datos: django_example
 
 Instalamos los requemientos que el sistema necesita en el entorno virtual
 
