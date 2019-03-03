@@ -10,7 +10,7 @@ class ComboUpdateView(View):
     Clase que actualiza los datos de un select dependiente de los datos de otro select
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GNU Public License versión 3 (GPLv3)</a>
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
     @date 06-07-2018
     """
 

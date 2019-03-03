@@ -7,7 +7,7 @@ class ProfileForm(forms.ModelForm):
     Clase que contiene los campos del formulario de perfil del usuario
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GNU Public License versión 3 (GPLv3)</a>
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
     @date 03-08-2018
     """
 
@@ -94,7 +94,6 @@ class ProfileForm(forms.ModelForm):
         Función que permite validar si el correo del usuario ya esta registrado en el sistema
 
         @author William Páez (paez.william8 at gmail.com)
-        @copyright <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GNU Public License versión 3 (GPLv3)</a>
         @date 03-08-2018
         @param self <b>{object}</b> Objeto que instancia la clase
         @return Mensaje de error en caso de que el correo ya esté registrado en el sistema
@@ -138,7 +137,7 @@ class ProfileUpdateForm(ProfileForm):
     Clase que contiene los campos del formulario de perfil del usuario para actualizar los datos
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GNU Public License versión 3 (GPLv3)</a>
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
     @date 03-08-2018
     """
 

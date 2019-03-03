@@ -14,7 +14,7 @@ class ProfileCreateView(SuccessMessageMixin, CreateView):
     Clase que permite a cualquier persona registrarse en el sistema
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GNU Public License versión 3 (GPLv3)</a>
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
     @date 03-08-2018
     """
 
@@ -60,7 +60,7 @@ class ProfileUpdateView(SuccessMessageMixin, UpdateView):
     Clase que permite a un usuario actualizar sus datos de perfil
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GNU Public License versión 3 (GPLv3)</a>
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
     @date 03-08-2018
     """
 
@@ -132,7 +132,7 @@ class ProfileDetailView(DetailView):
     Clase que permite a un usuario ver el perfil completo de otros usuarios
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GNU Public License versión 3 (GPLv3)</a>
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
     @date 03-08-2018
     """
 

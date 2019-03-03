@@ -14,7 +14,7 @@ class PersonListView(ListView):
     Clase que muestra la lista de personas
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GNU Public License versión 3 (GPLv3)</a>
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
     @date 06-07-2018
     """
 
@@ -39,7 +39,7 @@ class PersonCreateView(SuccessMessageMixin, CreateView):
     Clase que permite a un usuario registrar personas
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GNU Public License versión 3 (GPLv3)</a>
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
     @date 06-07-2018
     """
 
@@ -71,7 +71,7 @@ class PersonUpdateView(SuccessMessageMixin, UpdateView):
     Clase que permite a un usuario actualizar los datos de una persona
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GNU Public License versión 3 (GPLv3)</a>
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
     @date 06-07-2018
     """
 
@@ -120,7 +120,7 @@ class PersonDeleteView(SuccessMessageMixin, DeleteView):
     Clase que permite a un usuario eliminar los datos de una persona
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='http://www.gnu.org/licenses/gpl-3.0.html'>GNU Public License versión 3 (GPLv3)</a>
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
     @date 06-07-2018
     """
 
