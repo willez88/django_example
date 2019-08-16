@@ -15,7 +15,7 @@ Probado en Debian 9 y Ubuntu 18.04. Instalar los siguientes programas
 
 Para instalar npm hacer lo siguiente
 
-    ~# curl -sL https://deb.nodesource.com/setup_10.x | bash -
+    ~# curl -sL https://deb.nodesource.com/setup_12.x | bash -
 
     ~# apt install -y nodejs
 
