@@ -9,7 +9,7 @@ Cuando somos un usuario normal del sistema, en el terminal se mostrará el sigui
 
 Cuando accedemos al usuario root del sistema, en el terminal se mostrará el siguiente símbolo: ~#
 
-Probado en Debian Buster y Ubuntu 18.04. Instalar los siguientes programas
+Probado en Debian 10 y Ubuntu 18.04. Instalar los siguientes programas
 
     ~# apt install curl git graphviz graphviz-dev libmariadbclient-dev mariadb-server postgresql phpmyadmin phppgadmin python3-dev virtualenv
 
