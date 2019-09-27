@@ -9,13 +9,13 @@ Cuando somos un usuario normal del sistema, en el terminal se mostrará el sigui
 
 Cuando accedemos al usuario root del sistema, en el terminal se mostrará el siguiente símbolo: ~#
 
-Probado en Debian 9 y Ubuntu 18.04. Instalar los siguientes programas
+Probado en Debian 10 y Ubuntu 18.04. Instalar los siguientes programas
 
     ~# apt install curl git graphviz graphviz-dev libmariadbclient-dev mariadb-server postgresql phpmyadmin phppgadmin python3-dev virtualenv
 
 Para instalar npm hacer lo siguiente
 
-    ~# curl -sL https://deb.nodesource.com/setup_10.x | bash -
+    ~# curl -sL https://deb.nodesource.com/setup_12.x | bash -
 
     ~# apt install -y nodejs
 
