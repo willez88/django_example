@@ -237,6 +237,9 @@ Si la fusión se completó con éxito, eliminar la rama de manera local
     // Eliminar la rama remota
     ~$ git push origin :nombre_rama
 
+    // Limpiar lista de las ramas eliminadas en local
+    ~$ git fetch --prune
+
 Generar modelo de datos relacional del proyecto completo. Crea la imagen en la raíz del proyecto
 
     (nombre_entorno) ~$ python manage.py graph_models -a -g -o nombre_proyecto.svg
