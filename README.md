@@ -9,9 +9,9 @@ Cuando somos un usuario normal del sistema, en el terminal se mostrará el sigui
 
 Cuando accedemos al usuario root del sistema, en el terminal se mostrará el siguiente símbolo: ~#
 
-Probado en Debian 10 y Ubuntu 18.04. Instalar los siguientes programas
+Probado en Debian 10 y Ubuntu 19.10. Instalar los siguientes programas
 
-    ~# apt install curl git graphviz graphviz-dev libmariadbclient-dev mariadb-server postgresql phpmyadmin phppgadmin python3-dev virtualenv
+    ~# apt install curl git graphviz graphviz-dev libmysqlclient-dev mariadb-server postgresql python3-dev virtualenv
 
 Para instalar npm hacer lo siguiente
 
@@ -97,10 +97,7 @@ Crear la base de datos para __django_example__ usando PostgresSQL
     // Salir del usuario root
     ~# exit
 
-Puedes crear la base de datos usando la interfaz gráfica phppgadmin
-
-    // Desde algún navegador ir al siguiente sitio y entrar con el usuario que se acaba de crear
-    localhost/phppgadmin
+Puedes crear la base de datos usando la interfaz gráfica de pgadmin4
 
     // Nombre de la base de datos: django_example
 
@@ -132,11 +129,6 @@ Opcional:
 Instalamos los requemientos que el sistema necesita en el entorno virtual
 
     (django_example) ~$ pip install -r requirements/dev.txt
-
-A veces pygraphviz da errores cuando se instala en sistemas operativos x86, cuando esto ocurra revisar el siguiente archivo
-
-    // En este archivo se indica que hacer en caso de error
-    requirements/dev.txt
 
 Hacer las migraciones
 
@@ -240,6 +232,33 @@ Si la fusión se completó con éxito, eliminar la rama de manera local
     // Limpiar lista de las ramas eliminadas en local
     ~$ git fetch --prune
 
+Para git con dos repositorios remotos (Ejemplo)
+
+    // Clonar el repositorio donde se hacen cambios constantes (repositorio que será privado)
+    ~$ git clone https://github.com/usuario/principal.git
+
+    // Agregar el repositorio remoto
+    ~$ git remote add secundario https://github.com/usuario/segundario.git
+
+    // Repo principal es: origin
+    // Repo secundario es: secundario
+
+    // Funcionalidades incompletas se sincronizan con el remoto principal usando los comandos normales
+
+    // Funcionalidades completas se pueden sincronizar con el repo secundario
+    ~$ git fetch secundario
+    ~$ git merge secundario/master
+
+    // En caso de conflictos en la mezcla, solucionarlos
+
+    // La sincronización está con origin/master, por lo tanto,
+    // para subir cambios al remoto secundario es con el siguiente comando
+    ~$ git push -u secundario
+
+    // Luego de ejecutar ese comando la sincronización cambia a secundario/master
+    // para volver a la sincronización con origin/master, ejecutar lo siguiente
+    ~$ git push -u principal
+
 Generar modelo de datos relacional del proyecto completo. Crea la imagen en la raíz del proyecto
 
     (nombre_entorno) ~$ python manage.py graph_models -a -g -o nombre_proyecto.svg
@@ -251,3 +270,109 @@ Generar modelo de datos relacional de una aplicación del proyecto
 Instalar django y otras aplicaciones en el entorno:
 
     (nombre_entorno) ~$ pip install nombre_aplicación
+
+# Pasos para crear el entorno de desarrollo en Windows
+
+Instalar los siguientes programas
+
+    // Descargar git
+    git: https://git-scm.com/downloads
+
+    // Descargar wampserver o xampp
+    wampserver: http://www.wampserver.com/en/
+    xampp: https://www.apachefriends.org/es/index.html
+
+    // Descargar python y cuando se instale seleccionar la opción de agregar al path
+    python: https://www.python.org/downloads/windows/
+
+    // Descargar nodejs para usar npm
+    npm: https://nodejs.org/en/
+
+    // Descargar BD Browser para visualizar las bases de datos si se usa sqlite3
+    DB Browser: https://sqlitebrowser.org/dl/
+
+Con python instalado, abrir el terminal de windows y ejecutar
+
+    pip install virtualenv
+
+Desde el mismo terminal, crear estas carpetas usando el siguiente comando
+
+    mkdir Programacion\python\entornos_virtuales\django
+    mkdir Programacion\python\proyectos_django
+
+Moverse a la siguiente carpeta para crear el entorno virtual del proyecto
+
+    cd Programacion\python\entornos_virtuales\django
+    virtualenv django_example
+
+Creado el entorno virtual, se puede activar y desactivar (dejarlo activado)
+
+    // Activa el entorno virtual
+    django_example\Scripts\activate.bat
+
+    // Desactiva el entorno virtual
+    django_example\Scripts\deactivate.bat
+
+Con git instalado, abrirlo y en esa nueva terminal, moverse a la carpeta proyectos_django
+
+    cd Programacion/python/proyectos_django
+
+Desde el terminal de git, clonar el proyecto desde el repositorio
+
+    git clone https://github.com/willez88/django_example.git
+
+Moverse al proyecto django_example
+
+    cd django_example
+
+Configurar el settings.default.py del proyecto
+
+    // Se hace una copia del settings.default.py con el nombre settings.py
+    cp django_example/settings.default.py django_example/settings.py
+
+    // Se abre el archivo django_example/settings.py con un editor de texto y hacer lo siguiente
+    // Comentar las líneas de PostgreSQL y descomentar las líneas de sqlite3
+
+Deben haber dos terminales abiertos
+
+    // Terminal del entorno virtual
+    // Terminal del git
+
+Volvemos al terminal del entorno virtual y nos movemos a la carpeta del proyecto
+
+    // Pararse en la carpeta del proyecto
+    cd ..\..\proyectos_django\django_example
+
+    // antes de ejecutar este comando, comentar las lineas 4, 5 y 6 del archivo requirements\dev.txt
+    pip install -r requirements\dev.txt
+
+Moverse a la carpeta static
+
+    cd static
+
+Instalar los archivos js y css que el sistema necesita y volver a la raíz del proyecto
+
+    npm install
+
+    // Regresar a la carpeta raíz
+    cd ..
+
+Hacer las migraciones desde el terminal de virtualenv
+
+    python manage.py makemigrations base user person
+
+    python manage.py migrate
+
+    python manage.py loaddata 1_country.json 2_state.json 3_municipality.json 4_city.json 5_parish.json
+
+Crear usuario administrador
+
+    python manage.py createsuperuser
+
+Iniciar el servidor de python
+
+    python manage.py runserver
+
+Poner en el navegador la url que sale en el terminal para entrar el sistema
+
+Llegado hasta aquí el sistema ya debe estar funcionando

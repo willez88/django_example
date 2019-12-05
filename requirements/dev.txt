@@ -1,14 +1,14 @@
-django==2.2.2
-django-extensions==2.1.9
-psycopg2==2.2.5
+django==2.2.6
+django-extensions==2.2.5
+psycopg2-binary==2.8.4
 pygraphviz==1.5
 pymysql==0.9.3
-mysqlclient==1.4.2.post1
-djangorestframework==3.9.4
+mysqlclient==1.4.6
+djangorestframework==3.10.3
 
 # Instalar últimas versiones
 #django
-#psycopg2
+#psycopg2-binary
 #django-extensions
 #pygraphviz
 #pymysql
