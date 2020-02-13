@@ -248,6 +248,8 @@ Para git con dos repositorios remotos (Ejemplo)
     // Funcionalidades completas se pueden sincronizar con el repo secundario
     ~$ git fetch secundario
     ~$ git merge secundario/master
+    // Estos dos comandos también se puede usar de esta forma:
+    ~$ git pull secundario master
 
     // En caso de conflictos en la mezcla, solucionarlos
 
@@ -257,7 +259,7 @@ Para git con dos repositorios remotos (Ejemplo)
 
     // Luego de ejecutar ese comando la sincronización cambia a secundario/master
     // para volver a la sincronización con origin/master, ejecutar lo siguiente
-    ~$ git push -u principal
+    ~$ git push -u origin
 
 Generar modelo de datos relacional del proyecto completo. Crea la imagen en la raíz del proyecto
 
