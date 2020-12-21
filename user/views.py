@@ -1,21 +1,21 @@
-from django.shortcuts import render, redirect
-from django.urls import reverse_lazy
-from django.views.generic import CreateView, UpdateView, DetailView
+from base.constant import CREATE_MESSAGE, UPDATE_MESSAGE
 from django.contrib.auth.models import User
+from django.contrib.messages.views import SuccessMessageMixin
+from django.shortcuts import redirect
+from django.urls import reverse_lazy
+from django.views.generic import CreateView, DetailView, UpdateView
+
 from .forms import ProfileForm, ProfileUpdateForm
 from .models import Profile
-from base.constant import CREATE_MESSAGE, UPDATE_MESSAGE
-from django.contrib.messages.views import SuccessMessageMixin
 
-# Create your views here.
 
 class ProfileCreateView(SuccessMessageMixin, CreateView):
     """!
     Clase que permite a cualquier persona registrarse en el sistema
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
-    @date 03-08-2018
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>
+        GNU Public License versión 2 (GPLv2)</a>
     """
 
     model = User
@@ -29,9 +29,9 @@ class ProfileCreateView(SuccessMessageMixin, CreateView):
         Función que valida si el formulario es correcto
 
         @author William Páez (paez.william8 at gmail.com)
-        @date 03-08-2018
         @param self <b>{object}</b> Objeto que instancia la clase
-        @param form <b>{object}</b> Objeto que contiene el formulario de registro
+        @param form <b>{object}</b> Objeto que contiene el formulario de
+            registro
         @return Formulario validado
         """
 
@@ -44,24 +44,24 @@ class ProfileCreateView(SuccessMessageMixin, CreateView):
         self.object.is_active = True
         self.object.save()
 
-        profile = Profile.objects.create(
-            phone = form.cleaned_data['phone'],
-            user= self.object
+        Profile.objects.create(
+            phone=form.cleaned_data['phone'],
+            user=self.object
         )
-
         return super(ProfileCreateView, self).form_valid(form)
 
     def form_invalid(self, form):
         print(form.errors)
         return super(ProfileCreateView, self).form_invalid(form)
 
+
 class ProfileUpdateView(SuccessMessageMixin, UpdateView):
     """!
     Clase que permite a un usuario actualizar sus datos de perfil
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
-    @date 03-08-2018
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>
+        GNU Public License versión 2 (GPLv2)</a>
     """
 
     model = User
@@ -72,19 +72,23 @@ class ProfileUpdateView(SuccessMessageMixin, UpdateView):
 
     def dispatch(self, request, *args, **kwargs):
         """!
-        Función que valida si el usuario del sistema tiene permisos para entrar a esta vista
+        Función que valida si el usuario del sistema tiene permisos para entrar
+            a esta vista
 
         @author William Páez (paez.william8 at gmail.com)
-        @date 03-08-2018
         @param self <b>{object}</b> Objeto que instancia la clase
         @param request <b>{object}</b> Objeto que contiene la petición
         @param *args <b>{tupla}</b> Tupla de valores, inicialmente vacia
         @param **kwargs <b>{dict}</b> Diccionario de datos, inicialmente vacio
-        @return Redirecciona al usuario a la página de error de permisos si no es su perfil
+        @return Redirecciona al usuario a la página de error de permisos si no
+            es su perfil
         """
 
-        if self.request.user.id == self.kwargs['pk'] and Profile.objects.filter(user=self.request.user):
-            return super(ProfileUpdateView, self).dispatch(request, *args, **kwargs)
+        if self.request.user.id == self.kwargs['pk'] and \
+                Profile.objects.filter(user=self.request.user):
+            return super(ProfileUpdateView, self).dispatch(
+                request, *args, **kwargs
+            )
         else:
             return redirect('base:error_403')
 
@@ -93,7 +97,6 @@ class ProfileUpdateView(SuccessMessageMixin, UpdateView):
         Función que agrega valores predeterminados a los campos del formulario
 
         @author William Páez (paez.william8 at gmail.com)
-        @date 03-08-2018
         @param self <b>{object}</b> Objeto que instancia la clase
         @return Diccionario con los valores predeterminados
         """
@@ -107,9 +110,9 @@ class ProfileUpdateView(SuccessMessageMixin, UpdateView):
         Función que valida si el formulario es correcto
 
         @author William Páez (paez.william8 at gmail.com)
-        @date 03-08-2018
         @param self <b>{object}</b> Objeto que instancia la clase
-        @param form <b>{object}</b> Objeto que contiene el formulario de registro
+        @param form <b>{object}</b> Objeto que contiene el formulario de
+            registro
         @return Formulario validado
         """
 
@@ -127,13 +130,14 @@ class ProfileUpdateView(SuccessMessageMixin, UpdateView):
 
         return super(ProfileUpdateView, self).form_valid(form)
 
+
 class ProfileDetailView(DetailView):
     """!
     Clase que permite a un usuario ver el perfil completo de otros usuarios
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
-    @date 03-08-2018
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>
+        GNU Public License versión 2 (GPLv2)</a>
     """
 
     model = User
@@ -141,18 +145,22 @@ class ProfileDetailView(DetailView):
 
     def dispatch(self, request, *args, **kwargs):
         """!
-        Función que valida si el usuario del sistema tiene permisos para entrar a esta vista
+        Función que valida si el usuario del sistema tiene permisos para entrar
+            a esta vista
 
         @author William Páez (paez.william8 at gmail.com)
-        @date 03-08-2018
         @param self <b>{object}</b> Objeto que instancia la clase
         @param request <b>{object}</b> Objeto que contiene la petición
         @param *args <b>{tupla}</b> Tupla de valores, inicialmente vacia
         @param **kwargs <b>{dict}</b> Diccionario de datos, inicialmente vacio
-        @return Redirecciona al usuario a la página de error de permisos si no es su perfil
+        @return Redirecciona al usuario a la página de error de permisos si no
+            es su perfil
         """
 
-        if self.request.user.id == self.kwargs['pk'] and Profile.objects.filter(user=self.request.user):
-            return super(ProfileDetailView, self).dispatch(request, *args, **kwargs)
+        if self.request.user.id == self.kwargs['pk'] and \
+                Profile.objects.filter(user=self.request.user):
+            return super(ProfileDetailView, self).dispatch(
+                request, *args, **kwargs
+            )
         else:
             return redirect('base:error_403')

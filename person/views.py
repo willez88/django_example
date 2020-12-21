@@ -1,21 +1,21 @@
-from django.shortcuts import render, redirect
-from django.urls import reverse_lazy
-from django.views.generic import ListView, CreateView, UpdateView, DeleteView
-from django.contrib.auth.models import User
-from .models import Person
-from .forms import PersonForm
-from base.models import Parish
-from django.contrib.messages.views import SuccessMessageMixin
+from base.constant import CREATE_MESSAGE, DELETE_MESSAGE, UPDATE_MESSAGE
 from django.contrib import messages
-from base.constant import CREATE_MESSAGE, UPDATE_MESSAGE, DELETE_MESSAGE
+from django.contrib.messages.views import SuccessMessageMixin
+from django.shortcuts import redirect
+from django.urls import reverse_lazy
+from django.views.generic import CreateView, DeleteView, ListView, UpdateView
+
+from .forms import PersonForm
+from .models import Person
+
 
 class PersonListView(ListView):
     """!
     Clase que muestra la lista de personas
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
-    @date 06-07-2018
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>
+        GNU Public License versión 2 (GPLv2)</a>
     """
 
     model = Person
@@ -26,7 +26,6 @@ class PersonListView(ListView):
         Función que obtiene la lista de personas que están asociados al usuario
 
         @author William Páez (paez.william8 at gmail.com)
-        @date 06-07-2018
         @param self <b>{object}</b> Objeto que instancia la clase
         @return queryset <b>{object}</b> lista de personas asociadas al usuario
         """
@@ -34,13 +33,14 @@ class PersonListView(ListView):
         queryset = Person.objects.filter(user=self.request.user)
         return queryset
 
+
 class PersonCreateView(SuccessMessageMixin, CreateView):
     """!
     Clase que permite a un usuario registrar personas
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
-    @date 06-07-2018
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>
+        GNU Public License versión 2 (GPLv2)</a>
     """
 
     model = Person
@@ -66,13 +66,14 @@ class PersonCreateView(SuccessMessageMixin, CreateView):
         self.object.save()
         return super(PersonCreateView, self).form_valid(form)
 
+
 class PersonUpdateView(SuccessMessageMixin, UpdateView):
     """!
     Clase que permite a un usuario actualizar los datos de una persona
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
-    @date 06-07-2018
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>
+        GNU Public License versión 2 (GPLv2)</a>
     """
 
     model = Person
@@ -83,20 +84,23 @@ class PersonUpdateView(SuccessMessageMixin, UpdateView):
 
     def dispatch(self, request, *args, **kwargs):
         """!
-        Función que valida si el usuario del sistema tiene permisos para entrar a esta vista
+        Función que valida si el usuario del sistema tiene permisos para entrar
+            a esta vista
 
-        @author William Páez (wpaez at cenditel.gob.ve)
-        @date 06-07-2018
+        @author William Páez (paez.william8 at gmail.com)
         @param self <b>{object}</b> Objeto que instancia la clase
-        @param request <b>{object}</b> Objeto que contiene los datos de la petición
+        @param request <b>{object}</b> Objeto que contiene los datos de la
+            petición
         @param *args <b>{tuple}</b> Tupla de valores, inicialmente vacia
         @param **kwargs <b>{dict}</b> Diccionario de datos, inicialmente vacio
-        @return super <b>{object}</b> Entra a la vista de actualización de una persona,
-            sino redirecciona hacia la vista de error de permisos
+        @return super <b>{object}</b> Entra a la vista de actualización de una
+            persona, sino redirecciona hacia la vista de error de permisos
         """
 
-        if Person.objects.filter(pk=self.kwargs['pk'],user=self.request.user):
-            return super(PersonUpdateView, self).dispatch(request, *args, **kwargs)
+        if Person.objects.filter(pk=self.kwargs['pk'], user=self.request.user):
+            return super(PersonUpdateView, self).dispatch(
+                request, *args, **kwargs
+            )
         else:
             return redirect('base:error_403')
 
@@ -105,9 +109,9 @@ class PersonUpdateView(SuccessMessageMixin, UpdateView):
         Función que agrega valores predeterminados a los campos del formulario
 
         @author William Páez (paez.william8 at gmail.com)
-        @date 06-07-2018
         @param self <b>{object}</b> Objeto que instancia la clase
-        @return initial_data <b>{object}</b> Valores predeterminado de los campos del formulario
+        @return initial_data <b>{object}</b> Valores predeterminado de los
+            campos del formulario
         """
 
         initial_data = super(PersonUpdateView, self).get_initial()
@@ -115,13 +119,14 @@ class PersonUpdateView(SuccessMessageMixin, UpdateView):
         initial_data['municipality'] = self.object.parish.municipality
         return initial_data
 
+
 class PersonDeleteView(SuccessMessageMixin, DeleteView):
     """!
     Clase que permite a un usuario eliminar los datos de una persona
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
-    @date 06-07-2018
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>
+        GNU Public License versión 2 (GPLv2)</a>
     """
 
     model = Person
@@ -131,20 +136,23 @@ class PersonDeleteView(SuccessMessageMixin, DeleteView):
 
     def dispatch(self, request, *args, **kwargs):
         """!
-        Función que valida si el usuario del sistema tiene permisos para entrar a esta vista
+        Función que valida si el usuario del sistema tiene permisos para entrar
+            a esta vista
 
         @author William Páez (wpaez at cenditel.gob.ve)
-        @date 06-07-2018
         @param self <b>{object}</b> Objeto que instancia la clase
-        @param request <b>{object}</b> Objeto que contiene los datos de la petición
+        @param request <b>{object}</b> Objeto que contiene los datos de la
+            petición
         @param *args <b>{tuple}</b> Tupla de valores, inicialmente vacia
         @param **kwargs <b>{dict}</b> Diccionario de datos, inicialmente vacio
-        @return super <b>{object}</b> Entra a la vista de actualización de una persona,
-            sino redirecciona hacia la vista de error de permisos
+        @return super <b>{object}</b> Entra a la vista de actualización de una
+            persona, sino redirecciona hacia la vista de error de permisos
         """
 
-        if Person.objects.filter(pk=self.kwargs['pk'],user=self.request.user):
-            return super(PersonDeleteView, self).dispatch(request, *args, **kwargs)
+        if Person.objects.filter(pk=self.kwargs['pk'], user=self.request.user):
+            return super(PersonDeleteView, self).dispatch(
+                request, *args, **kwargs
+            )
         else:
             return redirect('base:error_403')
 
@@ -153,12 +161,13 @@ class PersonDeleteView(SuccessMessageMixin, DeleteView):
         Función que retorna el mensaje de confirmación de la eliminación
 
         @author William Páez (wpaez at cenditel.gob.ve)
-        @date 06-07-2018
         @param self <b>{object}</b> Objeto que instancia la clase
-        @param request <b>{object}</b> Objeto que contiene los datos de la petición
+        @param request <b>{object}</b> Objeto que contiene los datos de la
+            petición
         @param *args <b>{tuple}</b> Tupla de valores, inicialmente vacia
         @param **kwargs <b>{dict}</b> Diccionario de datos, inicialmente vacio
-        @return super <b>{object}</b> Objeto con el mensaje de confirmación de la eliminación
+        @return super <b>{object}</b> Objeto con el mensaje de confirmación
+            de la eliminación
         """
 
         messages.success(self.request, self.success_message)
