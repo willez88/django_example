@@ -232,6 +232,10 @@ Si la fusión se completó con éxito, eliminar la rama de manera local
     // Limpiar lista de las ramas eliminadas en local
     ~$ git fetch --prune
 
+Establecer una rama como principal
+
+    ~$ git remote set-head origin nombre_rama
+
 Para git con dos repositorios remotos (Ejemplo)
 
     // Clonar el repositorio donde se hacen cambios constantes (repositorio que será privado)
