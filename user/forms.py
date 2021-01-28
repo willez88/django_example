@@ -2,16 +2,17 @@ from django import forms
 from django.contrib.auth.models import User
 from django.utils.translation import ugettext_lazy as _
 
+
 class ProfileForm(forms.ModelForm):
     """!
     Clase que contiene los campos del formulario de perfil del usuario
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
-    @date 03-08-2018
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>
+        GNU Public License versión 2 (GPLv2)</a>
     """
 
-    ## Username para identificar al usuario
+    # Username para identificar al usuario
     username = forms.CharField(
         label=_('Nombre de Usuario:'), max_length=100,
         widget=forms.TextInput(
@@ -22,7 +23,7 @@ class ProfileForm(forms.ModelForm):
         )
     )
 
-    ## Nombres del usuario
+    # Nombres del usuario
     first_name = forms.CharField(
         label=_('Nombres:'), max_length=100,
         widget=forms.TextInput(
@@ -33,7 +34,7 @@ class ProfileForm(forms.ModelForm):
         )
     )
 
-    ## Apellidos del usuario
+    # Apellidos del usuario
     last_name = forms.CharField(
         label=_('Apellidos:'), max_length=100,
         widget=forms.TextInput(
@@ -44,30 +45,32 @@ class ProfileForm(forms.ModelForm):
         )
     )
 
-    ## Correo del usuario
+    # Correo del usuario
     email = forms.EmailField(
         label=_('Correo Electrónico:'), max_length=100,
         widget=forms.EmailInput(
             attrs={
-                'class': 'form-control input-sm email-mask', 'data-toggle': 'tooltip',
+                'class': 'form-control input-sm email-mask',
+                'data-toggle': 'tooltip',
                 'title': _('Indique el correo electrónico')
             }
         )
     )
 
-    ## Teléfono del usuario
+    # Teléfono del usuario
     phone = forms.CharField(
         label=_('Teléfono:'), max_length=15,
         widget=forms.TextInput(
             attrs={
-                'class': 'form-control input-sm', 'data-toggle': 'tooltip', 'placeholder': '+58-000-0000000',
+                'class': 'form-control input-sm', 'data-toggle': 'tooltip',
+                'placeholder': '+58-000-0000000',
                 'data-mask': '+00-000-0000000',
                 'title': _('Indique el número telefónico')
             }
         )
     )
 
-    ## Contraseña de acceso del usuario
+    # Contraseña de acceso del usuario
     password = forms.CharField(
         label=_('Contraseña:'), max_length=128,
         widget=forms.PasswordInput(
@@ -78,25 +81,27 @@ class ProfileForm(forms.ModelForm):
         )
     )
 
-    ## Confirmación de contraseña de acceso del usuario
+    # Confirmación de contraseña de acceso del usuario
     confirm_password = forms.CharField(
         label=_('Confirmar Contraseña:'), max_length=128,
         widget=forms.PasswordInput(
             attrs={
                 'class': 'form-control input-sm', 'data-toggle': 'tooltip',
-                'title': _('Indique nuevamente la contraseña de aceso al sistema')
+                'title': _('Indique nuevamente la contraseña de aceso al\
+                sistema')
             }
         )
     )
 
     def clean_email(self):
         """!
-        Función que permite validar si el correo del usuario ya esta registrado en el sistema
+        Función que permite validar si el correo del usuario ya esta registrado
+            en el sistema
 
         @author William Páez (paez.william8 at gmail.com)
-        @date 03-08-2018
         @param self <b>{object}</b> Objeto que instancia la clase
-        @return Mensaje de error en caso de que el correo ya esté registrado en el sistema
+        @return Mensaje de error en caso de que el correo ya esté registrado
+            en el sistema
         """
 
         email = self.cleaned_data['email']
@@ -126,27 +131,28 @@ class ProfileForm(forms.ModelForm):
         Meta clase del formulario que establece algunas propiedades
 
         @author William Páez (paez.william8 at gmail)
-        @date 14-01-2018
         """
 
         model = User
-        exclude = ['profile','date_joined']
+        exclude = ['profile', 'date_joined']
+
 
 class ProfileUpdateForm(ProfileForm):
     """!
-    Clase que contiene los campos del formulario de perfil del usuario para actualizar los datos
+    Clase que contiene los campos del formulario de perfil del usuario para
+        actualizar los datos
 
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>GNU Public License versión 2 (GPLv2)</a>
-    @date 03-08-2018
+    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>
+        GNU Public License versión 2 (GPLv2)</a>
     """
 
     def __init__(self, *args, **kwargs):
         """!
-        Función que inicializa la clase del formulario para actualizar los datos
+        Función que inicializa la clase del formulario para actualizar los
+            datos
 
         @author William Páez (paez.william8 at gmail.com)
-        @date 03-08-2018
         @param self <b>{object}</b> Objeto que instancia la clase
         @param *args <b>{tupla}</b> Tupla de valores, inicialmente vacia
         @param *kwargs <b>{dict}</b> Diccionario de datos, inicialmente vacio
@@ -163,9 +169,9 @@ class ProfileUpdateForm(ProfileForm):
         función que permite validar el campo de correo electronico
 
         @author William Páez (paez.william8 at gmail.com)
-        @date 03-08-2018
         @param self <b>{object}</b> Objeto que instancia la clase
-        @return Mensaje de error en caso de que el correo electronico ya se encuentre registrado
+        @return Mensaje de error en caso de que el correo electronico ya se
+            encuentre registrado
         """
 
         email = self.cleaned_data['email']
@@ -184,5 +190,6 @@ class ProfileUpdateForm(ProfileForm):
 
         model = User
         exclude = [
-            'profile','password','confirm_password','date_joined','last_login','is_active','is_superuser','is_staff'
+            'profile', 'password', 'confirm_password', 'date_joined',
+            'last_login', 'is_active', 'is_superuser', 'is_staff'
         ]
