@@ -10,10 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
-import os
+from pathlib import Path
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # Quick-start development settings - unsuitable for production
@@ -78,12 +78,10 @@ WSGI_APPLICATION = 'django_example.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 DATABASES = {
-    """
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-    """
+    # 'default': {
+    #    'ENGINE': 'django.db.backends.sqlite3',
+    #    'NAME': BASE_DIR / 'db.sqlite3',
+    # }
 
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -150,11 +148,11 @@ STATIC_URL = '/static/'
 STATIC_ROOT = ''
 MEDIA_URL = '/media/'
 MEDIA_ROOT = ''
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = BASE_DIR / 'media'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static/'),
-    os.path.join(BASE_DIR, 'media/'),
+    BASE_DIR / 'static/',
+    BASE_DIR / 'media/',
 )
 
 LOGIN_URL = 'user:login'
@@ -165,11 +163,20 @@ LOGOUT_REDIRECT_URL = 'user:login'
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
 
-# EMAIL_USE_TLS = True
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_PORT = 587
-EMAIL_HOST_USER = 'email@email.com'
-# EMAIL_HOST_PASSWORD = 'password'
-EMAIL_FROM = EMAIL_HOST_USER
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+if DEBUG:
+    # Configuración para entornos de desarrollo
+    EMAIL_HOST_USER = 'email@email.com'
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+else:
+    # Configuración para entornos de producción
+    EMAIL_USE_TLS = True
+    EMAIL_HOST = 'smtp.gmail.com'
+    EMAIL_PORT = 587
+    EMAIL_HOST_USER = 'email@email.com'
+    EMAIL_HOST_PASSWORD = 'password'
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+# Default primary key field type
+# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
