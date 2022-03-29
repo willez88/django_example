@@ -4,3 +4,4 @@
 settings.py
 migrations
 static/node_modules
+media/*

@@ -1,4 +1,4 @@
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 # Mensaje a mostrar al usuario cuando el registro de datos haya sido ejecutado
 # correctamente
