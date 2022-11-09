@@ -175,6 +175,7 @@ else:
     EMAIL_HOST_USER = 'email@email.com'
     EMAIL_HOST_PASSWORD = 'password'
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    SERVER_EMAIL = 'email@email.com'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
