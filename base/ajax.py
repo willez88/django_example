@@ -13,7 +13,7 @@ class ComboUpdateView(View):
     Clase que actualiza los datos de un select dependiente de los datos de otro
         select
     @author William Páez (paez.william8 at gmail.com)
-    @copyright <a href='​http://www.gnu.org/licenses/gpl-2.0.html'>
+    @copyright <a href='http://www.gnu.org/licenses/gpl-2.0.html'>
         GNU Public License versión 2 (GPLv2)</a>
     """
 
@@ -32,7 +32,7 @@ class ComboUpdateView(View):
         """
 
         try:
-            if not request.is_ajax():
+            if request.headers.get('x-requested-with') != 'XMLHttpRequest':
                 return HttpResponse(json.dumps(
                     {'result': False, 'error': str(MSG_NOT_AJAX)}))
 
