@@ -1,8 +1,4 @@
 from django.views.generic import TemplateView
-from rest_framework import viewsets
-
-from .models import Country
-from .serializers import CountrySerializer
 
 
 class HomeView(TemplateView):
@@ -27,13 +23,3 @@ class Error403View(TemplateView):
     """
 
     template_name = 'base/error.403.html'
-
-
-class CountryViewSet(viewsets.ReadOnlyModelViewSet):
-    """!
-    API endpoint that allows users to be viewed or edited.
-    """
-
-    queryset = Country.objects.all()
-    serializer_class = CountrySerializer
-    # http_method_names = ['get']

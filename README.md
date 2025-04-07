@@ -13,16 +13,6 @@ Probado en Debian y Ubuntu. Instalar los siguientes programas
 
     ~# apt install curl git graphviz graphviz-dev libmysqlclient-dev mariadb-server postgresql python3-dev virtualenv
 
-Para instalar npm hacer lo siguiente
-
-    // Ubuntu
-    ~$ curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-
-    // Debian
-    ~# curl -sL https://deb.nodesource.com/setup_lts.x | bash -
-
-~# apt install -y nodejs
-
 Crear las siguientes carpetas
 
     ~$ mkdir Programación
@@ -73,16 +63,6 @@ Tendremos las carpetas estructuradas de la siguiente manera
     // Servidor de desarrollo
     Programación/python/proyectos_django/django_example
 
-Instalar las dependencias de css y js: moverse a la carpeta static y ejecutar
-
-    (django_example) ~$ cd static/
-
-    // Usa el archivo package.json para instalar lo que ya se configuro allí
-    (django_example) ~$ npm install
-
-    // Terminado el proceso volver a la carpeta raíz del proyecto
-    (django_example) ~$ cd ../
-
 Crear la base de datos para __django_example__ usando PostgresSQL
 
     // Acceso al usuario postgres
@@ -93,6 +73,10 @@ Crear la base de datos para __django_example__ usando PostgresSQL
 
     // Creación del usuario de a base de datos
     postgres=# CREATE USER admin WITH LOGIN ENCRYPTED PASSWORD '123' CREATEDB;
+
+    // Crear la base de datos y asignarle el propietario
+    postgres=# CREATE DATABASE django_example OWNER admin;
+
     postgres=# \q
 
     // Desautenticar el usuario PostgreSQL y regresar al usuario root
@@ -295,9 +279,6 @@ Instalar los siguientes programas
     // Descargar python y cuando se instale seleccionar la opción de agregar al path
     python: https://www.python.org/downloads/windows/
 
-    // Descargar nodejs para usar npm
-    npm: https://nodejs.org/en/
-
     // Descargar BD Browser para visualizar las bases de datos si se usa sqlite3
     DB Browser: https://sqlitebrowser.org/dl/
 
@@ -355,17 +336,6 @@ Volvemos al terminal del entorno virtual y nos movemos a la carpeta del proyecto
 
     // antes de ejecutar este comando, comentar las lineas 4, 5 y 6 del archivo requirements\dev.txt
     pip install -r requirements\dev.txt
-
-Moverse a la carpeta static
-
-    cd static
-
-Instalar los archivos js y css que el sistema necesita y volver a la raíz del proyecto
-
-    npm install
-
-    // Regresar a la carpeta raíz
-    cd ..
 
 Hacer las migraciones desde el terminal de virtualenv
 
