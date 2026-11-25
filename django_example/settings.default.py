@@ -25,7 +25,14 @@ SECRET_KEY = '$&&y0-s#qao5%+diefw-ku*a%xpzj90%r9rjg1)8=*_fjh3vwc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+if DEBUG:
+    ALLOWED_HOSTS = ['*']
+else:
+    ALLOWED_HOSTS = ['www.django-example.com']
+
+ADMINS = [
+    ('Email', 'email@email.com'),
+]
 
 # Application definition
 
@@ -36,7 +43,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_extensions',
     'base',
     'user.apps.UserConfig',
     'person.apps.PersonConfig',
@@ -61,7 +67,6 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
-                'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
@@ -162,21 +167,27 @@ LOGOUT_REDIRECT_URL = 'user:login'
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
 
+
+# Email
+# https://docs.djangoproject.com/en/6.1/topics/email/#topic-email-configuration
+
 if DEBUG:
-    # Configuración para entornos de desarrollo
-    EMAIL_HOST_USER = 'email@email.com'
-    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+    MAILERS = {
+        'default': {
+            'BACKEND': 'django.core.mail.backends.console.EmailBackend',
+        },
+    }
 else:
-    # Configuración para entornos de producción
-    EMAIL_USE_TLS = True
-    EMAIL_HOST = 'smtp.gmail.com'
-    EMAIL_PORT = 587
-    EMAIL_HOST_USER = 'email@email.com'
-    EMAIL_HOST_PASSWORD = 'password'
-    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    MAILERS = {
+        'default': {
+            'BACKEND': 'django.core.mail.backends.smtp.EmailBackend',
+            'OPTIONS': {
+                'host': 'smtp.gmail.com',
+                'port': 587,
+                'username': 'email@email.com',
+                'password': 'password',
+                'use_tls': True,
+            },
+        },
+    }
     SERVER_EMAIL = 'email@email.com'
-
-# Default primary key field type
-# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
-
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

@@ -1,15 +1,14 @@
-django==5.2
-django-extensions==3.2.3
-psycopg2-binary==2.9.10
-pygraphviz==1.14
-pymysql==1.1.1
-mysqlclient==2.2.7
+django==6.1.3
+django-extensions==4.1
+mysqlclient==2.3.2
+psycopg2-binary==2.9.13
+pygraphviz==2.0.4
+pymysql==1.2.4
 
 # Instalar últimas versiones
 # django
-# psycopg2-binary
 # django-extensions
+# mysqlclient
+# psycopg2-binary
 # pygraphviz
 # pymysql
-# mysqlclient
-# djangorestframework
